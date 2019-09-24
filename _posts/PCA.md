@@ -1,18 +1,5 @@
 ---
 layout:     post
-title:      PCA
-subtitle:   Priciple Component Analysis
-date:       2019-09-24
-author:     Reid
-header-img: img/post-bg-ios9-web.jpg
-catalog: 	 true
-tags:
-    - iOS
-    - 定时器
----
-
----
-layout:     post
 title:      5分钟带你看完 WWDC 2018
 subtitle:   WWDC 2018 Keynote 全记录
 date:       2018-06-05
