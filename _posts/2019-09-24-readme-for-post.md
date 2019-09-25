@@ -10,17 +10,21 @@ tags:                               #标签
     - test
     - python
 ---
-## post format
+## Post format
 - file extention must be .md
 - the file name must be "date-title",sample: "2019-09-24-readme.md"
     1. this is my first blog
     2. this content is meaningless,just for test
  ---
- ## markdown table
-name| value
---- :| :---:
-com | 200
-phone | 100
+ 
+## Markdown Table format
+Name | Value | number
+---| --- | --- 
+Com| $200 | 10
+Phone| $20 | 100
+File| $2 | 1000
+
+
 
  Item | Value
 -------- | ---
