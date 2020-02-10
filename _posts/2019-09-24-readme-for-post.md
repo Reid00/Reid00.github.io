@@ -15,8 +15,8 @@ tags:                               #标签
 - the file name must be "date-title",sample: "2019-09-24-readme.md"
     1. this is my first blog
     2. this content is meaningless,just for test
- ---
- 
+---
+
 ## Markdown Table format
 Name | Value | number
 ---| --- | --- 
