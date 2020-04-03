@@ -58,11 +58,11 @@ tags:                               #标签
 
 ##### 1. 什么是最左前缀原则？
 
-![image-20200226155915523](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_1.png)
+![image-20200226155915523](..\img\2020-02-26-sql_optimization_1.png)
 
 如果我们按照 name 字段来建立索引的话，采用B+树的结构，大概的索引结构如下：
 
-![image-20200226160016034](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_2.png)
+![image-20200226160016034](..\img\2020-02-26-sql_optimization_2.png)
 
 如果我们要进行模糊查找，查找name 以“张"开头的所有人的ID，即 sql 语句为
 
@@ -88,11 +88,11 @@ tags:                               #标签
 
 例如对于下面这个表(其实就是上面的表中增加了一个k字段),且ID是主键。
 
-![image-20200226160717507](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_3.png)
+![image-20200226160717507](..\img\2020-02-26-sql_optimization_3.png)
 
 主键索引和非主键索引的示意图如下：
 
-![image-20200226160751970](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_4.png)
+![image-20200226160751970](..\img\2020-02-26-sql_optimization_4.png)
 
 
 
@@ -110,11 +110,11 @@ tags:                               #标签
 
 对于这颗主键索引的树
 
-![image-20200226160841825](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_5.png)
+![image-20200226160841825](..\img\2020-02-26-sql_optimization_5.png)
 
 如果我们插入 ID = 650 的一行数据，那么直接在最右边插入就可以了
 
-![image-20200226160925359](D:\GitRepository\Reid00.github.io\img\2020-02-26-sql_optimization_6.png)
+![image-20200226160925359](..\img\2020-02-26-sql_optimization_6.png)
 
 但是如果插入的是 ID = 350 的一行数据，由于 B+ 树是有序的，那么需要将下面的叶子节点进行移动，腾出位置来插入 ID = 350 的数据，这样就会比较消耗时间，如果刚好 R4 所在的数据页已经满了，需要进行**页分裂**操作，这样会更加糟糕。
 
