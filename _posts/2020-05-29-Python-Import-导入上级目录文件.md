@@ -1,7 +1,7 @@
 ---
 layout:     post                    		# 使用的布局（不需要改）
 title:      Python-Import 导入上级目录文件     # 标题 
-subtitle:   RF	 							#副标题
+subtitle:   Import tricks	 							#副标题
 date:       2020-05-29       				# 时间
 author:     Reid                      # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
