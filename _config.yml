@@ -1,19 +1,18 @@
-Site settings
+# Site settings
 title: Reid's Blog
 SEOTitle: Reid's 博客 | Reid's Blog
 header-img: img/post-bg-desk.jpg
 email: isreid.zhang@outlook.com
 description: "Every failure is leading towards success."
-keyword: "Ried, Reid's Blog, Reid的博客, Python, Data Mining, 数据挖掘，数据分析"
+keyword: "Ried, Python, Data Mining, Machine Learning, 数据挖掘, 机器学习, 知识图谱"
 url: "https://reid00.github.io/"          # your host, for absolute URL
-baseurl: "https://reid00.github.io/"      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Reid00/Reid00.github.io.git" # you code repository
+# baseurl: "https://reid00.github.io/"      # for example, '/blog' if your blog hosted on 'host/blog'
+# github_repo: "https://github.com/Reid00/Reid00.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/icon.png     # use absolute URL, seeing it's used in both `/` and `/about/`
-
 
 
 # # SNS settings
@@ -22,8 +21,7 @@ sidebar-avatar: /img/icon.png     # use absolute URL, seeing it's used in both `
 # zhihu_username:     username
 # github_username:    username
 # facebook_username:  username
-# jianshu_username:	jianshu_id
-
+# jianshu_username:   username
 
 
 # Build settings
@@ -34,12 +32,9 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
 
 
 # Markdown settings
@@ -52,34 +47,28 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+disqus_username: Reid00
 
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# # Gitalk
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+#   repo: qiubaiying.github.io    #仓库名称
+#   owner: qiubaiying    #github用户名
+#   admin: qiubaiying
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
-
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# # Google Analytics
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Featured Tags
@@ -87,11 +76,9 @@ featured-tags: true                     # 是否使用首页标签
 featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
-
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
 
 
 # # Friends
