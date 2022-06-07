@@ -2,35 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://reid00.github.io/categories/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/tags/github-action/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/tags/github-pages/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/tags/hugo/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/categories/hugo/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8github%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
+  </url><url>
     <loc>https://reid00.github.io/post/</loc>
-    <lastmod>2022-06-02T10:35:37+08:00</lastmod>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/</loc>
-    <lastmod>2022-06-02T10:35:37+08:00</lastmod>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/post/test/</loc>
-    <lastmod>2022-06-02T10:35:37+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/post/4th/</loc>
-    <lastmod>2022-06-02T09:46:54+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/post/third/</loc>
-    <lastmod>2022-06-01T17:40:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/post/second/</loc>
-    <lastmod>2022-06-01T16:30:08+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/post/first/</loc>
-    <lastmod>2022-06-01T16:30:04+08:00</lastmod>
+    <loc>https://reid00.github.io/tags/</loc>
+    <lastmod>2022-06-07T17:46:02+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/archives/</loc>
-  </url><url>
-    <loc>https://reid00.github.io/categories/</loc>
   </url><url>
     <loc>https://reid00.github.io/search/</loc>
   </url><url>
     <loc>https://reid00.github.io/series/</loc>
-  </url><url>
-    <loc>https://reid00.github.io/tags/</loc>
   </url>
 </urlset>

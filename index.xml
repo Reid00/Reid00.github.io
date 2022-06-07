@@ -10,51 +10,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>Reid</copyright>
-    <lastBuildDate>Thu, 02 Jun 2022 10:35:37 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 17:46:02 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://reid00.github.io/post/test/</link>
-      <pubDate>Thu, 02 Jun 2022 10:35:37 +0800</pubDate>
+      <title>Hugo搭建博客并用GitHub部署</title>
+      <link>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8github%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Tue, 07 Jun 2022 17:46:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/test/</guid>
-      <description>this is good test</description>
-    </item>
-    
-    <item>
-      <title>4th</title>
-      <link>https://reid00.github.io/post/4th/</link>
-      <pubDate>Thu, 02 Jun 2022 09:46:54 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/post/4th/</guid>
-      <description>4th file 1 2 3 4 5 6 7 8 func copyBuf(key, value []byte) []byte { buf := make([]byte, len(key)+len(value)) copy(buf[:len(key)], key) copy(buf[len(key):], value) return buf } I want to check why not hmtl</description>
-    </item>
-    
-    <item>
-      <title>Third</title>
-      <link>https://reid00.github.io/post/third/</link>
-      <pubDate>Wed, 01 Jun 2022 17:40:45 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/post/third/</guid>
-      <description>This is third md file.</description>
-    </item>
-    
-    <item>
-      <title>Second</title>
-      <link>https://reid00.github.io/post/second/</link>
-      <pubDate>Wed, 01 Jun 2022 16:30:08 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/post/second/</guid>
-      <description>This is Second Test md</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://reid00.github.io/post/first/</link>
-      <pubDate>Wed, 01 Jun 2022 16:30:04 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/post/first/</guid>
-      <description>This is First md 1 2 3 func main() { fmt.Println(&amp;#34;gooo&amp;#34;) }</description>
+      <guid>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8github%E9%83%A8%E7%BD%B2/</guid>
+      <description>介绍 这是我博客 Blog 的源仓库。 本博客是用Hugo 来生成静态网站。 Hugo GitHub 并通过 GitHub Action 来自动化部署到 GitHub Pages。 搭建步骤 创建代码仓库 首先按照文档创建 GitHub</description>
     </item>
     
     
