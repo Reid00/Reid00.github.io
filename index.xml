@@ -10,6 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <copyright>Reid</copyright>
     <lastBuildDate>Thu, 02 Jun 2022 10:35:37 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
@@ -26,8 +27,7 @@
       <pubDate>Thu, 02 Jun 2022 09:46:54 +0800</pubDate>
       
       <guid>https://reid00.github.io/post/4th/</guid>
-      <description>4th file
-1 2 3 4 5 6 7 8 func copyBuf(key, value []byte) []byte { buf := make([]byte, len(key)+len(value)) copy(buf[:len(key)], key) copy(buf[len(key):], value) return buf } I want to check why not hmtl</description>
+      <description>4th file 1 2 3 4 5 6 7 8 func copyBuf(key, value []byte) []byte { buf := make([]byte, len(key)+len(value)) copy(buf[:len(key)], key) copy(buf[len(key):], value) return buf } I want to check why not hmtl</description>
     </item>
     
     <item>
@@ -54,8 +54,7 @@
       <pubDate>Wed, 01 Jun 2022 16:30:04 +0800</pubDate>
       
       <guid>https://reid00.github.io/post/first/</guid>
-      <description>This is First md
-1 2 3 func main() { fmt.Println(&amp;#34;gooo&amp;#34;) } </description>
+      <description>This is First md 1 2 3 func main() { fmt.Println(&amp;#34;gooo&amp;#34;) }</description>
     </item>
     
     
