@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AdaBoost on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/adaboost/</link>
+    <description>Recent content in AdaBoost on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Jun 2022 10:29:01 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/adaboost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>集成学习之AdaBoost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
+      <pubDate>Wed, 08 Jun 2022 10:29:01 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
+      <description>Boosting算法的工作机制 用初始权重D(1)从数据集中训练出一个弱学习器1 根据弱学习1的学习误差率表现来更新训练样本的权重D(2)，使得</description>
+    </item>
+    
+  </channel>
+</rss>

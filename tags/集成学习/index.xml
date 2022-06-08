@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>集成学习 on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 集成学习 on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Jun 2022 11:09:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>集成学习之xgboost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
+      <pubDate>Wed, 08 Jun 2022 11:09:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
+      <description>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中</description>
+    </item>
+    
+    <item>
+      <title>集成学习之GBDT</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</link>
+      <pubDate>Wed, 08 Jun 2022 10:54:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</guid>
+      <description>什么是GBDT 到底什么是梯度提升树？所谓的GBDT实际上就是： GBDT = Gradient Descent + Boosting + Desicion Tree 与Adaboost算法类似，GBDT也是使用了前向分布算法的</description>
+    </item>
+    
+    <item>
+      <title>集成学习之Bagging,Boosting</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
+      <pubDate>Wed, 08 Jun 2022 10:53:37 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
+      <description>生成子模型的两种取样方式 那么为了造成子模型之间的差距，每个子模型只看样本中的一部分，这就涉及到两种取样方式： 放回取样：Bagging，在统计</description>
+    </item>
+    
+    <item>
+      <title>集成学习之AdaBoost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
+      <pubDate>Wed, 08 Jun 2022 10:29:01 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
+      <description>Boosting算法的工作机制 用初始权重D(1)从数据集中训练出一个弱学习器1 根据弱学习1的学习误差率表现来更新训练样本的权重D(2)，使得</description>
+    </item>
+    
+  </channel>
+</rss>

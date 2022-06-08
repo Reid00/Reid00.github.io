@@ -10,7 +10,313 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Jun 2022 20:04:15 +0800</lastBuildDate><atom:link href="https://reid00.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 11:49:57 +0800</lastBuildDate><atom:link href="https://reid00.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo搭建博客并用GitHubAction部署</title>
+      <link>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Tue, 07 Jun 2022 17:46:02 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
+      <description>Build Blog with Hugo and deploy on Github Pages with Github Action</description>
+    </item>
+    
+    <item>
+      <title>Python多线程多进程</title>
+      <link>https://reid00.github.io/post/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</link>
+      <pubDate>Wed, 08 Jun 2022 11:49:57 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</guid>
+      <description>一、 python 的多线程不能利用多核CPU 因为GIL (全局解释器锁), Pyhton 只有一个GIL， 在运行Python 时， 就要拿到这个锁，才能运行，在遇到I/O 操</description>
+    </item>
+    
+    <item>
+      <title>KG表示学习</title>
+      <link>https://reid00.github.io/post/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Wed, 08 Jun 2022 11:45:57 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
+      <description>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中</description>
+    </item>
+    
+    <item>
+      <title>编码那些事</title>
+      <link>https://reid00.github.io/post/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Wed, 08 Jun 2022 11:40:53 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>一直以来，编码问题像幽灵一般，不少开发人员都受过它的困扰。 试想你请求一个数据，却得到一堆乱码，丈二和尚摸不着头脑。有同事质疑你的数据是乱码，</description>
+    </item>
+    
+    <item>
+      <title>TCP IP协议</title>
+      <link>https://reid00.github.io/post/tcp-ip%E5%8D%8F%E8%AE%AE/</link>
+      <pubDate>Wed, 08 Jun 2022 11:39:22 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
+      <description>TCP/IP 协议族 通常我说 TCP/IP 是指 TCP/IP 协议族。它是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大集合。 例如：http、https、ftp、icmp、a</description>
+    </item>
+    
+    <item>
+      <title>常用Normalization方法的总结与思考</title>
+      <link>https://reid00.github.io/post/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</link>
+      <pubDate>Wed, 08 Jun 2022 11:36:46 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</guid>
+      <description>简介 常用的Normalization方法主要有：Batch Normalization（BN，2015年）、Layer Normalizatio</description>
+    </item>
+    
+    <item>
+      <title>Self Attention</title>
+      <link>https://reid00.github.io/post/self-attention/</link>
+      <pubDate>Wed, 08 Jun 2022 11:35:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/self-attention/</guid>
+      <description>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650 Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</description>
+    </item>
+    
+    <item>
+      <title>CNN RNN GAN</title>
+      <link>https://reid00.github.io/post/cnn-rnn-gan/</link>
+      <pubDate>Wed, 08 Jun 2022 11:33:17 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/cnn-rnn-gan/</guid>
+      <description>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后</description>
+    </item>
+    
+    <item>
+      <title>进程与线程基础知识</title>
+      <link>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Wed, 08 Jun 2022 11:28:07 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <description>前言 先来看看一则小故事 我们写好的一行行代码，为了让其工作起来，我们还得把它送进城（进程）里，那既然进了城里，那肯定不能胡作非为了。 城里人有城</description>
+    </item>
+    
+    <item>
+      <title>Dockerfile案例</title>
+      <link>https://reid00.github.io/post/dockerfile%E6%A1%88%E4%BE%8B/</link>
+      <pubDate>Wed, 08 Jun 2022 11:27:14 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/dockerfile%E6%A1%88%E4%BE%8B/</guid>
+      <description>一、DockerHub 官网链接 https://hub.docker.com/ 二、Dockerfile 关键字 注意: dockerfile 的关键字必须都是大写才能使用 FROM 指定基础镜像，当前新镜像是基于哪个镜像的</description>
+    </item>
+    
+    <item>
+      <title>Docker笔记</title>
+      <link>https://reid00.github.io/post/docker%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 08 Jun 2022 11:26:10 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/docker%E7%AC%94%E8%AE%B0/</guid>
+      <description>一、概述 1.1 基本概念： Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。比如</description>
+    </item>
+    
+    <item>
+      <title>Unicode编码与Python</title>
+      <link>https://reid00.github.io/post/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</link>
+      <pubDate>Wed, 08 Jun 2022 11:24:15 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</guid>
+      <description>简介 这有篇很好的文章，可以明白这个问题: 为什么会报错“UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode characters in position 0-1: ordinal not in range(128)”？本</description>
+    </item>
+    
+    <item>
+      <title>集成学习之xgboost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
+      <pubDate>Wed, 08 Jun 2022 11:09:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
+      <description>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中</description>
+    </item>
+    
+    <item>
+      <title>机器学习之常见损失函数</title>
+      <link>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Wed, 08 Jun 2022 11:08:15 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</guid>
+      <description>简介 损失函数用来评价模型的预测值和真实值不一样的程度，损失函数越好，通常模型的性能越好。不同的模型用的损失函数一般也不一样。 损失函数分为经验</description>
+    </item>
+    
+    <item>
+      <title>MySql索引优化</title>
+      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Wed, 08 Jun 2022 11:04:01 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <description>数据库表结构： 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name=&amp;#39;shenjian&amp;#39; select id,name,sex where name=&amp;#39;shenjian&amp;#39; 多查询了一个属性，为何检索过程完全不同？ 什么是回表查询？ 什么是索</description>
+    </item>
+    
+    <item>
+      <title>MySql索引介绍</title>
+      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Wed, 08 Jun 2022 11:02:52 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <description>什么是索引，索引的作用 当我们要在新华字典里查某个字（如「先」）具体含义的时候，通常都会拿起一本新华字典来查，你可以先从头到尾查询每一页是否有</description>
+    </item>
+    
+    <item>
+      <title>MySql高频面试问题</title>
+      <link>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 08 Jun 2022 11:00:46 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
+      <description>本文主要受众为开发人员,所以不涉及到MySQL的服务部署等操作,且内容较多,大家准备好耐心和瓜子矿泉水。 前一阵系统的学习了一下MySQL,也</description>
+    </item>
+    
+    <item>
+      <title>机器学习之优化算法</title>
+      <link>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Wed, 08 Jun 2022 10:58:09 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
+      <description>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？</description>
+    </item>
+    
+    <item>
+      <title>Python Import导入上级目录文件</title>
+      <link>https://reid00.github.io/post/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Wed, 08 Jun 2022 10:55:54 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</guid>
+      <description>假设有如下目录结构： 1 2 3 4 5 6 7 -- dir0 | file1.py | file2.py | dir3 | file3.py | dir4 | file4.py dir0文件夹下有file1.py、file2.py两个文件和dir3、dir</description>
+    </item>
+    
+    <item>
+      <title>集成学习之GBDT</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</link>
+      <pubDate>Wed, 08 Jun 2022 10:54:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</guid>
+      <description>什么是GBDT 到底什么是梯度提升树？所谓的GBDT实际上就是： GBDT = Gradient Descent + Boosting + Desicion Tree 与Adaboost算法类似，GBDT也是使用了前向分布算法的</description>
+    </item>
+    
+    <item>
+      <title>集成学习之Bagging,Boosting</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
+      <pubDate>Wed, 08 Jun 2022 10:53:37 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
+      <description>生成子模型的两种取样方式 那么为了造成子模型之间的差距，每个子模型只看样本中的一部分，这就涉及到两种取样方式： 放回取样：Bagging，在统计</description>
+    </item>
+    
+    <item>
+      <title>集成学习之AdaBoost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
+      <pubDate>Wed, 08 Jun 2022 10:29:01 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
+      <description>Boosting算法的工作机制 用初始权重D(1)从数据集中训练出一个弱学习器1 根据弱学习1的学习误差率表现来更新训练样本的权重D(2)，使得</description>
+    </item>
+    
+    <item>
+      <title>随机森林算法及其在特征选择中的应用</title>
+      <link>https://reid00.github.io/post/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Wed, 08 Jun 2022 10:28:05 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <description>随机森林算法思想 随机森林（Random Forest）使用多个CART决策树作为弱学习器，不同决策树之间没有关联。当我们进行分类任务时，新的输</description>
+    </item>
+    
+    <item>
+      <title>最常考的正则问题L1L2</title>
+      <link>https://reid00.github.io/post/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</link>
+      <pubDate>Wed, 08 Jun 2022 10:26:51 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</guid>
+      <description>正则化也是校招中常考的题目之一，在去年的校招中，被问到了多次： 1、过拟合的解决方式有哪些，l1和l2正则化都有哪些不同，各自有什么优缺点(爱</description>
+    </item>
+    
+    <item>
+      <title>最常考的树模型问题</title>
+      <link>https://reid00.github.io/post/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 08 Jun 2022 10:23:04 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</guid>
+      <description>问题目录： 1、决策树的实现、ID3、C4.5、CART（贝壳） 2、CART回归树是怎么实现的？（贝壳） 3、CART分类树和ID3以及C4.5</description>
+    </item>
+    
+    <item>
+      <title>板瓦工搭建VPS搭建vpn</title>
+      <link>https://reid00.github.io/post/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
+      <pubDate>Wed, 08 Jun 2022 10:14:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
+      <description>板瓦工以及产品介绍 该商家隶属于美国IT7公司旗下的一款便宜年付KVM架构的VPS主机商家，从2013年开始推出低价VPS主机配置进入市场，确</description>
+    </item>
+    
+    <item>
+      <title>随机森林（回归树）模型</title>
+      <link>https://reid00.github.io/post/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Wed, 08 Jun 2022 10:13:17 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</guid>
+      <description>调参 ★ 在 scikit-learn 中，Random Forest（以下简称RF）的分类类是 RandomForestClassifier，回归类是 RandomFores</description>
+    </item>
+    
+    <item>
+      <title>Mysql优化</title>
+      <link>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Wed, 08 Jun 2022 10:07:53 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</guid>
+      <description>一，SQL语句性能优化 对查询进行优化，应尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引。 应尽量避免在 where 子句中对字段进行 null 值判断，创</description>
+    </item>
+    
+    <item>
+      <title>Word2vec</title>
+      <link>https://reid00.github.io/post/word2vec/</link>
+      <pubDate>Wed, 08 Jun 2022 09:56:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/word2vec/</guid>
+      <description>Word2vec 介绍 Word2Vec是google在2013年推出的一个NLP工具，它的特点是能够将单词转化为向量来表示。首先，word2vec可以在百万</description>
+    </item>
+    
+    <item>
+      <title>常见距离的介绍</title>
+      <link>https://reid00.github.io/post/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Wed, 08 Jun 2022 09:40:38 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</guid>
+      <description>机器学习常见距离介绍 1. 欧式距离 2. 曼哈顿距离 我们可以定义曼哈顿距离的正式意义为L1-距离或城市区块距离，也就是在欧几里得空间的固定直角坐标系上</description>
+    </item>
+    
+    <item>
+      <title>决策树到随机森林</title>
+      <link>https://reid00.github.io/post/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</link>
+      <pubDate>Wed, 08 Jun 2022 09:37:05 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</guid>
+      <description>简述决策树原理？ 决策树是一种自上而下，对样本数据进行树形分类的过程，由节点和有向边组成。节点分为内部节点和叶节点，其中每个内部节点表示一个特</description>
+    </item>
+    
+    <item>
+      <title>KMeans聚类分析</title>
+      <link>https://reid00.github.io/post/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</link>
+      <pubDate>Wed, 08 Jun 2022 09:35:33 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</guid>
+      <description>聚类与分类的区别 分类：类别是已知的，通过对已知分类的数据进行训练和学习，找到这些不同类的特征，再对未分类的数据进行分类。属于监督学习。 聚类：</description>
+    </item>
+    
+    <item>
+      <title>L1L2正则</title>
+      <link>https://reid00.github.io/post/l1l2%E6%AD%A3%E5%88%99/</link>
+      <pubDate>Wed, 08 Jun 2022 09:32:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/l1l2%E6%AD%A3%E5%88%99/</guid>
+      <description>概念 L0：计算非零个数，用于产生稀疏性，但是在实际研究中很少用，因为L0范数很难优化求解，是一个NP-hard问题，因此更多情况下我们是使用</description>
+    </item>
+    
+    <item>
+      <title>逻辑回归的常见面试题总结</title>
+      <link>https://reid00.github.io/post/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 08 Jun 2022 09:27:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <description>1.简介 逻辑回归是面试当中非常喜欢问到的一个机器学习算法，因为表面上看逻辑回归形式上很简单，很好掌握，但是一问起来就容易懵逼。所以在面试的时</description>
+    </item>
+    
     <item>
       <title>SVM</title>
       <link>https://reid00.github.io/post/svm/</link>
@@ -126,15 +432,6 @@
       
       <guid>https://reid00.github.io/post/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说</description>
-    </item>
-    
-    <item>
-      <title>Hugo搭建博客并用GitHubAction部署</title>
-      <link>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
-      <pubDate>Tue, 07 Jun 2022 17:46:02 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
-      <description>Build Blog with Hugo and deploy on Github Pages with Github Action</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>xgboost on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/xgboost/</link>
+    <description>Recent content in xgboost on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 08 Jun 2022 11:09:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>集成学习之xgboost</title>
+      <link>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
+      <pubDate>Wed, 08 Jun 2022 11:09:50 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
+      <description>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中</description>
+    </item>
+    
+  </channel>
+</rss>
