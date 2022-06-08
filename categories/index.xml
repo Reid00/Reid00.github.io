@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Jun 2022 17:46:02 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jun 2022 20:04:15 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning</title>
+      <link>https://reid00.github.io/categories/machine-learning/</link>
+      <pubDate>Tue, 07 Jun 2022 20:04:15 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://reid00.github.io/categories/ml/</link>
+      <pubDate>Tue, 07 Jun 2022 19:09:30 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>机器学习</title>
+      <link>https://reid00.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Tue, 07 Jun 2022 19:09:30 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://reid00.github.io/categories/hugo/</link>

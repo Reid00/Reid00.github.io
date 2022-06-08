@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>简单线性回归 on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/%E7%AE%80%E5%8D%95%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</link>
+    <description>Recent content in 简单线性回归 on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Jun 2022 19:48:37 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E7%AE%80%E5%8D%95%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>线性回归</title>
+      <link>https://reid00.github.io/post/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</link>
+      <pubDate>Tue, 07 Jun 2022 19:48:37 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</guid>
+      <description>称函数为效用函数 线性回归模型看起来非常简单，简单到让人怀疑其是否有研究价值以及使用价值。但实际上，线性回归模型可以说是最重要的数学模型之一，</description>
+    </item>
+    
+  </channel>
+</rss>

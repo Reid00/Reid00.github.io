@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>面试 on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/%E9%9D%A2%E8%AF%95/</link>
+    <description>Recent content in 面试 on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Jun 2022 19:46:05 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E9%9D%A2%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器学习面试题</title>
+      <link>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Tue, 07 Jun 2022 19:46:05 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>1. 无监督和有监督的区别？ 有监督学习：对具有概念标记（分类）的训练样本进行学习，以尽可能对训练样本集外的数据进行标记（分类）预测。这里，所有的</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>朴素贝叶斯 on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
+    <description>Recent content in 朴素贝叶斯 on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Jun 2022 19:40:44 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>朴素贝叶斯</title>
+      <link>https://reid00.github.io/post/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
+      <pubDate>Tue, 07 Jun 2022 19:40:44 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</guid>
+      <description>贝叶斯准备知识 贝叶斯决策论是概率框架下实施决策的基本方法。要了解贝叶斯决策论，首先得先了解以下几个概念：先验概率、条件概率、后验概率、误判损</description>
+    </item>
+    
+  </channel>
+</rss>

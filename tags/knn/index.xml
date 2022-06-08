@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KNN on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/knn/</link>
+    <description>Recent content in KNN on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 07 Jun 2022 19:42:11 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/knn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KNN算法</title>
+      <link>https://reid00.github.io/post/knn%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Tue, 07 Jun 2022 19:42:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/post/knn%E7%AE%97%E6%B3%95/</guid>
+      <description>Summary 简单的说，k-近邻算法采用测量不同特征值之间的距离方法进行分类。 它的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样</description>
+    </item>
+    
+  </channel>
+</rss>
