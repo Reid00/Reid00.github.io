@@ -1,5 +1,226 @@
 <!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Machine Learning | Reid's Blog</title><meta name=keywords content><meta name=description content="Reid's Personal Notes -- https://github.com/Reid00"><meta name=author content="Reid"><link rel=canonical href=https://reid00.github.io/categories/machine-learning/><link crossorigin=anonymous href=/assets/css/stylesheet.d7fb4cbf980fe688a21621b06a795933c4e6bb2d4070ec940667af1715d84af2.css integrity="sha256-1/tMv5gP5oiiFiGwanlZM8Tmuy1AcOyUBmevFxXYSvI=" rel="preload stylesheet" as=style><link rel=icon href=https://reid00.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://reid00.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://reid00.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://reid00.github.io/apple-touch-icon.png><link rel=mask-icon href=https://reid00.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://reid00.github.io/categories/machine-learning/index.xml><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,o,i,a,t,n,s){e.GoogleAnalyticsObject=t,e[t]=e[t]||function(){(e[t].q=e[t].q||[]).push(arguments)},e[t].l=1*new Date,n=o.createElement(i),s=o.getElementsByTagName(i)[0],n.async=1,n.src=a,s.parentNode.insertBefore(n,s)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="Machine Learning"><meta property="og:description" content="Reid's Personal Notes -- https://github.com/Reid00"><meta property="og:type" content="website"><meta property="og:url" content="https://reid00.github.io/categories/machine-learning/"><meta property="og:image" content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:title content="Machine Learning"><meta name=twitter:description content="Reid's Personal Notes -- https://github.com/Reid00"></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script><header class=header><nav class=nav><div class=logo><a href=https://reid00.github.io/ accesskey=h title="Reid's Blog (Alt + H)">Reid's Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://reid00.github.io/archives title=Archive><span>Archive</span></a></li><li><a href=https://reid00.github.io/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://reid00.github.io/categories/ title=Categorys><span>Categorys</span></a></li><li><a href=https://reid00.github.io/tags/ title=Tags><span>Tags</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://reid00.github.io/>Home</a>&nbsp;»&nbsp;<a href=https://reid00.github.io/categories/>Categories</a></div><h1>Machine Learning
-<a href=index.xml title=RSS aria-label=RSS><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>GBDT+LR</h2></header><div class=entry-content><p>概述 GBDT的加入，是为了弥补LR难以实现特征组合的缺点。 LR LR作为一个线性模型，以概率形式输出结果，在工业上得到了十分广泛的应用。 其具有简...</p></div><footer class=entry-footer><span title='2022-06-08 14:10:06 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to GBDT+LR" href=https://reid00.github.io/post/gbdt+lr/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>FM FFM DeepFM</h2></header><div class=entry-content><p>介绍 FM和FMM模型在数据量比较大并且特征稀疏的情况下，仍然有优秀的性能表现，在CTR/CVR任务上尤其突出。 本文包括： - FM 模型 - FFM 模型 - Deep...</p></div><footer class=entry-footer><span title='2022-06-08 14:03:00 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;12 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to FM FFM DeepFM" href=https://reid00.github.io/post/fm-ffm-deepfm/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>CTR发展</h2></header><div class=entry-content><p>简介 在推荐、搜索、广告等领域，CTR（click-through rate）预估是一项非常核心的技术，这里引用阿里妈妈资深算法专家朱小强大佬的...</p></div><footer class=entry-footer><span title='2022-06-08 14:00:30 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;16 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to CTR发展" href=https://reid00.github.io/post/ctr%E5%8F%91%E5%B1%95/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>KG表示学习</h2></header><div class=entry-content><p>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中...</p></div><footer class=entry-footer><span title='2022-06-08 11:45:57 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to KG表示学习" href=https://reid00.github.io/post/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>常用Normalization方法的总结与思考</h2></header><div class=entry-content><p>简介 常用的Normalization方法主要有：Batch Normalization（BN，2015年）、Layer Normalizatio...</p></div><footer class=entry-footer><span title='2022-06-08 11:36:46 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 常用Normalization方法的总结与思考" href=https://reid00.github.io/post/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Self Attention</h2></header><div class=entry-content><p>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650 Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</p></div><footer class=entry-footer><span title='2022-06-08 11:35:50 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to Self Attention" href=https://reid00.github.io/post/self-attention/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>CNN RNN GAN</h2></header><div class=entry-content><p>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后...</p></div><footer class=entry-footer><span title='2022-06-08 11:33:17 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to CNN RNN GAN" href=https://reid00.github.io/post/cnn-rnn-gan/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>集成学习之xgboost</h2></header><div class=entry-content><p>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中...</p></div><footer class=entry-footer><span title='2022-06-08 11:09:50 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 集成学习之xgboost" href=https://reid00.github.io/post/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>机器学习之常见损失函数</h2></header><div class=entry-content><p>简介 损失函数用来评价模型的预测值和真实值不一样的程度，损失函数越好，通常模型的性能越好。不同的模型用的损失函数一般也不一样。 损失函数分为经验...</p></div><footer class=entry-footer><span title='2022-06-08 11:08:15 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 机器学习之常见损失函数" href=https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>机器学习之优化算法</h2></header><div class=entry-content><p>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？...</p></div><footer class=entry-footer><span title='2022-06-08 10:58:09 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;11 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 机器学习之优化算法" href=https://reid00.github.io/post/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://reid00.github.io/categories/machine-learning/page/2/>Next »</a></nav></footer></main><footer class=footer><span>&copy; 2022 <a href=https://reid00.github.io/>Reid's Blog</a></span>
+<a href=index.xml title=RSS aria-label=RSS><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>GBDT+LR</h2></header><div class=entry-content><p>概述 GBDT的加入，是为了弥补LR难以实现特征组合的缺点。
+LR LR作为一个线性模型，以概率形式输出结果，在工业上得到了十分广泛的应用。 其具有简单快速高效，结果可解释，可以分布式计算。搭配L1，L2正则，可以有很好地鲁棒性以及挑选特征的能力。
+但由于其简单，也伴随着拟合能力不足，无法做特征组合的缺点。
+通过梯度下降法可以优化参数
+可以称之上是 CTR 预估模型的开山鼻祖，也是工业界使用最为广泛的 CTR 预估模型
+但是在CTR领域，单纯的LR虽然可以快速处理海量高维离散特征，但是由于线性模型的局限性，其在特征组合方面仍有不足，所以后续才发展出了FM来引入特征交叉。在此之前，业界也有使用GBDT来作为特征组合的工具，其结果输出给LR。
+LR 优缺点 优点：由于 LR 模型简单，训练时便于并行化，在预测时只需要对特征进行线性加权，所以性能比较好，往往适合处理海量 id 类特征，用 id 类特征有一个很重要的好处，就是防止信息损失（相对于范化的 CTR 特征），对于头部资源会有更细致的描述。
+缺点：LR 的缺点也很明显，首先对连续特征的处理需要先进行离散化，如上文所说，人工分桶的方式会引入多种问题。另外 LR 需要进行人工特征组合，这就需要开发者有非常丰富的领域经验，才能不走弯路。这样的模型迁移起来比较困难，换一个领域又需要重新进行大量的特征工程。
+GBDT+LR 首先，GBDT是一堆树的组合，假设有k棵树 。 对于第i棵树 ，其存在 个叶子节点。而从根节点到叶子节点，可以认为是一条路径，这条路径是一些特征的组合，例如从根节点到某一个叶子节点的路径可能是“ ”这就是一组特征组合。到达这个叶子节点的样本都拥有这样的组合特征，而这个组合特征使得这个样本得到了GBDT的预测结果。 所以对于GBDT子树 ，会返回一个 维的one-hot向量 对于整个GBDT，会返回一个 维的向量 ，这个向量由0-1组成。
+然后，这个 ,会作为输入，送进LR模型，最终输出结果
+模型大致如图所示。上图中由两棵子树，分别有3和2个叶子节点。对于一个样本x，最终可以落入第一棵树的某一个叶子和第二棵树的某一个叶子，得到两个独热编码的结果例如 [0,0,1],[1,0]组合得[0,0,1,1,0]输入到LR模型最后输出结果。
+由于LR善于处理离散特征，GBDT善于处理连续特征。所以也可以交由GBDT处理连续特征，输出结果拼接上离散特征一起输入LR。
+讨论 至于GBDT为何不善于处理高维离散特征？
+https://cloud.tencent.com/developer/article/1005416
+缺点：对于海量的 id 类特征，GBDT 由于树的深度和棵树限制（防止过拟合），不能有效的存储；另外海量特征在也会存在性能瓶颈，经笔者测试，当 GBDT 的 one hot 特征大于 10 万维时，就必须做分布式的训练才能保证不爆内存。所以 GBDT 通常配合少量的反馈 CTR 特征来表达，这样虽然具有一定的范化能力，但是同时会有信息损失，对于头部资源不能有效的表达。
+https://www.zhihu.com/question/35821566
+后来思考后发现原因是因为现在的模型普遍都会带着正则项，而 lr 等线性模型的正则项是对权重的惩罚，也就是 W1一旦过大，惩罚就会很大，进一步压缩 W1的值，使他不至于过大，而树模型则不一样，树模型的惩罚项通常为叶子节点数和深度等，而我们都知道，对于上面这种 case，树只需要一个节点就可以完美分割9990和10个样本，惩罚项极其之小....</p></div><footer class=entry-footer><span title='2022-06-08 14:10:06 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to GBDT+LR" href=https://reid00.github.io/post/ml/gbdt+lr/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>FM FFM DeepFM</h2></header><div class=entry-content><p>介绍 FM和FMM模型在数据量比较大并且特征稀疏的情况下，仍然有优秀的性能表现，在CTR/CVR任务上尤其突出。
+本文包括：
+- FM 模型 - FFM 模型 - Deep FM 模型 - Deep FFM模型 FM模型的引入-广告特征的稀疏性 FM（Factorization machines）模型由Steffen Rendle于2010年提出，目的是解决稀疏数据下的特征组合问题。
+在介绍FM模型之前，来看看稀疏数据的训练问题。
+以广告CTR（click-through rate）点击率预测任务为例，假设有如下数据
+Clicked? Country Day Ad_type 1 USA 26/11/15 Movie 0 China 19/2/15 Game 1 China 26/11/15 Game 第一列Clicked是类别标记，标记用户是否点击了该广告，而其余列则是特征（这里的三个特征都是类别类型），一般的，我们会对数据进行One-hot编码将类别特征转化为数值特征，转化后数据如下:
+Clicked? Country=USA Country=China Day=26/11/15 Day=19/2/15 Ad_type=Movie Ad_type=Game 1 1 0 1 0 1 0 0 0 1 0 1 0 1 1 0 1 1 0 0 1 经过One-hot编码后，特征空间是十分稀疏的。特别的，某类别特征有m种不同的取值，则one-hot编码后就会被变为m维！当类别特征越多、类别特征的取值越多，其特征空间就更加稀疏。
+此外，往往我们会将特征进行两两的组合，这是因为：...</p></div><footer class=entry-footer><span title='2022-06-08 14:03:00 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to FM FFM DeepFM" href=https://reid00.github.io/post/ml/fm-ffm-deepfm/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>CTR发展</h2></header><div class=entry-content><p>简介 在推荐、搜索、广告等领域，CTR（click-through rate）预估是一项非常核心的技术，这里引用阿里妈妈资深算法专家朱小强大佬的一句话：“它（CTR预估）是镶嵌在互联网技术上的明珠”。
+本篇文章主要是对CTR预估中的常见模型进行梳理与总结，并分成模块进行概述。每个模型都会从「模型结构」、「优势」、「不足」三个方面进行探讨，在最后对所有模型之间的关系进行比较与总结。本篇文章讨论的模型如下图所示（原创图），这个图中展示了本篇文章所要讲述的算法以及之间的关系，在文章的最后总结会对这张图进行详细地说明。
+一. 分布式线性模型 Logistic Regression Logistic Regression是每一位算法工程师再也熟悉不过的基本算法之一了，毫不夸张地说，LR作为最经典的统计学习算法几乎统治了早期工业机器学习时代。这是因为其具备简单、时间复杂度低、可大规模并行化等优良特性。在早期的CTR预估中，算法工程师们通过手动设计交叉特征以及特征离散化等方式，赋予LR这样的线性模型对数据集的非线性学习能力，高维离散特征+手动交叉特征构成了CTR预估的基础特征。LR在工程上易于大规模并行化训练恰恰适应了这个时代的要求。
+模型结构：
+优势：
+模型简单，具备一定可解释性 计算时间复杂度低 工程上可大规模并行化 不足：
+依赖于人工大量的特征工程，例如需要根据业务背知识通过特征工程融入模型 特征交叉难以穷尽 对于训练集中没有出现的交叉特征无法进行参数学习 二. 自动化特征工程 GBDT + LR（2014）—— 特征自动化时代的初探索 Facebook在2014年提出了GBDT+LR的组合模型来进行CTR预估，其本质上是通过Boosting Tree模型本身的特征组合能力来替代原先算法工程师们手动组合特征的过程。GBDT等这类Boosting Tree模型本身具备了特征筛选能力（每次分裂选取增益最大的分裂特征与分裂点）以及高阶特征组合能力（树模型天然优势）对应树的一条路径（用叶子节点来表示），因此通过GBDT来自动生成特征向量就成了一个非常自然的思路。注意这里虽然是两个模型的组合，但实际并非是端到端的模型，而是两阶段的、解耦的，即先通过GBDT训练得到特征向量后，再作为下游LR的输入，LR的在训练过程中并不会对GBDT进行更新。
+模型结构：
+通过GBDT训练模型，得到组合的特征向量。例如训练了两棵树，每棵树有5个叶子结点，对于某个特定样本来说，落在了第一棵树的第3个结点，此时我们可以得到向量 ；落在第二棵树的第4个结点，此时的到向量 ；那么最终通过concat所有树的向量，得到这个样本的最终向量 。将这个向量作为下游LR模型的inputs，进行训练。
+优势：
+特征工程自动化，通过Boosting Tree模型的天然优势自动探索特征组合 不足：
+两阶段的、非端到端的模型 CTR预估场景涉及到大量高维稀疏特征，树模型并不适合处理（因此实际上会将dense特征或者低维的离散特征给GBDT，剩余高维稀疏特征在LR阶段进行训练） GBDT模型本身比较复杂，无法做到online learning，模型对数据的感知相对较滞后（必须提高离线模型的更新频率） 由于LR善于处理离散特征，GBDT善于处理连续特征。所以也可以交由GBDT处理连续特征，输出结果拼接上离散特征一起输入LR。
+三. FM模型以及变体 （1）FM：Factorization Machines, 2010 —— 隐向量学习提升模型表达 FM是在2010年提出的一种可以学习二阶特征交叉的模型，通过在原先线性模型的基础上，枚举了所有特征的二阶交叉信息后融入模型，提高了模型的表达能力。但不同的是，模型在二阶交叉信息的权重学习上，采用了隐向量内积（也可看做embedding）的方式进行学习。
+FM和基于树的模型（e.g. GBDT）都能够自动学习特征交叉组合。基于树的模型适合连续中低度稀疏数据，容易学到高阶组合。但是树模型却不适合学习高度稀疏数据的特征组合，一方面高度稀疏数据的特征维度一般很高，这时基于树的模型学习效率很低，甚至不可行；另一方面树模型也不能学习到训练数据中很少或没有出现的特征组合。相反，FM模型因为通过隐向量的内积来提取特征组合，对于训练数据中很少或没有出现的特征组合也能够学习到。例如，特征 和特征 在训练数据中从来没有成对出现过，但特征 经常和特征 成对出现，特征 也经常和特征 成对出现，因而在FM模型中特征 和特征 也会有一定的相关性。毕竟所有包含特征 的训练样本都会导致模型更新特征 的隐向量 ，同理，所有包含特征 的样本也会导致模型更新隐向量 ，这样 就不太可能为0。
+模型结构：
+FM的公式包含了一阶线性部分与二阶特征交叉部分：
+在LR中，一般是通过手动构造交叉特征后，喂给模型进行训练，例如我们构造性别与广告类别的交叉特征： (gender=’女’ & ad_category=’美妆’)，此时我们会针对这个交叉特征学习一个参数 。但是在LR中，参数梯度更新公式与该特征取值 关系密切： ，当 取值为0时，参数 就无法得到更新，而 要非零就要求交叉特征的两项都要非零，但实际在数据高度稀疏，一旦两个特征只要有一个取0，参数 不能得到有效更新；除此之外，对于训练集中没有出现的交叉特征，也没办法学习这类权重，泛化性能不够好。...</p></div><footer class=entry-footer><span title='2022-06-08 14:00:30 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to CTR发展" href=https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>KG表示学习</h2></header><div class=entry-content><p>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中的结构（节点、边或者子图），通过一系列过程，变成一个多维向量，通过这样一层转化，能够将复杂的网络信息变成结构化的多维特征，从而利用机器学习方法实现更方便的算法应用
+主流的KG embedding的方法包括基于平移的模型（典型代表：TransE），基于矩阵分解的模型（典型代表：RESCAL），基于神经网络的模型（典型代表：NTN）和基于图神经网络的模型（典型代表：RGCN）。
+我们开始介绍知识表示学习的几个代表模型，包括：结构向量模型、语义匹配能量模型、隐变量模型、神经张量网络模型、矩阵分解模型和平移模型，等等。
+但是传统的KG embedding模型存在一些不足，例如大多数方法完全依赖于知识图谱中的三元组数据，知识图谱表示学习过程缺乏可解释性。针对完全依赖于三元组数据的问题，一类有效的方案是引入知识图谱图结构中存在的路径信息，经典的基于路径的KG embedding的方法是PTransE，对于由关系路径中的所有关系的向量表示，PTtransE通过求和、乘积和RNN三种策略进行路径的组合。然而，现有的基于路径的知识图谱表示学习模型的路径表示过程中完全基于数据驱动，缺乏可解释性。同时，PTransE，PathRNN等完全数据驱动的方法在表示路径的过程中会造成误差累积并进一步限制路径表示的精度。
+目前提到图算法一般指：
+经典数据结构与算法层面的：最小生成树(Prim,Kruskal,…)，最短路(Dijkstra,Floyed,…)，拓扑排序，关键路径等
+概率图模型，涉及图的表示，推断和学习，详细可以参考Koller的书或者公开课
+图神经网络，主要包括Graph Embedding(基于随机游走)和Graph CNN(基于邻居汇聚)两部分。
+二、Trans 系列 现在主要介绍知识表示学习的一个最简单也是最有效的方案，叫TransE。在这个模型中，每个实体和关系都表示成低维向量。那么如何怎么学习这些低维向量呢？我们需要设计一个学习目标，这个目标就是，给定任何一个三元组，我们都将中间的relation看成是从head到tail的一个翻译过程，也就是说把head的向量加上relation的向量，要让它尽可能地等于tail向量。在学习过程中，通过不断调整、更新实体和关系向量的取值，使这些等式尽可能实现。
+些实体和关系的表示可以用来做什么呢？一个直观的应用就是Entity Prediction（实体预测）。就是说，如果给一个head entity，再给一个relation，那么可以利用刚才学到的向量表示，去预测它的tail entity可能是什么。思想非常简单，直接把h r，然后去找跟h r向量最相近的tail向量就可以了。实际上，我们也用这个任务来判断不同表示模型的效果。我们可以看到，以TransE为代表的翻译模型，需要学习的参数数量要小很多，但同时能够达到非常好的预测准确率。
+trans 系列详解: http://aiblog.top/2019/07/08/Trans%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9E%8B%E8%AF%A6%E8%A7%A3/
+这里举一些例子。首先，利用TransE学到的实体表示，我们可以很容易地计算出跟某个实体最相似的实体。大家可以看到
+，关于中国、奥巴马、苹果，通过TransE向量得到的相似实体能够非常好地反映这些实体的关联。
+如果已知head entity和relation，我们可以用TransE模型判断对应的tail entity是什么。比如说与中国相邻的国家或者地区，可以看到比较靠前的实体均比较相关。比如说奥巴马曾经入学的学校，虽然前面的有些并不准确，但是基本上也都是大学或教育机构。
+很多情况下TransE关于h r=t的假设其实本身并不符合实际。为什么呢？假如头实体是美国，关系是总统，而美国总统其实有非常多，我们拿出任意两个实体来，比如奥巴马和布什，这两个人都可以跟USA构成同样的关系。在这种情况下，对这两个三元组学习TransE模型，就会发现，它倾向于让奥巴马和布什在空间中变得非常接近。而这其实不太符合常理，因为奥巴马和布什虽然都是美国总统，但是在其他方面有千差万别。这其实就是涉及到复杂关系的处理问题，即所谓的1对N，N对1、N对N这些关系。刚才例子就是典型的1对N关系，就是一个USA可能会对应多个tail entity。为了解决TransE在处理复杂关系时的不足，研究者提出很多扩展模型，基本思想是，首先把实体按照关系进行映射，然后与该关系构建翻译等式。
+1 - 1 transE 效果很好，但是1-N, N-1, N-N 这些复杂情况比较难。
+TransH和TransR均为代表扩展模型之一，其中TransH由MSRA研究者提出，TransR由我们实验室提出。可以看到，TransE在实体预测任务能够达到47.1的准确率，而采用TransH和TransR，特别是TransR可以达到20%的提升。对于知识图谱复杂关系的处理，还有很多工作需要做。这里只是简介了一些初步尝试。
+对于TransH和TransR的效果我们给出一些例子。比如对于《泰坦尼克号》电影，想看它的电影风格是什么，TransE得到的效果比TransH和TransR都要差一些。再如剑桥大学的杰出校友有哪些？我们可以看到对这种典型的1对N关系，TransR和TransH均做得更好一些。
+Trans 系列Github: https://github.com/thunlp/OpenKE
+考虑知识图谱复杂关系： 按照知识图谱中关系两端连接实体的对应数目，我们可以将关系划分为一对一、一对多、多对一和多对多四种类型。类型关系指的是，该类型关系中的一个左侧实体会平均对应多个右侧实体。 现有知识表示学习算法在处理四种类型关系时的性能差异较大。针对这个问题，我们提出了基于空间转移的 TransR 模型对不同的知识/关系的结构类型进行精细建模。
+考虑知识图谱复杂路径： 在知识图谱中，有些多步关系路径也能够反映实体之间的关系。为了突破现有知识表示学习模型孤立学习每个三元组的局限性，我们将借鉴循环神经网络（Recursive Neural Networks）的学术思想，提出考虑关系路径的表示学习方法。我们以平移模型 TransE 作为基础进行扩展，提出 Path-based TransE（PTransE）模型对知识图谱中的复杂关系路径进行建模。
+考虑知识图谱复杂属性： 现有知识表示学习模型将所有关系都表示为向量，这在极大程度上限制了对关系的语义的表示能力。这种局限性在属性知识的表示上尤为突出。我们面向属性知识，研究利用分类模型表示属性关系，通 过学习分类器建立实体与属性之间的关系，在既有知识图谱关系表示方案的基础上，探索具有更强表示能力的表示方案。
+二、DeepWalk DeepWalk的思想类似word2vec，使用图中节点与节点的共现关系来学习节点的向量表示。那么关键的问题就是如何来描述节点与节点的共现关系，DeepWalk给出的方法是使用随机游走(RandomWalk)的方式在图中进行节点采样。
+RandomWalk是一种可重复访问已访问节点的深度优先遍历算法。给定当前访问起始节点，从其邻居中随机采样节点作为下一个访问节点，重复此过程，直到访问序列长度满足预设条件。
+获取足够数量的节点访问序列后，使用skip-gram model 进行向量学习。...</p></div><footer class=entry-footer><span title='2022-06-08 11:45:57 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to KG表示学习" href=https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>常用Normalization方法的总结与思考</h2></header><div class=entry-content><p>简介 常用的Normalization方法主要有：Batch Normalization（BN，2015年）、Layer Normalization（LN，2016年）、Instance Normalization（IN，2017年）、Group Normalization（GN，2018年）。它们都是从激活函数的输入来考虑、做文章的，以不同的方式对激活函数的输入进行 Norm 的。
+我们将输入的 feature map shape 记为**[N, C, H, W]**，其中N表示batch size，即N个样本；C表示通道数；H、W分别表示特征图的高度、宽度。这几个方法主要的区别就是在：
+BN是在batch上，对N、H、W做归一化，而保留通道 C 的维度。BN对较小的batch size效果不好。BN适用于固定深度的前向神经网络，如CNN，不适用于RNN；
+LN在通道方向上，对C、H、W归一化，主要对RNN效果明显；
+IN在图像像素上，对H、W做归一化，用在风格化迁移；
+GN将channel分组，然后再做归一化。
+每个子图表示一个特征图，其中N为批量，C为通道，（H，W）为特征图的高度和宽度。通过蓝色部分的值来计算均值和方差，从而进行归一化。
+如果把特征图比喻成一摞书，这摞书总共有 N 本，每本有 C 页，每页有 H 行，每行 有W 个字符。
+BN 求均值时，相当于把这些书按页码一一对应地加起来（例如第1本书第36页，第2本书第36页……），再除以每个页码下的字符总数：N×H×W，因此可以把 BN 看成求“平均书”的操作（注意这个“平均书”每页只有一个字），求标准差时也是同理。
+LN 求均值时，相当于把每一本书的所有字加起来，再除以这本书的字符总数：C×H×W，即求整本书的“平均字”，求标准差时也是同理。
+IN 求均值时，相当于把一页书中所有字加起来，再除以该页的总字数：H×W，即求每页书的“平均字”，求标准差时也是同理。
+GN 相当于把一本 C 页的书平均分成 G 份，每份成为有 C/G 页的小册子，求每个小册子的“平均字”和字的“标准差”。
+参考:
+https://mp.weixin.qq.com/s/dDMPBYjPeilivSA8J8W7lA https://zhuanlan.zhihu.com/p/72589565</p></div><footer class=entry-footer><span title='2022-06-08 11:36:46 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 常用Normalization方法的总结与思考" href=https://reid00.github.io/post/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Self Attention</h2></header><div class=entry-content><p>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650
+Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</p></div><footer class=entry-footer><span title='2022-06-08 11:35:50 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to Self Attention" href=https://reid00.github.io/post/ml/self-attention/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>CNN RNN GAN</h2></header><div class=entry-content><p>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后一部分，用于获得使用下方深度网络所得分数的概率分布。
+**如其名称所示，全连接网络将其上一层和下一层中的所有神经元相互连接。**网络可能最终通过设置权重来关闭一些神经元，但在理想情况下，最初所有神经元都参与训练。
+02 编码器和解码器 编码器和解码器可能是深度学习另一个最基本的架构之一。所有网络都有一个或多个编码器–解码器层。你可以将全连接层中的隐藏层视为来自编码器的编码形式，将输出层视为解码器，它将隐藏层解码并作为输出。通常，编码器将输入编码到中间状态，其中输入为向量，然后解码器网络将该中间状态解码为我们想要的输出形式。
+编码器–解码器网络的一个规范示例是序列到序列 （seq2seq）网络（图1.11），可用于机器翻译。一个句子将被编码为中间向量表示形式，其中整个句子以一些浮点数字的形式表示，解码器根据中间向量解码以生成目标语言的句子作为输出。
+▲图1.11 seq2seq 网络
+自动编码器（图1.12）是一种特殊的编码器–解码器网络，属于无监督学习范畴。自动编码器尝试从未标记的数据中进行学习，将目标值设置为输入值。
+例如，如果输入一个大小为100×100的图像，则输入向量的维度为10 000。因此，输出的大小也将为 10 000，但隐藏层的大小可能为 500。简而言之，你正在尝试将输入转换为较小的隐藏状态表示形式，从隐藏状态重新生成相同的输入。
+图1.12 自动编码器的结构
+你如果能够训练一个可以做到这一点的神经网络，就会找到一个好的压缩算法，其可以将高维输入变为低维向量，这具有数量级收益。
+如今，自动编码器正被广泛应用于不同的情景和行业。
+03 循环神经网络 循环神经网络（RNN）是**最常见的深度学习算法之一，它席卷了整个世界。**我们现在在自然语言处理或理解方面几乎所有最先进的性能都归功于RNN的变体。在循环网络中，你尝试识别数据中的最小单元，并使数据成为一组这样的单元。
+在自然语言的示例中，最常见的方法是将一个单词作为一个单元，并在处理句子时将句子视为一组单词。你在整个句子上展开RNN，一次处理一个单词（图1.13）。RNN 具有适用于不同数据集的变体，有时我们会根据效率选择变体。长短期记忆 （LSTM）和门控循环单元（GRU）是最常见的 RNN 单元。
+图1.13 循环网络中单词的向量表示形式
+04 递归神经网络 顾名思义，递归神经网络是一种树状网络，用于理解序列数据的分层结构。递归网络被研究者（尤其是 Salesforce 的首席科学家理查德·索彻和他的团队）广泛用于自然语言处理。
+字向量能够有效地将一个单词的含义映射到一个向量空间，但当涉及整个句子的含义时，却没有像word2vec这样针对单词的首选解决方案。递归神经网络是此类应用最常用的算法之一。 递归网络可以创建解析树和组合向量，并映射其他分层关系（图1.14），这反过来又帮助我们找到组合单词和形成句子的规则。斯坦福自然语言推理小组开发了一种著名的、使用良好的算法，称为SNLI，这是应用递归网络的一个好例子。
+▲图1.14 递归网络中单词的向量表示形式
+05 卷积神经网络 卷积神经网络（CNN）（图1.15）使我们能够在计算机视觉中获得超人的性能，它在2010年代早期达到了人类的精度，而且其精度仍在逐年提高。
+卷积网络是最容易理解的网络，因为它有可视化工具来显示每一层正在做什么。
+Facebook AI研究（FAIR）负责人Yann LeCun早在20世纪90年代就发明了CNN。人们当时无法使用它，因为并没有足够的数据集和计算能力。CNN像滑动窗口一样扫描输入并生成中间表征，然后在它到达末端的全连接层之前对其进行逐层抽象。CNN也已成功应用于非图像数据集。
+▲图1.15 典型的 CNN
+Facebook的研究小组发现了一个基于卷积神经网络的先进自然语言处理系统，其卷积网络优于RNN，而后者被认为是任何序列数据集的首选架构。虽然一些神经科学家和人工智能研究人员不喜欢CNN（因为他们认为大脑不会像CNN那样做），但基于CNN的网络正在击败所有现有的网络实现。
+06 生成对抗网络 生成对抗网络（GAN）由 Ian Goodfellow 于 2014 年发明，自那时起，它颠覆了整个 AI 社群。它是最简单、最明显的实现之一，但其能力吸引了全世界的注意。GAN的配置如图1.16所示。
+▲图1.16 GAN配置 两个网络相互竞争，最终达到一种平衡，即生成网络可以生成数据，而鉴别网络很难将其与实际图像区分开。
+一个真实的例子就是警察和造假者之间的斗争：假设一个造假者试图制造假币，而警察试图识破它。最初，造假者没有足够的知识来制造看起来真实的假币。随着时间的流逝，造假者越来越善于制造看起来更像真实货币的假币。这时，警察起初未能识别假币，但最终他们会再次成功识别。
+这种生成–对抗过程最终会形成一种平衡。GAN 具有极大的优势。
+07 强化学习 通过互动进行学习是人类智力的基础，强化学习是领导我们朝这个方向前进的方法。过去强化学习是一个完全不同的领域，它认为人类通过试错进行学习。然而，随着深度学习的推进，另一个领域出现了“深度强化学习”，它结合了深度学习与强化学习。...</p></div><footer class=entry-footer><span title='2022-06-08 11:33:17 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to CNN RNN GAN" href=https://reid00.github.io/post/ml/cnn-rnn-gan/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>集成学习之xgboost</h2></header><div class=entry-content><p>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中的boosting算法类别。它是一个加法模型，基模型一般选择树模型，但也可以选择其它类型的模型如逻辑回归等。
+xgboost属于梯度提升树(GBDT)模型这个范畴，GBDT的基本想法是让新的基模型（GBDT以CART分类回归树为基模型）去拟合前面模型的偏差，从而不断将加法模型的偏差降低。
+相比于经典的GBDT，xgboost做了一些改进，从而在效果和性能上有明显的提升（划重点面试常考）。
+第一，GBDT将目标函数泰勒展开到一阶，而xgboost将目标函数泰勒展开到了二阶。保留了更多有关目标函数的信息，对提升效果有帮助。
+第二，GBDT是给新的基模型寻找新的拟合标签（前面加法模型的负梯度），而xgboost是给新的基模型寻找新的目标函数（目标函数关于新的基模型的二阶泰勒展开）。
+第三，xgboost加入了和叶子权重的L2正则化项，因而有利于模型获得更低的方差。
+**第四，xgboost增加了自动处理缺失值特征的策略。**通过把带缺失值样本分别划分到左子树或者右子树，比较两种方案下目标函数的优劣，从而自动对有缺失值的样本进行划分，无需对缺失特征进行填充预处理。
+此外，xgboost还支持候选分位点切割，特征并行等，可以提升性能。
+二、XGBoost原理概述 面从假设空间，目标函数，优化算法3个角度对xgboost的原理进行概括性的介绍。
+1，假设空间
+2，目标函数
+3，优化算法
+基本思想：贪心法，逐棵树进行学习，每棵树拟合之前模型的偏差。
+三、第t棵树学什么？ 要完成构建xgboost模型，我们需要确定以下一些事情。
+1，如何boost? 如果已经得到了前面t-1棵树构成的加法模型，如何确定第t棵树的学习目标？
+2，如何生成树？已知第t棵树的学习目标的前提下，如何学习这棵树？具体又包括是否进行分裂？选择哪个特征进行分裂？选择什么分裂点位？分裂的叶子节点如何取值？
+我们首先考虑如何boost的问题，顺便解决分裂的叶子节点如何取值的问题。
+四、如何生成第t棵树？ xgboost采用二叉树，开始的时候，全部样本都在一个叶子节点上。然后叶子节点不断通过二分裂，逐渐生成一棵树。
+xgboost使用levelwise的生成策略，即每次对同一层级的全部叶子节点尝试进行分裂。
+对叶子节点分裂生成树的过程有几个基本的问题：是否要进行分裂？选择哪个特征进行分裂？在特征的什么点位进行分裂？以及分裂后新的叶子上取什么值？
+叶子节点的取值问题前面已经解决了。我们重点讨论几个剩下的问题。
+1，是否要进行分裂？ 根据树的剪枝策略的不同，这个问题有两种不同的处理。如果是预剪枝策略，那么只有当存在某种分裂方式使得分裂后目标函数发生下降，才会进行分裂。
+但如果是后剪枝策略，则会无条件进行分裂，等树生成完成后，再从上而下检查树的各个分枝是否对目标函数下降产生正向贡献从而进行剪枝。
+xgboost采用预剪枝策略，只有分裂后的增益大于0才会进行分裂。
+2，选择什么特征进行分裂？
+xgboost采用特征并行的方法进行计算选择要分裂的特征，即用多个线程，尝试把各个特征都作为分裂的特征，找到各个特征的最优分割点，计算根据它们分裂后产生的增益，选择增益最大的那个特征作为分裂的特征。
+3，选择什么分裂点位？
+xgboost选择某个特征的分裂点位的方法有两种，一种是全局扫描法，另一种是候选分位点法。 全局扫描法将所有样本该特征的取值按从小到大排列，将所有可能的分裂位置都试一遍，找到其中增益最大的那个分裂点，其计算复杂度和叶子节点上的样本特征不同的取值个数成正比。 而候选分位点法是一种近似算法，仅选择常数个（如256个）候选分裂位置，然后从候选分裂位置中找出最优的那个。
+五、XGBoost算法原理小结 XGBoost（eXtreme Gradient Boosting）全名叫极端梯度提升，XGBoost是集成学习方法的王牌，在Kaggle数据挖掘比赛中，大部分获胜者用了XGBoost，XGBoost在绝大多数的回归和分类问题上表现的十分顶尖，本文较详细的介绍了XGBoost的算法原理。
+目录
+最优模型的构建方法
+Boosting的回归思想
+XGBoost的目标函数推导
+XGBoost的回归树构建方法
+XGBoost与GDBT的区别
+最优模型的构建方法
+构建最优模型的一般方法是最小化训练数据的损失函数，我们用字母 L表示，如下式：
+式（1）称为经验风险最小化，训练得到的模型复杂度较高。当训练数据较小时，模型很容易出现过拟合问题。
+因此，为了降低模型的复杂度，常采用下式：
+其中J(f)为模型的复杂度，式（2）称为结构风险最小化，结构风险最小化的模型往往对训练数据以及未知的测试数据都有较好的预测 。
+应用：决策树的生成和剪枝分别对应了经验风险最小化和结构风险最小化，XGBoost的决策树生成是结构风险最小化的结果，后续会详细介绍。
+Boosting方法的回归思想
+Boosting法是结合多个弱学习器给出最终的学习结果，不管任务是分类或回归，我们都用回归任务的思想来构建最优Boosting模型 。
+回归思想：把每个弱学习器的输出结果当成连续值，这样做的目的是可以对每个弱学习器的结果进行累加处理，且能更好的利用损失函数来优化模型。
+假设
+是第 t 轮弱学习器的输出结果，
+是模型的输出结果，
+是实际输出结果，表达式如下：
+上面两式就是加法模型，都默认弱学习器的输出结果是连续值。因为回归任务的弱学习器本身是连续值，所以不做讨论，下面详细介绍分类任务的回归思想。
+分类任务的回归思想：
+根据2.1式的结果，得到最终的分类器：
+分类的损失函数一般选择指数函数或对数函数，这里假设损失函数为对数函数，学习器的损失函数是
+若实际输出结果yi=1，则：
+求（2.5）式对...</p></div><footer class=entry-footer><span title='2022-06-08 11:09:50 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 集成学习之xgboost" href=https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>机器学习之常见损失函数</h2></header><div class=entry-content><p>简介 损失函数用来评价模型的预测值和真实值不一样的程度，损失函数越好，通常模型的性能越好。不同的模型用的损失函数一般也不一样。
+损失函数分为经验风险损失函数和结构风险损失函数。经验风险损失函数指预测结果和实际结果的差别，结构风险损失函数是指经验风险损失函数加上正则项。
+常见的损失函数以及其优缺点如下：
+1. 0-1损失函数(zero-one loss) 0-1损失是指预测值和目标值不相等为1， 否则为0:
+特点：
+(1) 0-1损失函数直接对应分类判断错误的个数，但是它是一个非凸函数，不太适用.
+(2) 感知机就是用的这种损失函数。但是相等这个条件太过严格，因此可以放宽条件，即满足 时认为相等，
+2. 绝对值损失函数 绝对值损失函数是计算预测值与目标值的差的绝对值：
+3. log对数损失函数 log对数损失函数的标准形式如下：
+特点：
+(1) log对数损失函数能非常好的表征概率分布，在很多场景尤其是多分类，如果需要知道结果属于每个类别的置信度，那它非常适合。
+(2) 健壮性不强，相比于hinge loss对噪声更敏感。
+(3) 辑回归的损失函数就是log对数损失函数。
+4. 平方损失函数 平方损失函数标准形式如下：
+特点：
+(1)经常应用与回归问题
+5. 指数损失函数（exponential loss） 指数损失函数的标准形式如下：
+特点：
+(1)对离群点、噪声非常敏感。经常用在AdaBoost算法中。
+6. Hinge 损失函数 Hinge损失函数标准形式如下：
+特点：
+(1) hinge损失函数表示如果被分类正确，损失为0，否则损失就为 。SVM就是使用这个损失函数。
+(2) 一般的 是预测值，在-1到1之间， 是目标值(-1或1)。其含义是， 的值在-1和+1之间就可以了，并不鼓励 ，即并不鼓励分类器过度自信，让某个正确分类的样本距离分割线超过1并不会有任何奖励，从而使分类器可以更专注于整体的误差。
+(3) 健壮性相对较高，对异常点、噪声不敏感，但它没太好的概率解释。
+7. 感知损失(perceptron loss)函数 感知损失函数的标准形式如下：
+特点：
+(1)是Hinge损失函数的一个变种，Hinge loss对判定边界附近的点(正确端)惩罚力度很高。而perceptron loss只要样本的判定类别正确的话，它就满意，不管其判定边界的距离。它比Hinge loss简单，因为不是max-margin boundary，所以模型的泛化能力没 hinge loss强。
+8. 交叉熵损失函数 (Cross-entropy loss function) 交叉熵损失函数的标准形式如下:...</p></div><footer class=entry-footer><span title='2022-06-08 11:08:15 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 机器学习之常见损失函数" href=https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>机器学习之优化算法</h2></header><div class=entry-content><p>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？
+这篇文章介绍了不同优化算法之间的主要区别，以及如何选择最佳的优化方法。
+梯度: 是多元函数对当前给定点，上升最快的方向。梯度是一组向量，所以带有方向;
+梯度下降流程: https://zhuanlan.zhihu.com/p/68468520 w, b 每轮是每个样本的权重梯度向量和偏差梯度向量的平均值；
+梯度下降本质是沿着负梯度值方向寻找损失函数Loss的最小值解 时的参数w,b , 从而得出对样本数据拟合最好的参数w,b。 https://www.jianshu.com/p/c7e642877b0e
+什么是优化算法？ 优化算法的功能，是通过改善训练方式，来最小化(或最大化)损失函数E(x)。
+模型内部有些参数，是用来计算测试集中目标值Y的真实值和预测值的偏差程度的，基于这些参数，就形成了损失函数E(x)。
+比如说，权重(W)和偏差(b)就是这样的内部参数，一般用于计算输出值，在训练神经网络模型时起到主要作用。
+**在有效地训练模型并产生准确结果时，模型的内部参数起到了非常重要的作用。**这也是为什么我们应该用各种优化策略和算法，来更新和计算影响模型训练和模型输出的网络参数，使其逼近或达到最优值。
+优化算法分为两大类：
+1. 一阶优化算法
+这种算法使用各参数的梯度值来最小化或最大化损失函数E(x)。最常用的一阶优化算法是梯度下降。
+函数梯度：导数dy/dx的多变量表达式，用来表示y相对于x的瞬时变化率。往往为了计算多变量函数的导数时，会用梯度取代导数，并使用偏导数来计算梯度。梯度和导数之间的一个主要区别是函数的梯度形成了一个向量场。
+因此，对单变量函数，使用导数来分析；而梯度是基于多变量函数而产生的。更多理论细节在这里不再进行详细解释。
+2. 二阶优化算法
+二阶优化算法使用了二阶导数(也叫做Hessian方法)来最小化或最大化损失函数。由于二阶导数的计算成本很高，所以这种方法并没有广泛使用。
+详解各种神经网络优化算法 梯度下降 在训练和优化智能系统时，梯度下降是一种最重要的技术和基础。梯度下降的功能是：
+通过寻找最小值，控制方差，更新模型参数，最终使模型收敛。
+网络更新参数的公式为：θ=θ−η×∇(θ).J(θ) ，其中η是学习率，∇(θ).J(θ)是损失函数J(θ)的梯度。
+这是在神经网络中最常用的优化算法。
+如今，梯度下降主要用于在神经网络模型中进行权重更新，即在一个方向上更新和调整模型的参数，来最小化损失函数。
+2006年引入的反向传播技术，使得训练深层神经网络成为可能。反向传播技术是先在前向传播中计算输入信号的乘积及其对应的权重，然后将激活函数作用于这些乘积的总和。这种将输入信号转换为输出信号的方式，是一种对复杂非线性函数进行建模的重要手段，并引入了非线性激活函数，使得模型能够学习到几乎任意形式的函数映射。然后，在网络的反向传播过程中回传相关误差，使用梯度下降更新权重值，通过计算误差函数E相对于权重参数W的梯度，在损失函数梯度的相反方向上更新权重参数。
+**图1：**权重更新方向与梯度方向相反 图1显示了权重更新过程与梯度矢量误差的方向相反，其中U形曲线为梯度。要注意到，当权重值W太小或太大时，会存在较大的误差，需要更新和优化权重，使其转化为合适值，所以我们试图在与梯度相反的方向找到一个局部最优值。
+梯度下降的变体 传统的批量梯度下降将计算整个数据集梯度，但只会进行一次更新，因此在处理大型数据集时速度很慢且难以控制，甚至导致内存溢出。
+权重更新的快慢是由学习率η决定的，并且可以在凸面误差曲面中收敛到全局最优值，在非凸曲面中可能趋于局部最优值。
+使用标准形式的批量梯度下降还有一个问题，就是在训练大型数据集时存在冗余的权重更新。
+标准梯度下降的上述问题在随机梯度下降方法中得到了解决。
+1. 随机梯度下降(SDG)
+随机梯度下降（Stochastic gradient descent，SGD）对每个训练样本进行参数更新，每次执行都进行一次更新，且执行速度更快。
+θ=θ−η⋅∇(θ) × J(θ;x(i);y(i))，其中x(i)和y(i)为训练样本。
+频繁的更新使得参数间具有高方差，损失函数会以不同的强度波动。这实际上是一件好事，因为它有助于我们发现新的和可能更优的局部最小值，而标准梯度下降将只会收敛到某个局部最优值。
+但SGD的问题是，由于频繁的更新和波动，最终将收敛到最小限度，并会因波动频繁存在超调量。
+虽然已经表明，当缓慢降低学习率η时，标准梯度下降的收敛模式与SGD的模式相同。
+**图2：**每个训练样本中高方差的参数更新会导致损失函数大幅波动，因此我们可能无法获得给出损失函数的最小值。 另一种称为“小批量梯度下降”的变体，则可以解决高方差的参数更新和不稳定收敛的问题。
+2. 小批量梯度下降
+为了避免SGD和标准梯度下降中存在的问题，一个改进方法为小批量梯度下降（Mini Batch Gradient Descent），因为对每个批次中的n个训练样本，这种方法只执行一次更新。
+使用小批量梯度下降的优点是：
+1) 可以减少参数更新的波动，最终得到效果更好和更稳定的收敛。
+2) 还可以使用最新的深层学习库中通用的矩阵优化方法，使计算小批量数据的梯度更加高效。
+3) 通常来说，小批量样本的大小范围是从50到256，可以根据实际问题而有所不同。...</p></div><footer class=entry-footer><span title='2022-06-08 10:58:09 +0800 +0800'>2022-06-08</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 机器学习之优化算法" href=https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://reid00.github.io/categories/machine-learning/page/2/>Next »</a></nav></footer></main><footer class=footer><span>&copy; 2022 <a href=https://reid00.github.io/>Reid's Blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();var e=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView({behavior:"smooth"}),e==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${e}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script></body></html>
