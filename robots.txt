@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://reid00.github.io/sitemap.xml
