@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:52:57 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E4%BA%8B%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySql事务</title>
-      <link>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Wed, 08 Jun 2022 11:52:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</guid>
       <description>『浅入深出』MySQL 中事务的实现 https://draveness.me/mysql-transaction/
 MySQL 中如何实现事务隔离 https://www.cnblogs.com/fengzheng/p/12557762.html
 详解一条 SQL 的执行过程

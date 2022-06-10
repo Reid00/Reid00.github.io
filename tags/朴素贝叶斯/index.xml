@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Jun 2022 19:40:44 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>朴素贝叶斯</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
       <pubDate>Tue, 07 Jun 2022 19:40:44 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</guid>
       <description>贝叶斯准备知识 贝叶斯决策论是概率框架下实施决策的基本方法。要了解贝叶斯决策论，首先得先了解以下几个概念：先验概率、条件概率、后验概率、误判损失、条件风险、贝叶斯判别准则
 先验概率： 所谓先验概率，就是根据以往的经验或者现有数据的分析所得到的概率。如，随机扔一枚硬币，则p(正面) = p(反面) = 1/2，这是我们根据已知的知识所知道的信息，即p(正面) = 1/2为先验概率。
 条件概率： 所谓条件概率是指事件A在另一事件B发生的条件下发送的概率。用数学符号表示为：P(B\|A)，即B在A发生的条件下发生的概率。举个栗子，你早上误喝了一瓶过期了的牛奶（A），那我们来算一下你今天拉肚子的概率（B），这个就叫做条件概率。即P（拉肚子\|喝了过期牛奶）， 易见，条件概率是有因求果（知道原因推测结果）。

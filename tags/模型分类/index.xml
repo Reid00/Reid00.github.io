@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Jun 2022 19:39:13 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E6%A8%A1%E5%9E%8B%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生成模型vs判别模型</title>
-      <link>https://reid00.github.io/post/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Tue, 07 Jun 2022 19:39:13 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</guid>
       <description>什么是生成模型和判别模型？ 从本质上讲，生成模型和判别模型是解决分类问题的两类基本思路。首先，您得先了解，分类问题，就是给定一个数据x，要判断它对应的标签y（这么naive的东西都要解释下，求面试官此时内心的阴影面积，嘎嘎）。生成模型就是要学习x和y的联合概率分布P(x,y)，然后根据贝叶斯公式来求得条件概率P(y|x)，预测条件概率最大的y。贝叶斯公式这么简单的知识相信您也了解，我就不啰嗦了。判别模型就是直接学习条件概率分布P(y|x)。
 举个栗子 例子1 假设你从来没有见过大象和猫，连听都没有听过，这时，给你看了一张大象的照片和一张猫的照片。如下所示：
 然后牵来我家的大象（面试官：你家开动物园的吗？），让你判断这是大象还是猫。你咋办？

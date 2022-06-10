@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Jun 2022 19:42:11 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/knn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KNN算法</title>
-      <link>https://reid00.github.io/post/ml/knn%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/ml/knn%E7%AE%97%E6%B3%95/</link>
       <pubDate>Tue, 07 Jun 2022 19:42:11 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/knn%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/knn%E7%AE%97%E6%B3%95/</guid>
       <description>Summary 简单的说，k-近邻算法采用测量不同特征值之间的距离方法进行分类。 它的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别，其中K通常是不大于20的整数。KNN算法中，所选择的邻居都是已经正确分类的对象。该方法在定类决策上只依据最邻近的一个或者几个样本的类别来决定待分样本所属的类别。
 优点：精度高、对异常值不敏感、无数据输入假定。
 缺点：计算复杂度高、空间复杂度高。

@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:17:58 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E6%82%96%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数学中的十大悖论</title>
-      <link>https://reid00.github.io/post/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
+      <link>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
       <pubDate>Wed, 08 Jun 2022 14:17:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
+      <guid>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
       <description>常见反直觉定理 生日悖论 假设房间里有23人，那么两个人生日是同天的概率将大于50%。我们很容易得出，任何一个特定的日子里某人过生日的概率是1/365。
 所以这个理论看似是无法成立，但理论与现实差异正源自于：我们的唯一要求是两个人彼此拥有同一天生日即可，不限定在特定的一天。 否则，如果换做某人在某特定日期生日，例如2月19日，那么23个人中概率便仅为6.12%。
 另一方面如果你在有23个人的房间挑选一人问他：“有人和你同一天生日吗？”答案很可能是否定的。 但如果重复询问其余22人，每问一次，你便会有更大机会得到肯定答复，最终这个概率是50.7%。 结论 当房间里有23人，那么存在生日相同的概率超过50%, 如果有60人，则超过99%

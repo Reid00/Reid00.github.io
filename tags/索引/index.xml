@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:04:01 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E7%B4%A2%E5%BC%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySql索引优化</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 11:04:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
       <description>数据库表结构：
 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name=&amp;#39;shenjian&amp;#39; select id,name,sex where name=&amp;#39;shenjian&amp;#39; 多查询了一个属性，为何检索过程完全不同？
 什么是回表查询？
@@ -43,10 +43,10 @@ t(id PK, name KEY, sex, flag);
     
     <item>
       <title>MySql索引介绍</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Wed, 08 Jun 2022 11:02:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
       <description>什么是索引，索引的作用 当我们要在新华字典里查某个字（如「先」）具体含义的时候，通常都会拿起一本新华字典来查，你可以先从头到尾查询每一页是否有「先」这个字，这样做（对应数据库中的全表扫描）确实能找到，但效率无疑是非常低下的，更高效的方相信大家也都知道，就是在首页的索引里先查找「先」对应的页数，然后直接跳到相应的页面查找，这样查询时候大大减少了，可以为是 O(1)。
 数据库中的索引也是类似的，通过索引定位到要读取的页，大大减少了需要扫描的行数，能极大的提升效率，简而言之，索引主要有以下几个作用:
 即上述所说，索引能极大地减少扫描行数 索引可以帮助服务器避免排序和临时表 索引可以将随机 IO 变成顺序 IO MySQL中索引的存储类型有两种：BTREE和HASH，具体和表的存储引擎相关；

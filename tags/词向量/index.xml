@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 09:56:41 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E8%AF%8D%E5%90%91%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Word2vec</title>
-      <link>https://reid00.github.io/post/ml/word2vec/</link>
+      <link>https://reid00.github.io/posts/ml/word2vec/</link>
       <pubDate>Wed, 08 Jun 2022 09:56:41 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/word2vec/</guid>
+      <guid>https://reid00.github.io/posts/ml/word2vec/</guid>
       <description>Word2vec 介绍 Word2Vec是google在2013年推出的一个NLP工具，它的特点是能够将单词转化为向量来表示。首先，word2vec可以在百万数量级的词典和上亿的数据集上进行高效地训练；其次，该工具得到的训练结果——词向量（word embedding），可以很好地度量词与词之间的相似性。随着深度学习（Deep Learning）在自然语言处理中应用的普及，很多人误以为word2vec是一种深度学习算法。其实word2vec算法的背后是一个浅层神经网络(有一个隐含层的神经元网络)。另外需要强调的一点是，word2vec是一个计算word vector的开源工具。当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBOW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。
 用词向量来表示词并不是Word2Vec的首创，在很久之前就出现了。最早的词向量采用One-Hot编码，又称为一位有效编码，每个词向量维度大小为整个词汇表的大小，对于每个具体的词汇表中的词，将对应的位置置为1。转化为N维向量。
 采用One-Hot编码方式来表示词向量非常简单，但缺点也是显而易见的，一方面我们实际使用的词汇表很大，经常是百万级以上，这么高维的数据处理起来会消耗大量的计算资源与时间。另一方面，One-Hot编码中所有词向量之间彼此正交，没有体现词与词之间的相似关系。

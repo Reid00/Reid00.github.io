@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:00:30 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E7%82%B9%E5%87%BB%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CTR发展</title>
-      <link>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</link>
+      <link>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</link>
       <pubDate>Wed, 08 Jun 2022 14:00:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</guid>
       <description>简介 在推荐、搜索、广告等领域，CTR（click-through rate）预估是一项非常核心的技术，这里引用阿里妈妈资深算法专家朱小强大佬的一句话：“它（CTR预估）是镶嵌在互联网技术上的明珠”。
 本篇文章主要是对CTR预估中的常见模型进行梳理与总结，并分成模块进行概述。每个模型都会从「模型结构」、「优势」、「不足」三个方面进行探讨，在最后对所有模型之间的关系进行比较与总结。本篇文章讨论的模型如下图所示（原创图），这个图中展示了本篇文章所要讲述的算法以及之间的关系，在文章的最后总结会对这张图进行详细地说明。
 一. 分布式线性模型 Logistic Regression Logistic Regression是每一位算法工程师再也熟悉不过的基本算法之一了，毫不夸张地说，LR作为最经典的统计学习算法几乎统治了早期工业机器学习时代。这是因为其具备简单、时间复杂度低、可大规模并行化等优良特性。在早期的CTR预估中，算法工程师们通过手动设计交叉特征以及特征离散化等方式，赋予LR这样的线性模型对数据集的非线性学习能力，高维离散特征+手动交叉特征构成了CTR预估的基础特征。LR在工程上易于大规模并行化训练恰恰适应了这个时代的要求。

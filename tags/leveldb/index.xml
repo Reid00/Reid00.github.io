@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:28:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/leveldb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SStable</title>
-      <link>https://reid00.github.io/post/sstable/</link>
+      <link>https://reid00.github.io/posts/sstable/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/sstable/</guid>
+      <guid>https://reid00.github.io/posts/sstable/</guid>
       <description>概述 如我们之前提到的，leveldb是典型的LSM树(Log Structured-Merge Tree)实现，即一次leveldb的写入过程并不是直接将数据持久化到磁盘文件中，而是将写操作首先写入日志文件中，其次将写操作应用在memtable上。
 当leveldb达到checkpoint点（memtable中的数据量超过了预设的阈值），会将当前memtable冻结成一个不可更改的内存数据库（immutable memory db），并且创建一个新的memtable供系统继续使用。
 immutable memory db会在后台进行一次minor compaction，即将内存数据库中的数据持久化到磁盘文件中。

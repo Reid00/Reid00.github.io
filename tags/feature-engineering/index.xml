@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Jun 2022 19:28:59 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/feature-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据降维之主成分分析 PCA</title>
-      <link>https://reid00.github.io/post/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</link>
       <pubDate>Tue, 07 Jun 2022 19:28:59 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</guid>
       <description>Summary PCA 是无监督学习中最常见的数据降维方法，但是实际上问题特征很多的情况，PCA通常会预处理来减少特征个数。
 将维的意义： 通过降维提高算法的效率 通过降维更方便数据的可视化，通过可视化我们可以更好的理解数据
 相关统计概念 均值： 述的是样本集合的中间点。 方差： 概率论和统计方差衡量随机变量或一组数据时离散程度的度量。 标准差：而标准差给我们描述的是样本集合的各个样本点到均值的距离之平均。方差开根号。 标准差和方差一般是用来描述一维数据的 协方差: （多维）度量两个随机变量关系的统计量,来度量各个维度偏离其均值的程度。 协方差矩阵: （多维）度量各个维度偏离其均值的程度 当 cov(X, Y)&amp;gt;0时，表明X与Y正相关(X越大，Y也越大；X越小Y，也越小。) 当 cov(X, Y)&amp;lt;0时，表明X与Y负相关； 当 cov(X, Y)=0时，表明X与Y不相关。 cov协方差=[(x1-x均值)(y1-y均值)+(x2-x均值)(y2-y均值)+&amp;hellip;+(xn-x均值)*(yn-y均值)]/(n-1) PCA 思想 对数据进行归一化处理（代码中并非这么做的，而是直接减去均值） 计算归一化后的数据集的协方差矩阵 计算协方差矩阵的特征值和特征向量 将特征值排序 保留前N个最大的特征值对应的特征向量 将数据转换到上面得到的N个特征向量构建的新空间中（实现了特征压缩） 简述主成分分析PCA工作原理，以及PCA的优缺点？ PCA旨在找到数据中的主成分，并利用这些主成分表征原始数据，从而达到降维的目的。
@@ -47,10 +47,10 @@ LDA可能过度拟合数据
     
     <item>
       <title>特征工程之数据预处理</title>
-      <link>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
       <pubDate>Tue, 07 Jun 2022 19:09:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说特征工程是机器学习成功的关键。
 什么是特征工程 特征工程又包含了Data PreProcessing（数据预处理）、Feature Extraction（特征提取）、Feature Selection（特征选择）和Feature construction（特征构造）等子问题，本章内容主要讨论数据预处理的方法及实现。 特征工程是机器学习中最重要的起始步骤，数据预处理是特征工程的最重要的起始步骤，而数据清洗是数据预处理的重要组成部分，会直接影响机器学习的效果。
 数据清洗整体介绍 1. 箱线图分析异常值 箱线图提供了识别异常值的标准，如果一个数下雨 QL-1.5IQR or 大于OU + 1.5 IQR, 则这个值被称为异常值。

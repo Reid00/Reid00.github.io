@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 10:13:17 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/sklearn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>随机森林（回归树）模型</title>
-      <link>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Wed, 08 Jun 2022 10:13:17 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</guid>
       <description>调参 ★ 在 scikit-learn 中，Random Forest（以下简称RF）的分类类是 RandomForestClassifier，回归类是 RandomForestRegressor。
 RF 需要调参的参数也包括两部分，第一部分是 Bagging 框架的参数，第二部分是 CART 决策树的参数。下面我们就对这些参数做一个介绍。
 RF 框架参数 首先我们关注于 RF 的 Bagging 框架的参数。这里可以和 GBDT 对比来学习。GBDT 的框架参数比较多，重要的有最大迭代器个数，步长和子采样比例，调参起来比较费力。但是 RF 则比较简单，这是因为 bagging 框架里的各个弱学习器之间是没有依赖关系的，这减小的调参的难度。换句话说，达到同样的调参效果，RF 调参时间要比 GBDT 少一些。

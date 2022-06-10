@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:09:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>集成学习之xgboost</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
       <pubDate>Wed, 08 Jun 2022 11:09:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
       <description>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中的boosting算法类别。它是一个加法模型，基模型一般选择树模型，但也可以选择其它类型的模型如逻辑回归等。
 xgboost属于梯度提升树(GBDT)模型这个范畴，GBDT的基本想法是让新的基模型（GBDT以CART分类回归树为基模型）去拟合前面模型的偏差，从而不断将加法模型的偏差降低。
 相比于经典的GBDT，xgboost做了一些改进，从而在效果和性能上有明显的提升（划重点面试常考）。

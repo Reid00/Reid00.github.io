@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 10:53:37 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/bagging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>集成学习之Bagging,Boosting</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
       <pubDate>Wed, 08 Jun 2022 10:53:37 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
       <description>生成子模型的两种取样方式 那么为了造成子模型之间的差距，每个子模型只看样本中的一部分，这就涉及到两种取样方式：
 放回取样：Bagging，在统计学中也被称为bootstrap。 不放回取样：Boosting 在集成学习中我们通常采用 Bagging 的方式，具体原因如下：
 因为取样后放回，所以不受样本数据量的限制，允许对同一种分类器上对训练集进行进行多次采样，可以训练更多的子模型。 在 train_test_split 时，不那么强烈的依赖随机；而 Boosting的方式，会受到随机的影响； Boosting的随机问题：Pasting 的方式等同于将 500 个样本分成 5 份，每份 100 个样本，怎么分，将对子模型有较大影响，进而对集成系统的准确率有较大影响。 什么是Bagging Bagging，即bootstrap aggregating的缩写，每个训练集称为bootstrap。

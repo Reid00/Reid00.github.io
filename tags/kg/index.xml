@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:45:57 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/kg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KG表示学习</title>
-      <link>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Wed, 08 Jun 2022 11:45:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
       <description>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中的结构（节点、边或者子图），通过一系列过程，变成一个多维向量，通过这样一层转化，能够将复杂的网络信息变成结构化的多维特征，从而利用机器学习方法实现更方便的算法应用
 主流的KG embedding的方法包括基于平移的模型（典型代表：TransE），基于矩阵分解的模型（典型代表：RESCAL），基于神经网络的模型（典型代表：NTN）和基于图神经网络的模型（典型代表：RGCN）。
 我们开始介绍知识表示学习的几个代表模型，包括：结构向量模型、语义匹配能量模型、隐变量模型、神经张量网络模型、矩阵分解模型和平移模型，等等。

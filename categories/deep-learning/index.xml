@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:33:17 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CNN RNN GAN</title>
-      <link>https://reid00.github.io/post/ml/cnn-rnn-gan/</link>
+      <link>https://reid00.github.io/posts/ml/cnn-rnn-gan/</link>
       <pubDate>Wed, 08 Jun 2022 11:33:17 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/cnn-rnn-gan/</guid>
+      <guid>https://reid00.github.io/posts/ml/cnn-rnn-gan/</guid>
       <description>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后一部分，用于获得使用下方深度网络所得分数的概率分布。
 **如其名称所示，全连接网络将其上一层和下一层中的所有神经元相互连接。**网络可能最终通过设置权重来关闭一些神经元，但在理想情况下，最初所有神经元都参与训练。
 02 编码器和解码器 编码器和解码器可能是深度学习另一个最基本的架构之一。所有网络都有一个或多个编码器–解码器层。你可以将全连接层中的隐藏层视为来自编码器的编码形式，将输出层视为解码器，它将隐藏层解码并作为输出。通常，编码器将输入编码到中间状态，其中输入为向量，然后解码器网络将该中间状态解码为我们想要的输出形式。

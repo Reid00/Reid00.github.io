@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:24:48 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux性能检测</title>
-      <link>https://reid00.github.io/post/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
+      <link>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
       <pubDate>Wed, 08 Jun 2022 14:24:48 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
+      <guid>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
       <description>常见的性能检测工具 TOP top是最常用的Linux性能监测工具之一。通过top工具可以监视进程和系统整体性能。
 常见命令一览 安装方式 系统自带，无需安装
 使用方法 使用top命令统计整体CPU、内存资源消耗。 CPU项：显示当前总的CPU时间使用分布。 us表示用户态程序占用的CPU时间百分比。 sy表示内核态程序所占用的CPU时间百分比。 wa表示等待IO等待占用的CPU时间百分比。 hi表示硬中断所占用的CPU时间百分比。 si表示软中断所占用的CPU时间百分比。 通过这些参数我们可以分析CPU时间的分布，是否有较多的IO等待。在执行完调优步骤后，我们也可以对CPU使用时间进行前后对比。如果在运行相同程序、业务情况下CPU使用时间降低，说明性能有提升。

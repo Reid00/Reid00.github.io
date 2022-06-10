@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:28:07 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E7%BA%BF%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>进程与线程基础知识</title>
-      <link>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <link>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Wed, 08 Jun 2022 11:28:07 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <guid>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
       <description>前言 先来看看一则小故事
 我们写好的一行行代码，为了让其工作起来，我们还得把它送进城（进程）里，那既然进了城里，那肯定不能胡作非为了。
 城里人有城里人的规矩，城中有个专门管辖你们的城管（操作系统），人家让你休息就休息，让你工作就工作，毕竟摊位（CPU）就一个，每个人都要占这个摊位来工作，城里要工作的人多着去了。

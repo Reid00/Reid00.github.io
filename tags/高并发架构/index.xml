@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:28:02 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>高并发架构</title>
-      <link>https://reid00.github.io/post/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
+      <link>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
+      <guid>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
       <description>介绍 什么是高并发，从字面上理解，就是在某一时刻产生大量的请求，那么多少量称为大量，业界并没有标准的衡量范围。原因非常简单，不同的业务处理复杂度不一样。
 而我所理解的高并发，它并不只是一个数字，而更是一种架构思维模式，它让你在面对不同的复杂情况下，从容地选择不同的技术手段，来提升应用系统的处理能力。
 但是，并不意味应用系统从诞生的那一刻，就需要具备强大的处理能力，这种做法并不提倡。要知道，脱离实际情况的技术，会显得毫无价值，甚至是一种浪费的表现。

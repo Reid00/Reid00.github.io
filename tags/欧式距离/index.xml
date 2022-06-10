@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 09:40:38 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E6%AC%A7%E5%BC%8F%E8%B7%9D%E7%A6%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常见距离的介绍</title>
-      <link>https://reid00.github.io/post/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Wed, 08 Jun 2022 09:40:38 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</guid>
       <description>机器学习常见距离介绍 1. 欧式距离 2. 曼哈顿距离 我们可以定义曼哈顿距离的正式意义为L1-距离或城市区块距离，也就是在欧几里得空间的固定直角坐标系上两点所形成的线段对轴产生的投影的距离总和。例如在平面上，坐标（x1, y1）的点P1与坐标（x2, y2）的点P2的曼哈顿距离为：，要注意的是，曼哈顿距离依赖座标系统的转度，而非系统在座标轴上的平移或映射。 通俗来讲，想象你在曼哈顿要从一个十字路口开车到另外一个十字路口，驾驶距离是两点间的直线距离吗？显然不是，除非你能穿越大楼。而实际驾驶距离就是这个“曼哈顿距离”，此即曼哈顿距离名称的来源， 同时，曼哈顿距离也称为城市街区距离(City Block distance)。
 3. 切比雪夫距离 若二个向量或二个点p 、and q，其座标分别为p1,p2 4. 闵可夫斯基距离(Minkowski Distance) 闵氏距离不是一种距离，而是一组距离的定义.
 (1) 闵氏距离的定义 两个n维变量a(x11,x12,…,x1n)与 b(x21,x22,…,x2n)间的闵可夫斯基距离定义为： 其中p是一个变参数。 当p=1时，就是曼哈顿距离 当p=2时，就是欧氏距离 当p→∞时，就是切比雪夫距离 根据变参数的不同，闵氏距离可以表示一类的距离。

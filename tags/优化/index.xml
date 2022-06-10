@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:04:01 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySql索引优化</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 11:04:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
       <description>数据库表结构：
 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name=&amp;#39;shenjian&amp;#39; select id,name,sex where name=&amp;#39;shenjian&amp;#39; 多查询了一个属性，为何检索过程完全不同？
 什么是回表查询？
@@ -43,10 +43,10 @@ t(id PK, name KEY, sex, flag);
     
     <item>
       <title>机器学习之优化算法</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
       <pubDate>Wed, 08 Jun 2022 10:58:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
       <description>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？
 这篇文章介绍了不同优化算法之间的主要区别，以及如何选择最佳的优化方法。
 梯度: 是多元函数对当前给定点，上升最快的方向。梯度是一组向量，所以带有方向;
@@ -91,10 +91,10 @@ t(id PK, name KEY, sex, flag);
     
     <item>
       <title>Mysql优化</title>
-      <link>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 10:07:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</guid>
       <description>一，SQL语句性能优化 对查询进行优化，应尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引。
 应尽量避免在 where 子句中对字段进行 null 值判断，创建表时NULL是默认值，但大多数时候应该使用NOT NULL，或者使用一个特殊的值，如0，-1作为默 认值。
 应尽量避免在 where 子句中使用!=或&amp;lt;&amp;gt;操作符， MySQL只有对以下操作符才使用索引：&amp;lt;，&amp;lt;=，=，&amp;gt;，&amp;gt;=，BETWEEN，IN，以及某些时候的LIKE

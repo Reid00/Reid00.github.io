@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 11:35:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/self-attenion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self Attention</title>
-      <link>https://reid00.github.io/post/ml/self-attention/</link>
+      <link>https://reid00.github.io/posts/ml/self-attention/</link>
       <pubDate>Wed, 08 Jun 2022 11:35:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/self-attention/</guid>
+      <guid>https://reid00.github.io/posts/ml/self-attention/</guid>
       <description>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650
 Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</description>
     </item>

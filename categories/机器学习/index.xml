@@ -12,11 +12,11 @@
     <language>zh-cn</language>
     <lastBuildDate>Wed, 08 Jun 2022 14:10:06 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GBDT&#43;LR</title>
-      <link>https://reid00.github.io/post/ml/gbdt&#43;lr/</link>
+      <title>GBDT and LR</title>
+      <link>https://reid00.github.io/posts/ml/gbdt&#43;lr/</link>
       <pubDate>Wed, 08 Jun 2022 14:10:06 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/gbdt&#43;lr/</guid>
+      <guid>https://reid00.github.io/posts/ml/gbdt&#43;lr/</guid>
       <description>概述 GBDT的加入，是为了弥补LR难以实现特征组合的缺点。
 LR LR作为一个线性模型，以概率形式输出结果，在工业上得到了十分广泛的应用。 其具有简单快速高效，结果可解释，可以分布式计算。搭配L1，L2正则，可以有很好地鲁棒性以及挑选特征的能力。
 但由于其简单，也伴随着拟合能力不足，无法做特征组合的缺点。
@@ -38,10 +38,10 @@ https://www.zhihu.com/question/35821566
     
     <item>
       <title>FM FFM DeepFM</title>
-      <link>https://reid00.github.io/post/ml/fm-ffm-deepfm/</link>
+      <link>https://reid00.github.io/posts/ml/fm-ffm-deepfm/</link>
       <pubDate>Wed, 08 Jun 2022 14:03:00 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/fm-ffm-deepfm/</guid>
+      <guid>https://reid00.github.io/posts/ml/fm-ffm-deepfm/</guid>
       <description>介绍 FM和FMM模型在数据量比较大并且特征稀疏的情况下，仍然有优秀的性能表现，在CTR/CVR任务上尤其突出。
 本文包括：
 - FM 模型 - FFM 模型 - Deep FM 模型 - Deep FFM模型 FM模型的引入-广告特征的稀疏性 FM（Factorization machines）模型由Steffen Rendle于2010年提出，目的是解决稀疏数据下的特征组合问题。
@@ -54,10 +54,10 @@ Clicked? Country=USA Country=China Day=26/11/15 Day=19/2/15 Ad_type=Movie Ad_typ
     
     <item>
       <title>CTR发展</title>
-      <link>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</link>
+      <link>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</link>
       <pubDate>Wed, 08 Jun 2022 14:00:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</guid>
       <description>简介 在推荐、搜索、广告等领域，CTR（click-through rate）预估是一项非常核心的技术，这里引用阿里妈妈资深算法专家朱小强大佬的一句话：“它（CTR预估）是镶嵌在互联网技术上的明珠”。
 本篇文章主要是对CTR预估中的常见模型进行梳理与总结，并分成模块进行概述。每个模型都会从「模型结构」、「优势」、「不足」三个方面进行探讨，在最后对所有模型之间的关系进行比较与总结。本篇文章讨论的模型如下图所示（原创图），这个图中展示了本篇文章所要讲述的算法以及之间的关系，在文章的最后总结会对这张图进行详细地说明。
 一. 分布式线性模型 Logistic Regression Logistic Regression是每一位算法工程师再也熟悉不过的基本算法之一了，毫不夸张地说，LR作为最经典的统计学习算法几乎统治了早期工业机器学习时代。这是因为其具备简单、时间复杂度低、可大规模并行化等优良特性。在早期的CTR预估中，算法工程师们通过手动设计交叉特征以及特征离散化等方式，赋予LR这样的线性模型对数据集的非线性学习能力，高维离散特征+手动交叉特征构成了CTR预估的基础特征。LR在工程上易于大规模并行化训练恰恰适应了这个时代的要求。
@@ -79,10 +79,10 @@ FM的公式包含了一阶线性部分与二阶特征交叉部分：
     
     <item>
       <title>KG表示学习</title>
-      <link>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Wed, 08 Jun 2022 11:45:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
       <description>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中的结构（节点、边或者子图），通过一系列过程，变成一个多维向量，通过这样一层转化，能够将复杂的网络信息变成结构化的多维特征，从而利用机器学习方法实现更方便的算法应用
 主流的KG embedding的方法包括基于平移的模型（典型代表：TransE），基于矩阵分解的模型（典型代表：RESCAL），基于神经网络的模型（典型代表：NTN）和基于图神经网络的模型（典型代表：RGCN）。
 我们开始介绍知识表示学习的几个代表模型，包括：结构向量模型、语义匹配能量模型、隐变量模型、神经张量网络模型、矩阵分解模型和平移模型，等等。
@@ -112,10 +112,10 @@ RandomWalk是一种可重复访问已访问节点的深度优先遍历算法。�
     
     <item>
       <title>常用Normalization方法的总结与思考</title>
-      <link>https://reid00.github.io/post/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</link>
       <pubDate>Wed, 08 Jun 2022 11:36:46 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</guid>
       <description>简介 常用的Normalization方法主要有：Batch Normalization（BN，2015年）、Layer Normalization（LN，2016年）、Instance Normalization（IN，2017年）、Group Normalization（GN，2018年）。它们都是从激活函数的输入来考虑、做文章的，以不同的方式对激活函数的输入进行 Norm 的。
 我们将输入的 feature map shape 记为**[N, C, H, W]**，其中N表示batch size，即N个样本；C表示通道数；H、W分别表示特征图的高度、宽度。这几个方法主要的区别就是在：
 BN是在batch上，对N、H、W做归一化，而保留通道 C 的维度。BN对较小的batch size效果不好。BN适用于固定深度的前向神经网络，如CNN，不适用于RNN；
@@ -134,20 +134,20 @@ https://mp.weixin.qq.com/s/dDMPBYjPeilivSA8J8W7lA https://zhuanlan.zhihu.com/p/7
     
     <item>
       <title>Self Attention</title>
-      <link>https://reid00.github.io/post/ml/self-attention/</link>
+      <link>https://reid00.github.io/posts/ml/self-attention/</link>
       <pubDate>Wed, 08 Jun 2022 11:35:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/self-attention/</guid>
+      <guid>https://reid00.github.io/posts/ml/self-attention/</guid>
       <description>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650
 Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</description>
     </item>
     
     <item>
       <title>CNN RNN GAN</title>
-      <link>https://reid00.github.io/post/ml/cnn-rnn-gan/</link>
+      <link>https://reid00.github.io/posts/ml/cnn-rnn-gan/</link>
       <pubDate>Wed, 08 Jun 2022 11:33:17 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/cnn-rnn-gan/</guid>
+      <guid>https://reid00.github.io/posts/ml/cnn-rnn-gan/</guid>
       <description>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后一部分，用于获得使用下方深度网络所得分数的概率分布。
 **如其名称所示，全连接网络将其上一层和下一层中的所有神经元相互连接。**网络可能最终通过设置权重来关闭一些神经元，但在理想情况下，最初所有神经元都参与训练。
 02 编码器和解码器 编码器和解码器可能是深度学习另一个最基本的架构之一。所有网络都有一个或多个编码器–解码器层。你可以将全连接层中的隐藏层视为来自编码器的编码形式，将输出层视为解码器，它将隐藏层解码并作为输出。通常，编码器将输入编码到中间状态，其中输入为向量，然后解码器网络将该中间状态解码为我们想要的输出形式。
@@ -178,10 +178,10 @@ Facebook的研究小组发现了一个基于卷积神经网络的先进自然语
     
     <item>
       <title>特征工程之数据预处理</title>
-      <link>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
       <pubDate>Tue, 07 Jun 2022 19:09:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说特征工程是机器学习成功的关键。
 什么是特征工程 特征工程又包含了Data PreProcessing（数据预处理）、Feature Extraction（特征提取）、Feature Selection（特征选择）和Feature construction（特征构造）等子问题，本章内容主要讨论数据预处理的方法及实现。 特征工程是机器学习中最重要的起始步骤，数据预处理是特征工程的最重要的起始步骤，而数据清洗是数据预处理的重要组成部分，会直接影响机器学习的效果。
 数据清洗整体介绍 1. 箱线图分析异常值 箱线图提供了识别异常值的标准，如果一个数下雨 QL-1.5IQR or 大于OU + 1.5 IQR, 则这个值被称为异常值。

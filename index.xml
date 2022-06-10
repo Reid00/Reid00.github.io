@@ -10,22 +10,31 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jun 2022 17:45:08 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 12:28:53 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
-      <link>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
+      <link>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Tue, 07 Jun 2022 17:46:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Build Blog with Hugo and deploy on Github Pages with Github Action</description>
     </item>
     
     <item>
+      <title>测试blog</title>
+      <link>https://reid00.github.io/posts/%E6%B5%8B%E8%AF%95blog/</link>
+      <pubDate>Fri, 10 Jun 2022 12:28:53 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/%E6%B5%8B%E8%AF%95blog/</guid>
+      <description>this is good test</description>
+    </item>
+    
+    <item>
       <title>Utterances 给 Hugo PaperMod 主题添加评论系统</title>
-      <link>https://reid00.github.io/post/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
+      <link>https://reid00.github.io/posts/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Wed, 08 Jun 2022 17:45:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
+      <guid>https://reid00.github.io/posts/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
       <description>安装 Utterances 首先要有一个 GitHub 仓库。如果是用 GitHub Page 托管网站就可以不需要额外创建，就用你的GitHub Page repositroy 如:.github.io 仓库, 当然也可以自己重新创建一个，用来存放评论。但是需要注意的是这个仓库必须是Public 的。 比如我的为https://github.com/Reid00/hugo-blog-talks
 然后去 https://github.com/apps/utterances 安装 utterances。
 在打开的页面中选择Only select repositories，并在下拉框中选择自己的博客仓库（比如我就是 Reid00/hugo-blog-talks，也可以安装到其他仓库, 也可以所有仓库，但是不推荐），然后点击 Install。 配置Hugo 复制以下代码，repo 要修改成自己的仓库，repo 为你存放评论的仓库。
@@ -35,10 +44,10 @@
     
     <item>
       <title>SStable</title>
-      <link>https://reid00.github.io/post/sstable/</link>
+      <link>https://reid00.github.io/posts/sstable/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/sstable/</guid>
+      <guid>https://reid00.github.io/posts/sstable/</guid>
       <description>概述 如我们之前提到的，leveldb是典型的LSM树(Log Structured-Merge Tree)实现，即一次leveldb的写入过程并不是直接将数据持久化到磁盘文件中，而是将写操作首先写入日志文件中，其次将写操作应用在memtable上。
 当leveldb达到checkpoint点（memtable中的数据量超过了预设的阈值），会将当前memtable冻结成一个不可更改的内存数据库（immutable memory db），并且创建一个新的memtable供系统继续使用。
 immutable memory db会在后台进行一次minor compaction，即将内存数据库中的数据持久化到磁盘文件中。
@@ -58,10 +67,10 @@ data block结构 data block中存储的数据是leveldb中的keyvalue键值对�
     
     <item>
       <title>高并发架构</title>
-      <link>https://reid00.github.io/post/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
+      <link>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
+      <guid>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
       <description>介绍 什么是高并发，从字面上理解，就是在某一时刻产生大量的请求，那么多少量称为大量，业界并没有标准的衡量范围。原因非常简单，不同的业务处理复杂度不一样。
 而我所理解的高并发，它并不只是一个数字，而更是一种架构思维模式，它让你在面对不同的复杂情况下，从容地选择不同的技术手段，来提升应用系统的处理能力。
 但是，并不意味应用系统从诞生的那一刻，就需要具备强大的处理能力，这种做法并不提倡。要知道，脱离实际情况的技术，会显得毫无价值，甚至是一种浪费的表现。
@@ -113,10 +122,10 @@ RT(平均)的增加，完全可能是由于应用系统当前没有足够的使�
     
     <item>
       <title>拔掉网线后,原本的TCP连接还存在吗？</title>
-      <link>https://reid00.github.io/post/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</link>
+      <link>https://reid00.github.io/posts/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</link>
       <pubDate>Wed, 08 Jun 2022 14:26:19 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</guid>
+      <guid>https://reid00.github.io/posts/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</guid>
       <description>背景 今天，聊一个有趣的问题：拔掉网线几秒，再插回去，原本的 TCP 连接还存在吗？
 可能有的同学会说，网线都被拔掉了，那说明物理层被断开了，那在上层的传输层理应也会断开，所以原本的 TCP 连接就不会存在了。就好像， 我们拨打有线电话的时候，如果某一方的电话线被拔了，那么本次通话就彻底断了。
 真的是这样吗？
@@ -134,10 +143,10 @@ RT(平均)的增加，完全可能是由于应用系统当前没有足够的使�
     
     <item>
       <title>Linux性能检测</title>
-      <link>https://reid00.github.io/post/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
+      <link>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
       <pubDate>Wed, 08 Jun 2022 14:24:48 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
+      <guid>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
       <description>常见的性能检测工具 TOP top是最常用的Linux性能监测工具之一。通过top工具可以监视进程和系统整体性能。
 常见命令一览 安装方式 系统自带，无需安装
 使用方法 使用top命令统计整体CPU、内存资源消耗。 CPU项：显示当前总的CPU时间使用分布。 us表示用户态程序占用的CPU时间百分比。 sy表示内核态程序所占用的CPU时间百分比。 wa表示等待IO等待占用的CPU时间百分比。 hi表示硬中断所占用的CPU时间百分比。 si表示软中断所占用的CPU时间百分比。 通过这些参数我们可以分析CPU时间的分布，是否有较多的IO等待。在执行完调优步骤后，我们也可以对CPU使用时间进行前后对比。如果在运行相同程序、业务情况下CPU使用时间降低，说明性能有提升。
@@ -148,10 +157,10 @@ KiB Mem：表示服务器的总内存大小以及使用情况。 KiB Swap：表�
     
     <item>
       <title>常见的二进位运算技巧</title>
-      <link>https://reid00.github.io/post/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</link>
+      <link>https://reid00.github.io/posts/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Wed, 08 Jun 2022 14:23:59 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://reid00.github.io/posts/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</guid>
       <description>1. 位运算概述 从现代计算机中所有的数据二进制的形式存储在设备中。即 0、1 两种状态，计算机对二进制数据进行的运算(+、-、*、/)都是叫位运算，即将符号位共同参与运算的运算。
 1 2 3 int a = 35; int b = 47; int c = a + b; 实际上运算如下: 计算两个数的和，因为在计算机中都是以二进制来进行运算，所以上面我们所给的 int 变量会在机器内部先转换为二进制在进行相加：
 1 2 3 4 35: 0 0 1 0 0 0 1 1 47: 0 0 1 0 1 1 1 1 ———————————————————— 82: 0 1 0 1 0 0 1 0 所以，相比在代码中直接使用(+、-、*、/)运算符，合理的运用位运算更能显著提高代码在机器上的执行效率。
@@ -161,10 +170,10 @@ KiB Mem：表示服务器的总内存大小以及使用情况。 KiB Swap：表�
     
     <item>
       <title>Vscode远程开发配置</title>
-      <link>https://reid00.github.io/post/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</link>
+      <link>https://reid00.github.io/posts/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Wed, 08 Jun 2022 14:22:29 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://reid00.github.io/posts/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</guid>
       <description>准备vscode 插件 在vs code的扩展商店中搜索remote-ssh, install 配置remmote-ssh 插件 使用快捷点, ctrl + shift + P 输入config 选择第一个，在.ssh 目录的config文件 按照以下格式配置
 1 2 3 4 5 Host Personal HostName 172.16.1.1 User root Port 22 IdentityFile C:\Users\ld\.ssh\id_rsa Host: 自定义的服务器名称，用于个人区分 HostName: 需要远程的服务器的IP 地址 User: 远程服务器用的账号 Port: 默认ssh 端口22 IdentityFile: 免登录的id_rsa路径 注意: 多次实验加入IdentityFile 都不能做到通过跳板机免密码，最后把客户机的id_rsa.pub添加到target 才免密， 相当于直接可以连接target机器了。
 如果通过跳板机连接服务器 有时候我们需要跳板机来连接服务器，也即先连接一台跳板机服务器，然后通过这台跳板机所在的内网再次跳转到目标服务器。 最简单的做法就是按上述方法连接到跳板机，然后在跳板机的终端用ssh指令跳转到目标服务器，但这样跳转后，我们无法在VScode中打开服务器的文件目录，操作起来很不方便。我们可以把config的设置改成如下，就可以通过c00跳板机跳转到c01了
@@ -173,10 +182,10 @@ KiB Mem：表示服务器的总内存大小以及使用情况。 KiB Swap：表�
     
     <item>
       <title>RocksDB</title>
-      <link>https://reid00.github.io/post/rocksdb/</link>
+      <link>https://reid00.github.io/posts/rocksdb/</link>
       <pubDate>Wed, 08 Jun 2022 14:21:12 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/rocksdb/</guid>
+      <guid>https://reid00.github.io/posts/rocksdb/</guid>
       <description>简介 RocksDB 是由 Facebook 基于 LevelDB 开发的一款提供键值存储与读写功能的 LSM-tree 架构引擎。用户写入的键值对会先写入磁盘上的 WAL (Write Ahead Log)，然后再写入内存中的跳表（SkipList，这部分结构又被称作 MemTable）。LSM-tree 引擎由于将用户的随机修改（插入）转化为了对 WAL 文件的顺序写，因此具有比 B 树类存储引擎更高的写吞吐。
 内存中的数据达到一定阈值后，会刷到磁盘上生成 SST 文件 (Sorted String Table)，SST 又分为多层（默认至多 6 层），每一层的数据达到一定阈值后会挑选一部分 SST 合并到下一层，每一层的数据是上一层的 10 倍（因此 90% 的数据存储在最后一层）。
 RocksDB 允许用户创建多个 ColumnFamily ，这些 ColumnFamily 各自拥有独立的内存跳表以及 SST 文件，但是共享同一个 WAL 文件，这样的好处是可以根据应用特点为不同的 ColumnFamily 选择不同的配置，但是又没有增加对 WAL 的写次数。
@@ -185,10 +194,10 @@ rocksdb 和 leveldb对比优势 Leveldb是单线程合并文件，Rocksdb可以�
     
     <item>
       <title>LSM Tree</title>
-      <link>https://reid00.github.io/post/lsm-tree/</link>
+      <link>https://reid00.github.io/posts/lsm-tree/</link>
       <pubDate>Wed, 08 Jun 2022 14:20:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/lsm-tree/</guid>
+      <guid>https://reid00.github.io/posts/lsm-tree/</guid>
       <description>简介LSM Tree MySQL、etcd 等存储系统都是面向读多写少场景的，其底层大都采用 B-Tree 及其变种数据结构。而 LSM-Tree 则解决了另一个应用场景——写多读少时面临的问题。在面对亿级的海量数据的存储和检索的场景下，我们通常选择强力的 NoSQL 数据库，如 Hbase、RocksDB 等，它们的文件组织方式，都是仿照 LSM-Tree 实现的。 reference
 LSM-Tree 全称是 Log Structured Merge Tree，是一种分层、有序、面向磁盘的数据结构，其核心思想是充分利用磁盘的顺序写性能要远高于随机写性能这一特性，将批量的随机写转化为一次性的顺序写。
 从上图可以直观地看出，磁盘的顺序访问速度至少比随机 I/O 快三个数量级，甚至顺序访问磁盘比随机访问主内存还要快。这意味着要尽可能避免随机 I/O 操作，顺序访问非常值得我们去探讨与设计。
@@ -200,10 +209,10 @@ C1 组件是为顺序性的磁盘访问优化过的，可以是 B-Tree 一类的
     
     <item>
       <title>RAFT</title>
-      <link>https://reid00.github.io/post/raft/</link>
+      <link>https://reid00.github.io/posts/raft/</link>
       <pubDate>Wed, 08 Jun 2022 14:19:19 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/raft/</guid>
+      <guid>https://reid00.github.io/posts/raft/</guid>
       <description>Raft 协议介绍 为了让一致性协议变得简单可理解，Raft协议主要使用了两种策略。一是将复杂问题进行分解，在Raft协议中，一致性问题被分解为：leader election、log replication、safety三个简单问题；二是减少状态空间中的状态数目。下面我们详细看一下Raft协议是怎样设计的。
 分布式系统要解决的问题 时序性 Timing 运行在不同网络下的机器中的进程如何判断一些事件发生的顺序 并发性 Con currency 运行在不同网络环境下的机器中的进程如何共享资源，而不互相干扰，比如访问共同的数据库 健壮性 Robustness 应对网络不稳定性以及硬件的不稳定性 一致性 Consistency 如何保障无论哪个服务节点都能获得相同的结果 需要达成的共识 逻辑时间的共识，来决定事件发生的顺序 互斥性的共识，用来决定谁真正拥有访问的资源 协调者的共识，谁是当下的Leader Raft一致性算法 在Raft体系中，有一个强leader，由它全权负责接收客户端的请求命令，并将命令作为日志条目复制给其他服务器，在确认安全的时候，将日志命令提交执行。当leader故障时，会选举产生一个新的leader。在强leader的帮助下，Raft将一致性问题分解为了三个子问题：
 leader选举：当已有的leader故障时必须选出一个新的leader。 日志复制：leader接受来自客户端的命令，记录为日志，并复制给集群中的其他服务器，并强制其他节点的日志与leader保持一致。 安全safety措施：通过一些措施确保系统的安全性，如确保所有状态机按照相同顺序执行相同命令的措施。 1. 基本概念 一个Raft集群拥有多个服务器，典型值是5，这样可以容忍两台服务器出现故障。服务器可能会处于如下三种角色：leader、candidate、follower，正常运行的情况下，会有一个leader，其他全为follower，follower只会响应leader和candidate的请求，而客户端的请求则全部由leader处理，即使有客户端请求了一个follower也会将请求重定向到leader。candidate代表候选人，出现在选举leader阶段，选举成功后candidate将会成为新的leader。可能出现的状态转换关系如下图： 从状态转换关系图中可以看出，集群刚启动时，所有节点都是follower，之后在time out信号的驱使下，follower会转变成candidate去拉取选票，获得大多数选票后就会成为leader，这时候如果其他候选人发现了新的leader已经诞生，就会自动转变为follower；而如果另一个time out信号发出时，还没有选举出leader，将会重新开始一次新的选举。可见，time out信号是促使角色转换得关键因素，类似于操作系统中得中断信号。
@@ -217,10 +226,10 @@ server之间的交流是通过RPC进行的。只需要实现两种RPC就能构�
     
     <item>
       <title>数学中的十大悖论</title>
-      <link>https://reid00.github.io/post/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
+      <link>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
       <pubDate>Wed, 08 Jun 2022 14:17:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
+      <guid>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
       <description>常见反直觉定理 生日悖论 假设房间里有23人，那么两个人生日是同天的概率将大于50%。我们很容易得出，任何一个特定的日子里某人过生日的概率是1/365。
 所以这个理论看似是无法成立，但理论与现实差异正源自于：我们的唯一要求是两个人彼此拥有同一天生日即可，不限定在特定的一天。 否则，如果换做某人在某特定日期生日，例如2月19日，那么23个人中概率便仅为6.12%。
 另一方面如果你在有23个人的房间挑选一人问他：“有人和你同一天生日吗？”答案很可能是否定的。 但如果重复询问其余22人，每问一次，你便会有更大机会得到肯定答复，最终这个概率是50.7%。 结论 当房间里有23人，那么存在生日相同的概率超过50%, 如果有60人，则超过99%
@@ -240,10 +249,10 @@ server之间的交流是通过RPC进行的。只需要实现两种RPC就能构�
     
     <item>
       <title>ES面试题</title>
-      <link>https://reid00.github.io/post/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Wed, 08 Jun 2022 14:15:28 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
       <description>ElasticSearch面试题 1.为什么要使用Elasticsearch? 因为在我们商城中的数据，将来会非常多，所以采用以往的模糊查询，模糊查询前置配置，会放弃索引，导致商品查询是全表扫面，在百万级别的数据库中，效率非常低下，而我们使用ES做一个全文索引，我们将经常查询的商品的某些字段，比如说商品名，描述、价格还有id这些字段我们放入我们索引库里，可以提高查询速度。
 2.Elasticsearch是如何实现Master选举的？ Elasticsearch的选主是ZenDiscovery模块负责的，主要包含Ping（节点之间通过这个RPC来发现彼此）和Unicast（单播模块包含一个主机列表以控制哪些节点需要ping通）这两部分；
 对所有可以成为master的节点（node.master: true）根据nodeId字典排序，每次选举每个节点都把自己所知道节点排一次序，然后选出第一个（第0位）节点，暂且认为它是master节点。 如果对某个节点的投票数达到一定的值（可以成为master节点数n/2+1）并且该节点自己也选举自己，那这个节点就是master。否则重新选举一直到满足上述条件。 补充：master节点的职责主要包括集群、节点和索引的管理，不负责文档级别的管理；data节点可以关闭http功能。 3.Elasticsearch中的节点（比如共20个），其中的10个选了一个master，另外10个选了另一个master，怎么办？ 当集群master候选数量不小于3个时，可以通过设置最少投票通过数量（discovery.zen.minimum_master_nodes）超过所有候选节点一半以上来解决脑裂问题； 当候选数量为两个时，只能修改为唯一的一个master候选，其他作为data节点，避免脑裂问题。
@@ -254,11 +263,11 @@ server之间的交流是通过RPC进行的。只需要实现两种RPC就能构�
     </item>
     
     <item>
-      <title>GBDT&#43;LR</title>
-      <link>https://reid00.github.io/post/ml/gbdt&#43;lr/</link>
+      <title>GBDT and LR</title>
+      <link>https://reid00.github.io/posts/ml/gbdt&#43;lr/</link>
       <pubDate>Wed, 08 Jun 2022 14:10:06 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/gbdt&#43;lr/</guid>
+      <guid>https://reid00.github.io/posts/ml/gbdt&#43;lr/</guid>
       <description>概述 GBDT的加入，是为了弥补LR难以实现特征组合的缺点。
 LR LR作为一个线性模型，以概率形式输出结果，在工业上得到了十分广泛的应用。 其具有简单快速高效，结果可解释，可以分布式计算。搭配L1，L2正则，可以有很好地鲁棒性以及挑选特征的能力。
 但由于其简单，也伴随着拟合能力不足，无法做特征组合的缺点。
@@ -280,10 +289,10 @@ https://www.zhihu.com/question/35821566
     
     <item>
       <title>FM FFM DeepFM</title>
-      <link>https://reid00.github.io/post/ml/fm-ffm-deepfm/</link>
+      <link>https://reid00.github.io/posts/ml/fm-ffm-deepfm/</link>
       <pubDate>Wed, 08 Jun 2022 14:03:00 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/fm-ffm-deepfm/</guid>
+      <guid>https://reid00.github.io/posts/ml/fm-ffm-deepfm/</guid>
       <description>介绍 FM和FMM模型在数据量比较大并且特征稀疏的情况下，仍然有优秀的性能表现，在CTR/CVR任务上尤其突出。
 本文包括：
 - FM 模型 - FFM 模型 - Deep FM 模型 - Deep FFM模型 FM模型的引入-广告特征的稀疏性 FM（Factorization machines）模型由Steffen Rendle于2010年提出，目的是解决稀疏数据下的特征组合问题。
@@ -296,10 +305,10 @@ Clicked? Country=USA Country=China Day=26/11/15 Day=19/2/15 Ad_type=Movie Ad_typ
     
     <item>
       <title>CTR发展</title>
-      <link>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</link>
+      <link>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</link>
       <pubDate>Wed, 08 Jun 2022 14:00:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/ctr%E5%8F%91%E5%B1%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/ctr%E5%8F%91%E5%B1%95/</guid>
       <description>简介 在推荐、搜索、广告等领域，CTR（click-through rate）预估是一项非常核心的技术，这里引用阿里妈妈资深算法专家朱小强大佬的一句话：“它（CTR预估）是镶嵌在互联网技术上的明珠”。
 本篇文章主要是对CTR预估中的常见模型进行梳理与总结，并分成模块进行概述。每个模型都会从「模型结构」、「优势」、「不足」三个方面进行探讨，在最后对所有模型之间的关系进行比较与总结。本篇文章讨论的模型如下图所示（原创图），这个图中展示了本篇文章所要讲述的算法以及之间的关系，在文章的最后总结会对这张图进行详细地说明。
 一. 分布式线性模型 Logistic Regression Logistic Regression是每一位算法工程师再也熟悉不过的基本算法之一了，毫不夸张地说，LR作为最经典的统计学习算法几乎统治了早期工业机器学习时代。这是因为其具备简单、时间复杂度低、可大规模并行化等优良特性。在早期的CTR预估中，算法工程师们通过手动设计交叉特征以及特征离散化等方式，赋予LR这样的线性模型对数据集的非线性学习能力，高维离散特征+手动交叉特征构成了CTR预估的基础特征。LR在工程上易于大规模并行化训练恰恰适应了这个时代的要求。
@@ -321,10 +330,10 @@ FM的公式包含了一阶线性部分与二阶特征交叉部分：
     
     <item>
       <title>Token Cookie Session区别</title>
-      <link>https://reid00.github.io/post/token-cookie-session%E5%8C%BA%E5%88%AB/</link>
+      <link>https://reid00.github.io/posts/token-cookie-session%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Wed, 08 Jun 2022 13:57:41 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/token-cookie-session%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://reid00.github.io/posts/token-cookie-session%E5%8C%BA%E5%88%AB/</guid>
       <description>在做接口测试时，经常会碰到请求参数为token的类型，但是可能大部分测试人员对token，cookie，session的区别还是一知半解。
 Cookie cookie 是一个非常具体的东西，指的就是浏览器里面能永久存储的一种数据，仅仅是浏览器实现的一种数据存储功能。
 cookie由服务器生成，发送给浏览器，浏览器把cookie以kv形式保存到某个目录下的文本文件内，下一次请求同一网站时会把该cookie发送给服务器。由于cookie是存在客户端上的，所以浏览器加入了一些限制确保cookie不会被恶意使用，同时不会占据太多磁盘空间，所以每个域的cookie数量是有限的。
@@ -345,10 +354,10 @@ token是个易失数据，丢了无非让用户重新登录一下，新浪微博
     
     <item>
       <title>搜索引擎背后的经典数据结构和算法</title>
-      <link>https://reid00.github.io/post/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
       <pubDate>Wed, 08 Jun 2022 11:54:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
       <description>前言 我们每天都在用 Google, 百度这些搜索引擎，那大家有没想过搜索引擎是如何实现的呢，看似简单的搜索其实技术细节非常复杂，说搜索引擎是 IT 皇冠上的明珠也不为过，今天我们来就来简单过一下搜索引擎的原理，看看它是如何工作的，当然搜索引擎博大精深，一篇文章不可能完全介绍完，我们只会介绍它最重要的几个步骤，不过万变不离其宗，搜索引擎都离开这些重要步骤，剩下的无非是在其上添砖加瓦，所以掌握这些「关键路径」，能很好地达到观一斑而窥全貎的目的。
 本文将会从以下几个部分来介绍搜索引擎，会深度剖析搜索引擎的工作原理及其中用到的一些经典数据结构和算法，相信大家看了肯定有收获。
 搜索引擎系统架构图
@@ -362,10 +371,10 @@ token是个易失数据，丢了无非让用户重新登录一下，新浪微博
     
     <item>
       <title>MySql事务</title>
-      <link>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Wed, 08 Jun 2022 11:52:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</guid>
       <description>『浅入深出』MySQL 中事务的实现 https://draveness.me/mysql-transaction/
 MySQL 中如何实现事务隔离 https://www.cnblogs.com/fengzheng/p/12557762.html
 详解一条 SQL 的执行过程
@@ -389,10 +398,10 @@ https://juejin.cn/post/6931606328129355790
     
     <item>
       <title>Python多线程多进程</title>
-      <link>https://reid00.github.io/post/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</link>
+      <link>https://reid00.github.io/posts/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Wed, 08 Jun 2022 11:49:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</guid>
+      <guid>https://reid00.github.io/posts/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</guid>
       <description>一、 python 的多线程不能利用多核CPU 因为GIL (全局解释器锁), Pyhton 只有一个GIL， 在运行Python 时， 就要拿到这个锁，才能运行，在遇到I/O 操作时，会释放这把锁。
 如果是纯计算型的程序，没有I/O 操作，解释器会每隔100 次操作就释放这把锁，让别的线程有机会执行(这个次数可以通sys.setcheckinterval来调整), 同一时间内，有且仅会只有一个线程获得GIL 在运行，其他线程都处于等待状态。
 如果是CPU 密集型的代码比如，循环，计算等，由于计算量多和大，计算很快就会达到100次，然后触发GIL 的释放与竞争，多个线程来回切换损耗资源，所以在多线程遇到CPU密集型的代码时，效率远远不如单线程高 如果是I/O 密集型代码(文件处理，网络爬虫), 开启多线程实际上是并发，IO操作会进行IO等待，在线程A等待时，自动切换到线程B，这样就提升了效率。 面向I/O的（会调用内建的操作系统C代码的）程序来说，GIL会在这个I/O调用之前被释放，以允许其他线程在这个线程等待I/O的时候运行。如果某线程并未使用很多I/O操作，它会在自己的时间片内一直占用处理器和GIL。 也就是说，I/O密集型的Python程序比计算密集型的Python程序更能充分利用多线程的好处。我们都知道，比方我有一个4核的CPU，那么这样一来，在单位时间内每个核只能跑一个线程，然后时间片轮转切换。 但是Python不一样，它不管你有几个核，单位时间多个核只能跑一个线程，然后时间片轮转。看起来很不可思议？但是这就是GIL搞的鬼。任何Python线程执行前，必须先获得GIL锁，然后，每执行100条字节码，解释器就自动释放GIL锁， 让别的线程有机会执行。这个GIL全局锁实际上把所有线程的执行代码都给上了锁，所以，多线程在Python中只能交替执行，即使100个线程跑在100核CPU上，也只能用到1个核。通常我们用的解释器是官方实现的CPython，要真正利用多核，除非重写一个不带GIL的解释器。
@@ -408,10 +417,10 @@ IO密集型任务执行期间，99%的时间都花在IO上，花在CPU上的时�
     
     <item>
       <title>KG表示学习</title>
-      <link>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Wed, 08 Jun 2022 11:45:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://reid00.github.io/posts/ml/kg%E8%A1%A8%E7%A4%BA%E5%AD%A6%E4%B9%A0/</guid>
       <description>一、概述 网络表示学习（Representation Learning on Network），一般说的就是向量化（Embedding）技术，简单来说，就是将网络中的结构（节点、边或者子图），通过一系列过程，变成一个多维向量，通过这样一层转化，能够将复杂的网络信息变成结构化的多维特征，从而利用机器学习方法实现更方便的算法应用
 主流的KG embedding的方法包括基于平移的模型（典型代表：TransE），基于矩阵分解的模型（典型代表：RESCAL），基于神经网络的模型（典型代表：NTN）和基于图神经网络的模型（典型代表：RGCN）。
 我们开始介绍知识表示学习的几个代表模型，包括：结构向量模型、语义匹配能量模型、隐变量模型、神经张量网络模型、矩阵分解模型和平移模型，等等。
@@ -441,10 +450,10 @@ RandomWalk是一种可重复访问已访问节点的深度优先遍历算法。�
     
     <item>
       <title>编码那些事</title>
-      <link>https://reid00.github.io/post/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <link>https://reid00.github.io/posts/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
       <pubDate>Wed, 08 Jun 2022 11:40:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <guid>https://reid00.github.io/posts/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
       <description>一直以来，编码问题像幽灵一般，不少开发人员都受过它的困扰。
 试想你请求一个数据，却得到一堆乱码，丈二和尚摸不着头脑。有同事质疑你的数据是乱码，虽然你很确定传了 UTF-8 ，却也无法自证清白，更别说帮同事 debug 了。
 有时，靠着百度和一手瞎调的手艺，乱码也能解决。尽管如此，还是很羡慕那些骨灰级程序员。为什么他们每次都能犀利地指出问题，并快速修复呢？原因在于，他们早就把编码问题背后的各种来龙去脉搞清楚了。
@@ -460,10 +469,10 @@ RandomWalk是一种可重复访问已访问节点的深度优先遍历算法。�
     
     <item>
       <title>TCP IP协议</title>
-      <link>https://reid00.github.io/post/tcp-ip%E5%8D%8F%E8%AE%AE/</link>
+      <link>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</link>
       <pubDate>Wed, 08 Jun 2022 11:39:22 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
+      <guid>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
       <description>TCP/IP 协议族 通常我说 TCP/IP 是指 TCP/IP 协议族。它是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大集合。 例如：http、https、ftp、icmp、arp、rarp、smtp（简单邮件传输协议）
 当输入 xxxxHub 后，到网页显示，其间发生了什么？这问题被面试官问了五六十次，熬夜赶出这篇文章
 https://mp.weixin.qq.com/s/ESJ8Zt0GBVXHKj3KICoqjg
@@ -474,10 +483,10 @@ TCP、UDP有什么区别？各有什么优劣？ TCP 面向连接，提供可靠
     
     <item>
       <title>常用Normalization方法的总结与思考</title>
-      <link>https://reid00.github.io/post/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</link>
       <pubDate>Wed, 08 Jun 2022 11:36:46 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%B8%B8%E7%94%A8normalization%E6%96%B9%E6%B3%95%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83/</guid>
       <description>简介 常用的Normalization方法主要有：Batch Normalization（BN，2015年）、Layer Normalization（LN，2016年）、Instance Normalization（IN，2017年）、Group Normalization（GN，2018年）。它们都是从激活函数的输入来考虑、做文章的，以不同的方式对激活函数的输入进行 Norm 的。
 我们将输入的 feature map shape 记为**[N, C, H, W]**，其中N表示batch size，即N个样本；C表示通道数；H、W分别表示特征图的高度、宽度。这几个方法主要的区别就是在：
 BN是在batch上，对N、H、W做归一化，而保留通道 C 的维度。BN对较小的batch size效果不好。BN适用于固定深度的前向神经网络，如CNN，不适用于RNN；
@@ -496,20 +505,20 @@ https://mp.weixin.qq.com/s/dDMPBYjPeilivSA8J8W7lA https://zhuanlan.zhihu.com/p/7
     
     <item>
       <title>Self Attention</title>
-      <link>https://reid00.github.io/post/ml/self-attention/</link>
+      <link>https://reid00.github.io/posts/ml/self-attention/</link>
       <pubDate>Wed, 08 Jun 2022 11:35:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/self-attention/</guid>
+      <guid>https://reid00.github.io/posts/ml/self-attention/</guid>
       <description>Refer ：https://blog.csdn.net/shenfuli/article/details/106523650
 Multi-Head Attention: https://blog.csdn.net/qq_37394634/article/details/102679096</description>
     </item>
     
     <item>
       <title>CNN RNN GAN</title>
-      <link>https://reid00.github.io/post/ml/cnn-rnn-gan/</link>
+      <link>https://reid00.github.io/posts/ml/cnn-rnn-gan/</link>
       <pubDate>Wed, 08 Jun 2022 11:33:17 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/cnn-rnn-gan/</guid>
+      <guid>https://reid00.github.io/posts/ml/cnn-rnn-gan/</guid>
       <description>01 全连接网络 全连接、密集和线性网络是最基本但功能强大的架构这是机器学习的直接扩展，将神经网络与单个隐藏层结合使用。全连接层充当所有架构的最后一部分，用于获得使用下方深度网络所得分数的概率分布。
 **如其名称所示，全连接网络将其上一层和下一层中的所有神经元相互连接。**网络可能最终通过设置权重来关闭一些神经元，但在理想情况下，最初所有神经元都参与训练。
 02 编码器和解码器 编码器和解码器可能是深度学习另一个最基本的架构之一。所有网络都有一个或多个编码器–解码器层。你可以将全连接层中的隐藏层视为来自编码器的编码形式，将输出层视为解码器，它将隐藏层解码并作为输出。通常，编码器将输入编码到中间状态，其中输入为向量，然后解码器网络将该中间状态解码为我们想要的输出形式。
@@ -540,10 +549,10 @@ Facebook的研究小组发现了一个基于卷积神经网络的先进自然语
     
     <item>
       <title>进程与线程基础知识</title>
-      <link>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <link>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Wed, 08 Jun 2022 11:28:07 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <guid>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
       <description>前言 先来看看一则小故事
 我们写好的一行行代码，为了让其工作起来，我们还得把它送进城（进程）里，那既然进了城里，那肯定不能胡作非为了。
 城里人有城里人的规矩，城中有个专门管辖你们的城管（操作系统），人家让你休息就休息，让你工作就工作，毕竟摊位（CPU）就一个，每个人都要占这个摊位来工作，城里要工作的人多着去了。
@@ -582,10 +591,10 @@ Facebook的研究小组发现了一个基于卷积神经网络的先进自然语
     
     <item>
       <title>Dockerfile案例</title>
-      <link>https://reid00.github.io/post/dockerfile%E6%A1%88%E4%BE%8B/</link>
+      <link>https://reid00.github.io/posts/dockerfile%E6%A1%88%E4%BE%8B/</link>
       <pubDate>Wed, 08 Jun 2022 11:27:14 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/dockerfile%E6%A1%88%E4%BE%8B/</guid>
+      <guid>https://reid00.github.io/posts/dockerfile%E6%A1%88%E4%BE%8B/</guid>
       <description>一、DockerHub 官网链接 https://hub.docker.com/
 二、Dockerfile 关键字 注意: dockerfile 的关键字必须都是大写才能使用
 FROM
@@ -611,10 +620,10 @@ WORKDIR
     
     <item>
       <title>Docker笔记</title>
-      <link>https://reid00.github.io/post/docker%E7%AC%94%E8%AE%B0/</link>
+      <link>https://reid00.github.io/posts/docker%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 08 Jun 2022 11:26:10 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/docker%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://reid00.github.io/posts/docker%E7%AC%94%E8%AE%B0/</guid>
       <description>一、概述 1.1 基本概念： Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。比如，你在本地用Python开发网站后台，开发测试完成后，就可以将Python3及其依赖包、Flask及其各种插件、Mysql、Nginx等打包到一个容器中，然后部署到任意你想部署到的环境。
 1.2 对比虚拟机与Docker Docker守护进程可以直接与主操作系统进行通信，为各个Docker容器分配资源；它还可以将容器与主操作系统隔离，并将各个容器互相隔离。虚拟机启动需要数分钟，而Docker容器可以在数毫秒内启动。由于没有臃肿的从操作系统，Docker可以节省大量的磁盘空间以及其他系统资源。
 说了这么多Docker的优势，大家也没有必要完全否定虚拟机技术，因为两者有不同的使用场景。虚拟机更擅长于彻底隔离整个运行环境。例如，云服务提供商通常采用虚拟机技术隔离不同的用户。而Docker通常用于隔离不同的应用，例如前端，后端以及数据库。
@@ -627,10 +636,10 @@ docker Registry镜像仓库——&amp;gt;镜像存放的中央仓库，可看作
     
     <item>
       <title>Unicode编码与Python</title>
-      <link>https://reid00.github.io/post/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</link>
+      <link>https://reid00.github.io/posts/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</link>
       <pubDate>Wed, 08 Jun 2022 11:24:15 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</guid>
+      <guid>https://reid00.github.io/posts/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</guid>
       <description>简介 这有篇很好的文章，可以明白这个问题:
 为什么会报错“UnicodeEncodeError: &#39;ascii&#39; codec can&#39;t encode characters in position 0-1: ordinal not in range(128)”？本文就来研究一下这个问题。
 字符串在Python内部的表示是unicode编码，因此，在做编码转换时，通常需要以unicode作为中间编码，即先将其他编码的字符串解码（decode）成unicode，再从unicode编码（encode）成另一种编码。
@@ -655,10 +664,10 @@ isinstance(s, unicode) #用来判断是否为unicode
     
     <item>
       <title>集成学习之xgboost</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
       <pubDate>Wed, 08 Jun 2022 11:09:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
       <description>一、XGBoost和GBDT xgboost是一种集成学习算法，属于3类常用的集成方法(bagging,boosting,stacking)中的boosting算法类别。它是一个加法模型，基模型一般选择树模型，但也可以选择其它类型的模型如逻辑回归等。
 xgboost属于梯度提升树(GBDT)模型这个范畴，GBDT的基本想法是让新的基模型（GBDT以CART分类回归树为基模型）去拟合前面模型的偏差，从而不断将加法模型的偏差降低。
 相比于经典的GBDT，xgboost做了一些改进，从而在效果和性能上有明显的提升（划重点面试常考）。
@@ -717,10 +726,10 @@ Boosting法是结合多个弱学习器给出最终的学习结果，不管任务
     
     <item>
       <title>机器学习之常见损失函数</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</link>
       <pubDate>Wed, 08 Jun 2022 11:08:15 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%B8%B8%E8%A7%81%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0/</guid>
       <description>简介 损失函数用来评价模型的预测值和真实值不一样的程度，损失函数越好，通常模型的性能越好。不同的模型用的损失函数一般也不一样。
 损失函数分为经验风险损失函数和结构风险损失函数。经验风险损失函数指预测结果和实际结果的差别，结构风险损失函数是指经验风险损失函数加上正则项。
 常见的损失函数以及其优缺点如下：
@@ -753,10 +762,10 @@ Boosting法是结合多个弱学习器给出最终的学习结果，不管任务
     
     <item>
       <title>MySql索引优化</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 11:04:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
       <description>数据库表结构：
 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name=&amp;#39;shenjian&amp;#39; select id,name,sex where name=&amp;#39;shenjian&amp;#39; 多查询了一个属性，为何检索过程完全不同？
 什么是回表查询？
@@ -783,10 +792,10 @@ t(id PK, name KEY, sex, flag);
     
     <item>
       <title>MySql索引介绍</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Wed, 08 Jun 2022 11:02:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
       <description>什么是索引，索引的作用 当我们要在新华字典里查某个字（如「先」）具体含义的时候，通常都会拿起一本新华字典来查，你可以先从头到尾查询每一页是否有「先」这个字，这样做（对应数据库中的全表扫描）确实能找到，但效率无疑是非常低下的，更高效的方相信大家也都知道，就是在首页的索引里先查找「先」对应的页数，然后直接跳到相应的页面查找，这样查询时候大大减少了，可以为是 O(1)。
 数据库中的索引也是类似的，通过索引定位到要读取的页，大大减少了需要扫描的行数，能极大的提升效率，简而言之，索引主要有以下几个作用:
 即上述所说，索引能极大地减少扫描行数 索引可以帮助服务器避免排序和临时表 索引可以将随机 IO 变成顺序 IO MySQL中索引的存储类型有两种：BTREE和HASH，具体和表的存储引擎相关；
@@ -803,10 +812,10 @@ MyISAM和InnoDB存储引擎只支持BTREE索引，MEMORY/HEAP存储引擎可以�
     
     <item>
       <title>MySql高频面试问题</title>
-      <link>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 08 Jun 2022 11:00:46 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
       <description>本文主要受众为开发人员,所以不涉及到MySQL的服务部署等操作,且内容较多,大家准备好耐心和瓜子矿泉水。
 前一阵系统的学习了一下MySQL,也有一些实际操作经验,偶然看到一篇和MySQL相关的面试文章,发现其中的一些问题自己也回答不好,虽然知识点大部分都知道,但是无法将知识串联起来。
 因此决定搞一个MySQL灵魂100问,试着用回答问题的方式,让自己对知识点的理解更加深入一点。
@@ -859,10 +868,10 @@ MySQL提供了explain命令来查看语句的执行计划,MySQL在执行某个�
     
     <item>
       <title>机器学习之优化算法</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
       <pubDate>Wed, 08 Jun 2022 10:58:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
       <description>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？
 这篇文章介绍了不同优化算法之间的主要区别，以及如何选择最佳的优化方法。
 梯度: 是多元函数对当前给定点，上升最快的方向。梯度是一组向量，所以带有方向;
@@ -907,10 +916,10 @@ MySQL提供了explain命令来查看语句的执行计划,MySQL在执行某个�
     
     <item>
       <title>Python Import导入上级目录文件</title>
-      <link>https://reid00.github.io/post/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</link>
+      <link>https://reid00.github.io/posts/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</link>
       <pubDate>Wed, 08 Jun 2022 10:55:54 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://reid00.github.io/posts/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</guid>
       <description>假设有如下目录结构：
 1 2 3 4 5 6 7 -- dir0 | file1.py | file2.py | dir3 | file3.py | dir4 | file4.py dir0文件夹下有file1.py、file2.py两个文件和dir3、dir4两个子文件夹，dir3中有file3.py文件，dir4中有file4.py文件。
 1.导入同级模块 python导入同级模块（在同一个文件夹中的py文件）直接导入即可。
@@ -922,10 +931,10 @@ MySQL提供了explain命令来查看语句的执行计划,MySQL在执行某个�
     
     <item>
       <title>集成学习之GBDT</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</link>
       <pubDate>Wed, 08 Jun 2022 10:54:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bgbdt/</guid>
       <description>什么是GBDT 到底什么是梯度提升树？所谓的GBDT实际上就是：
 GBDT = Gradient Descent + Boosting + Desicion Tree
 与Adaboost算法类似，GBDT也是使用了前向分布算法的加法模型。只不过弱学习器限定了只能使用CART回归树模型，同时迭代思路和Adaboost也有所不同。
@@ -954,10 +963,10 @@ max_features: 划分时考虑的最大特征数，默认是&amp;quot;None&amp;qu
     
     <item>
       <title>集成学习之Bagging,Boosting</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</link>
       <pubDate>Wed, 08 Jun 2022 10:53:37 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bbaggingboosting/</guid>
       <description>生成子模型的两种取样方式 那么为了造成子模型之间的差距，每个子模型只看样本中的一部分，这就涉及到两种取样方式：
 放回取样：Bagging，在统计学中也被称为bootstrap。 不放回取样：Boosting 在集成学习中我们通常采用 Bagging 的方式，具体原因如下：
 因为取样后放回，所以不受样本数据量的限制，允许对同一种分类器上对训练集进行进行多次采样，可以训练更多的子模型。 在 train_test_split 时，不那么强烈的依赖随机；而 Boosting的方式，会受到随机的影响； Boosting的随机问题：Pasting 的方式等同于将 500 个样本分成 5 份，每份 100 个样本，怎么分，将对子模型有较大影响，进而对集成系统的准确率有较大影响。 什么是Bagging Bagging，即bootstrap aggregating的缩写，每个训练集称为bootstrap。
@@ -978,10 +987,10 @@ Out-of-Bag 对于Bagging来说，一些实例可能被一些分类器重复采�
     
     <item>
       <title>集成学习之AdaBoost</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
       <pubDate>Wed, 08 Jun 2022 10:29:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
       <description>Boosting算法的工作机制 用初始权重D(1)从数据集中训练出一个弱学习器1 根据弱学习1的学习误差率表现来更新训练样本的权重D(2)，使得之前弱学习器1学习误差率高的样本点的权重变高，使得这些误差率高的点在后面的弱学习器2中得到更多的重视。 然后基于调整权重后的训练集来训练弱学习器2 如此重复进行，直到弱学习器数达到事先指定的数目T，最终将这T个弱学习器通过集合策略进行整合，得到最终的强学习器。 现如今已经有很多的提升方法了，但最著名的就是Adaboost（适应性提升，是Adaptive Boosting的简称）和Gradient Boosting（梯度提升）。让我们先从 Adaboost 说起。
 什么是AdaBoost AdaBoost是一个具有里程碑意义的算法，其中，适应性（adaptive）是指：后续的分类器为更好地支持被先前分类器分类错误的样本实例而进行调整。通过对之前分类结果不对的训练实例多加关注，使新的预测因子越来越多地聚焦于之前错误的情况。
 具体说来，整个AdaBoost迭代算法就3步：
@@ -1006,10 +1015,10 @@ Adaboost可以认为其模型是加法模型、损失函数为指数函数、学
     
     <item>
       <title>随机森林算法及其在特征选择中的应用</title>
-      <link>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</link>
       <pubDate>Wed, 08 Jun 2022 10:28:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E7%AE%97%E6%B3%95%E5%8F%8A%E5%85%B6%E5%9C%A8%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
       <description>随机森林算法思想 随机森林（Random Forest）使用多个CART决策树作为弱学习器，不同决策树之间没有关联。当我们进行分类任务时，新的输入样本进入，就让森林中的每一棵决策树分别进行判断和分类，每个决策树会得到一个自己的分类结果，决策树的分类结果中哪一个分类最多，那么随机森林就会把这个结果当做最终的结果。
 随机森林在生成决策树的时候用随机选择的特征，即使用Bagging方法。这么做的原因是：如果训练集中的某几个特征对输出的结果有很强的预测性，那么这些特征会被每个决策树所应用，这样会导致树之间具有相关性，这样并不会减小模型的方差。
 随机森林对决策树的建立做了一些改进：
@@ -1049,10 +1058,10 @@ RF算法的有一个典型的应用：评估单个特征变量的重要性并进
     
     <item>
       <title>最常考的正则问题L1L2</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</link>
       <pubDate>Wed, 08 Jun 2022 10:26:51 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%AD%A3%E5%88%99%E9%97%AE%E9%A2%98l1l2/</guid>
       <description>正则化也是校招中常考的题目之一，在去年的校招中，被问到了多次：
 1、过拟合的解决方式有哪些，l1和l2正则化都有哪些不同，各自有什么优缺点(爱奇艺) 2、L1和L2正则化来避免过拟合是大家都知道的事情，而且我们都知道L1正则化可以得到稀疏解，L2正则化可以得到平滑解，这是为什么呢？ 3、L1和L2有什么区别，从数学角度解释L2为什么能提升模型的泛化能力。（美团） 4、L1和L2的区别，以及各自的使用场景（头条）
 接下来，咱们就针对上面的几个问题，进行针对性回答！
@@ -1061,10 +1070,10 @@ Link: https://mp.weixin.qq.com/s/t4vRBZXhc0LBST8WGzftgg</description>
     
     <item>
       <title>最常考的树模型问题</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 08 Jun 2022 10:23:04 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%80%E5%B8%B8%E8%80%83%E7%9A%84%E6%A0%91%E6%A8%A1%E5%9E%8B%E9%97%AE%E9%A2%98/</guid>
       <description>问题目录： 1、决策树的实现、ID3、C4.5、CART（贝壳） 2、CART回归树是怎么实现的？（贝壳） 3、CART分类树和ID3以及C4.5有什么区别（贝壳） 4、剪枝有哪几种方式（贝壳） 5、树集成模型有哪几种实现方式？（贝壳）boosting和bagging的区别是什么？（知乎、阿里） 6、随机森林的随机体现在哪些方面（贝壳、阿里） 7、AdaBoost是如何改变样本权重，GBDT分类树的基模型是？（贝壳） 8、gbdt,xgboost,lgbm的区别(百度、滴滴、阿里，头条) 9、bagging为什么能减小方差？（知乎）
 其他问题： 10、关于AUC的另一种解释：是挑选一个正样本和一个负样本，正样本排在负样本前面的概率？如何理解？ 11、校招是集中时间刷题好，还是每天刷一点好呢？ 12、现在推荐在工业界基本都用match+ranking的架构，但是学术界论文中的大多算法算是没有区分吗？end-to-end的方式，还是算是召回？ 13、内推刷简历严重么？没有实习经历，也没有牛逼的竞赛和论文，提前批有面试机会么？提前批影响正式批么？ 14、除了自己项目中的模型了解清楚，还需要准备哪些？看了群主的面经大概知道了一些，能否大致描述下？
 1、决策树的实现、ID3、C4.5、CART（贝壳） 这道题主要是要求把公式写一下，所以决策树的公式大家要理解，并且能熟练地写出来。这里咱们简单回顾一下吧。主要参考统计学习方法就好了。
@@ -1082,10 +1091,10 @@ ID3使用信息增益来指导树的分裂： C4.5通过信息增益比来指导
     
     <item>
       <title>板瓦工搭建VPS搭建vpn</title>
-      <link>https://reid00.github.io/post/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
+      <link>https://reid00.github.io/posts/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
       <pubDate>Wed, 08 Jun 2022 10:14:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
+      <guid>https://reid00.github.io/posts/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
       <description>板瓦工以及产品介绍 该商家隶属于美国IT7公司旗下的一款便宜年付KVM架构的VPS主机商家，从2013年开始推出低价VPS主机配置进入市场，确实受到广大网友的喜欢，且在最近几年开始改变策略，取消低价配置，然后以高配置和优化线路速度。以前我们搬瓦工VPS主机的用户感觉可能并不是特别适应，因为以前喜欢他们是因为便宜，如今价格比较高，但是线路和速度比较好。
 搬瓦工VPS商家支持支付宝、微信、PAYPAL、银联以及信用卡多种付款方式，这个也是很多国内用户选择的原因之一。目前最低配置是年付49.99美元，价格上肯定没有早年便宜，但是性价比在同行中还是具有一定优势的。搬瓦工VPS主机的特点在于线路还是不错的，而且带宽最高10Gbps，支持切换到其他机房，全部是自己操作。我们一定要正规使用。
 **搬瓦工VPS当前库存查看列表：**https://www.laozuo.org/go/bandwagonhost-cart
@@ -1127,10 +1136,10 @@ CPU：2核心
     
     <item>
       <title>随机森林（回归树）模型</title>
-      <link>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Wed, 08 Jun 2022 10:13:17 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97%E5%9B%9E%E5%BD%92%E6%A0%91%E6%A8%A1%E5%9E%8B/</guid>
       <description>调参 ★ 在 scikit-learn 中，Random Forest（以下简称RF）的分类类是 RandomForestClassifier，回归类是 RandomForestRegressor。
 RF 需要调参的参数也包括两部分，第一部分是 Bagging 框架的参数，第二部分是 CART 决策树的参数。下面我们就对这些参数做一个介绍。
 RF 框架参数 首先我们关注于 RF 的 Bagging 框架的参数。这里可以和 GBDT 对比来学习。GBDT 的框架参数比较多，重要的有最大迭代器个数，步长和子采样比例，调参起来比较费力。但是 RF 则比较简单，这是因为 bagging 框架里的各个弱学习器之间是没有依赖关系的，这减小的调参的难度。换句话说，达到同样的调参效果，RF 调参时间要比 GBDT 少一些。
@@ -1142,10 +1151,10 @@ criterion: 即 CART 树做划分时对特征的评价标准。分类模型和回
     
     <item>
       <title>Mysql优化</title>
-      <link>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 10:07:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</guid>
       <description>一，SQL语句性能优化 对查询进行优化，应尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引。
 应尽量避免在 where 子句中对字段进行 null 值判断，创建表时NULL是默认值，但大多数时候应该使用NOT NULL，或者使用一个特殊的值，如0，-1作为默 认值。
 应尽量避免在 where 子句中使用!=或&amp;lt;&amp;gt;操作符， MySQL只有对以下操作符才使用索引：&amp;lt;，&amp;lt;=，=，&amp;gt;，&amp;gt;=，BETWEEN，IN，以及某些时候的LIKE
@@ -1156,10 +1165,10 @@ in 和 not in 也要慎用，否则会导致全表扫描，对于连续的数值
     
     <item>
       <title>Word2vec</title>
-      <link>https://reid00.github.io/post/ml/word2vec/</link>
+      <link>https://reid00.github.io/posts/ml/word2vec/</link>
       <pubDate>Wed, 08 Jun 2022 09:56:41 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/word2vec/</guid>
+      <guid>https://reid00.github.io/posts/ml/word2vec/</guid>
       <description>Word2vec 介绍 Word2Vec是google在2013年推出的一个NLP工具，它的特点是能够将单词转化为向量来表示。首先，word2vec可以在百万数量级的词典和上亿的数据集上进行高效地训练；其次，该工具得到的训练结果——词向量（word embedding），可以很好地度量词与词之间的相似性。随着深度学习（Deep Learning）在自然语言处理中应用的普及，很多人误以为word2vec是一种深度学习算法。其实word2vec算法的背后是一个浅层神经网络(有一个隐含层的神经元网络)。另外需要强调的一点是，word2vec是一个计算word vector的开源工具。当我们在说word2vec算法或模型的时候，其实指的是其背后用于计算word vector的CBOW模型和Skip-gram模型。很多人以为word2vec指的是一个算法或模型，这也是一种谬误。
 用词向量来表示词并不是Word2Vec的首创，在很久之前就出现了。最早的词向量采用One-Hot编码，又称为一位有效编码，每个词向量维度大小为整个词汇表的大小，对于每个具体的词汇表中的词，将对应的位置置为1。转化为N维向量。
 采用One-Hot编码方式来表示词向量非常简单，但缺点也是显而易见的，一方面我们实际使用的词汇表很大，经常是百万级以上，这么高维的数据处理起来会消耗大量的计算资源与时间。另一方面，One-Hot编码中所有词向量之间彼此正交，没有体现词与词之间的相似关系。
@@ -1174,10 +1183,10 @@ Word2vec 在整个 NLP 里的位置可以用下图表示： Word2vec 的 2 种�
     
     <item>
       <title>常见距离的介绍</title>
-      <link>https://reid00.github.io/post/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Wed, 08 Jun 2022 09:40:38 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%B8%B8%E8%A7%81%E8%B7%9D%E7%A6%BB%E7%9A%84%E4%BB%8B%E7%BB%8D/</guid>
       <description>机器学习常见距离介绍 1. 欧式距离 2. 曼哈顿距离 我们可以定义曼哈顿距离的正式意义为L1-距离或城市区块距离，也就是在欧几里得空间的固定直角坐标系上两点所形成的线段对轴产生的投影的距离总和。例如在平面上，坐标（x1, y1）的点P1与坐标（x2, y2）的点P2的曼哈顿距离为：，要注意的是，曼哈顿距离依赖座标系统的转度，而非系统在座标轴上的平移或映射。 通俗来讲，想象你在曼哈顿要从一个十字路口开车到另外一个十字路口，驾驶距离是两点间的直线距离吗？显然不是，除非你能穿越大楼。而实际驾驶距离就是这个“曼哈顿距离”，此即曼哈顿距离名称的来源， 同时，曼哈顿距离也称为城市街区距离(City Block distance)。
 3. 切比雪夫距离 若二个向量或二个点p 、and q，其座标分别为p1,p2 4. 闵可夫斯基距离(Minkowski Distance) 闵氏距离不是一种距离，而是一组距离的定义.
 (1) 闵氏距离的定义 两个n维变量a(x11,x12,…,x1n)与 b(x21,x22,…,x2n)间的闵可夫斯基距离定义为： 其中p是一个变参数。 当p=1时，就是曼哈顿距离 当p=2时，就是欧氏距离 当p→∞时，就是切比雪夫距离 根据变参数的不同，闵氏距离可以表示一类的距离。
@@ -1192,10 +1201,10 @@ Word2vec 在整个 NLP 里的位置可以用下图表示： Word2vec 的 2 种�
     
     <item>
       <title>决策树到随机森林</title>
-      <link>https://reid00.github.io/post/ml/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</link>
       <pubDate>Wed, 08 Jun 2022 09:37:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%86%B3%E7%AD%96%E6%A0%91%E5%88%B0%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97/</guid>
       <description>简述决策树原理？ 决策树是一种自上而下，对样本数据进行树形分类的过程，由节点和有向边组成。节点分为内部节点和叶节点，其中每个内部节点表示一个特征或属性，叶节点表示类别。从顶部节点开始，所有样本聚在一起，经过根节点的划分，样本被分到不同的子节点中，再根据子节点的特征进一步划分，直至所有样本都被归到某个类别。
 为什么要对决策树进行减枝？如何进行减枝？ 剪枝是决策树解决过拟合问题的方法。在决策树学习过程中，为了尽可能正确分类训练样本，结点划分过程将不断重复，有时会造成决策树分支过多，于是可能将训练样本学得太好，以至于把训练集自身的一些特点当作所有数据共有的一般特点而导致测试集预测效果不好，出现了过拟合现象。因此，可以通过剪枝来去掉一些分支来降低过拟合的风险。
 决策树剪枝的基本策略有“预剪枝”和“后剪枝”。预剪枝是指在决策树生成过程中，对每个结点在划分前先进行估计，若当前结点的划分不能带来决策树泛化性能提升，则停止划分并将当前结点标记为叶结点；后剪枝则是先从训练集生成一棵完整的决策树，然后自底向上地对非叶结点进行考察，若将该结点对应的子树替换为叶结点能带来决策树泛化性能提升，则将该子树替换为叶结点。
@@ -1226,10 +1235,10 @@ Word2vec 在整个 NLP 里的位置可以用下图表示： Word2vec 的 2 种�
     
     <item>
       <title>KMeans聚类分析</title>
-      <link>https://reid00.github.io/post/ml/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</link>
+      <link>https://reid00.github.io/posts/ml/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</link>
       <pubDate>Wed, 08 Jun 2022 09:35:33 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</guid>
+      <guid>https://reid00.github.io/posts/ml/kmeans%E8%81%9A%E7%B1%BB%E5%88%86%E6%9E%90/</guid>
       <description>聚类与分类的区别 分类：类别是已知的，通过对已知分类的数据进行训练和学习，找到这些不同类的特征，再对未分类的数据进行分类。属于监督学习。
 聚类：事先不知道数据会分为几类，通过聚类分析将数据聚合成几个群体。聚类不需要对数据进行训练和学习。属于无监督学习。
 关于监督学习和无监督学习，这里给一个简单的介绍：是否有监督，就看输入数据是否有标签，输入数据有标签，则为有监督学习，否则为无监督学习。
@@ -1240,10 +1249,10 @@ K-Means 聚类算法的大致意思就是“物以类聚，人以群分”：
     
     <item>
       <title>L1L2正则</title>
-      <link>https://reid00.github.io/post/ml/l1l2%E6%AD%A3%E5%88%99/</link>
+      <link>https://reid00.github.io/posts/ml/l1l2%E6%AD%A3%E5%88%99/</link>
       <pubDate>Wed, 08 Jun 2022 09:32:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/l1l2%E6%AD%A3%E5%88%99/</guid>
+      <guid>https://reid00.github.io/posts/ml/l1l2%E6%AD%A3%E5%88%99/</guid>
       <description>概念 L0：计算非零个数，用于产生稀疏性，但是在实际研究中很少用，因为L0范数很难优化求解，是一个NP-hard问题，因此更多情况下我们是使用L1范数 L1：计算绝对值之和，用以产生稀疏性，因为它是L0范式的一个最优凸近似，容易优化求解 L2：计算平方和再开根号，L2范数更多是防止过拟合，并且让优化求解变得稳定很快速（这是因为加入了L2范式之后，满足了强凸）。
 L1范数(Lasso Regularization)：向量中各个元素绝对值的和。
 L2范数(Ridge Regression)：向量中各元素平方和再求平方根。
@@ -1254,10 +1263,10 @@ L1正则化是在代价函数后面加上 L2正则化是在代价函数后面增
     
     <item>
       <title>逻辑回归的常见面试题总结</title>
-      <link>https://reid00.github.io/post/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</link>
       <pubDate>Wed, 08 Jun 2022 09:27:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E7%9A%84%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98%E6%80%BB%E7%BB%93/</guid>
       <description>1.简介 逻辑回归是面试当中非常喜欢问到的一个机器学习算法，因为表面上看逻辑回归形式上很简单，很好掌握，但是一问起来就容易懵逼。所以在面试的时候给大家的第一个建议不要说自己精通逻辑回归，非常容易被问倒，从而减分。下面总结了一些平常我在作为面试官面试别人和被别人面试的时候，经常遇到的一些问题。
 Regression问题的常规步骤为：
 寻找h函数（即假设估计的函数）； 构造J函数（损失函数）； 想办法使得J函数最小并求得回归参数（θ）； 数据拟合问题 2.正式介绍 如何凸显你是一个对逻辑回归已经非常了解的人呢。那就是用一句话概括它！逻辑回归假设数据服从伯努利分布,通过极大化似然函数的方法，运用梯度下降来求解参数，来达到将数据二分类的目的。
@@ -1295,10 +1304,10 @@ hθ(x;θ)=11+e−θTx
     
     <item>
       <title>SVM</title>
-      <link>https://reid00.github.io/post/ml/svm/</link>
+      <link>https://reid00.github.io/posts/ml/svm/</link>
       <pubDate>Tue, 07 Jun 2022 20:04:15 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/svm/</guid>
+      <guid>https://reid00.github.io/posts/ml/svm/</guid>
       <description>1. SVM SVM的应用 SVM在很多诸如文本分类，图像分类，生物序列分析和生物数据挖掘，手写字符识别等领域有很多的应用，但或许你并没强烈的意识到，SVM可以成功应用的领域远远超出现在已经在开发应用了的领域。
 通常人们会从一些常用的核函数中选择（根据问题和数据的不同，选择不同的参数，实际上就是得到了不同的核函数），例如：多项式核、高斯核、线性核。
 SVM是一种二类分类模型。它的基本模型是在特征空间中寻找间隔最大化的分离超平面的线性分类器。（间隔最大是它有别于感知机）
@@ -1336,10 +1345,10 @@ LR,贝叶斯分类，单层感知机、线性回归
     
     <item>
       <title>决策树</title>
-      <link>https://reid00.github.io/post/ml/%E5%86%B3%E7%AD%96%E6%A0%91/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%86%B3%E7%AD%96%E6%A0%91/</link>
       <pubDate>Tue, 07 Jun 2022 20:03:36 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%86%B3%E7%AD%96%E6%A0%91/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%86%B3%E7%AD%96%E6%A0%91/</guid>
       <description>决策树 决策树（decision tree）是一个树结构（可以是二叉树或非二叉树）。其每个非叶节点表示一个特征属性上的测试，每个分支代表这个特征属性在某个值域上的输出，而每个叶节点存放一个类别。使用决策树进行决策的过程就是从根节点开始，测试待分类项中相应的特征属性，并按照其值选择输出分支，直到到达叶子节点，将叶子节点存放的类别作为决策结果[1]。 下面先来看一个小例子，看看决策树到底是什么概念（这个例子来源于[2]）。
 决策树的训练数据往往就是这样的表格形式，表中的前三列（ID不算）是数据样本的属性，最后一列是决策树需要做的分类结果。通过该数据，构建的决策树如下：
 有了这棵树，我们就可以对新来的用户数据进行是否可以偿还的预测了。
@@ -1366,10 +1375,10 @@ CART分类时，使用基尼指数（Gini）来选择最好的数据分割的特
     
     <item>
       <title>逻辑回归</title>
-      <link>https://reid00.github.io/post/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/</link>
       <pubDate>Tue, 07 Jun 2022 20:02:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/</guid>
       <description>一、线性模型预测一个样本的损失量 损失量：模型对样本的预测结果和该样本对应的实际结果的差距；
 1）为什么会想到用 y = -log(x) 函数? （该函数称为 惩罚函数：预测结果与实际值的偏差越大，惩罚越大） y = 1（p ≥ 0.5）时，cost = -log(p)，p 越小，样本发生概率越小（最小为 0），则损失函数越大，分类预测值和实际值的偏差越大；相反，p 越大，样本发生概率越大（最大为 0.5），则损失函数越小，则预测值和实际值的偏差越小； y = 0（p ≤ 0.5）时，cost = -log(1-p)，p 越小，样本发生概率越小（最小为 0.5），则损失函数越大，分类预测值和实际值的偏差越大；相反，p 越大，样本发生概率越大（最大为 1），则损失函数越小，则预测值和实际值的偏差越小； 2）求一个样本的损失量 由于逻辑回归解决的是分类问题，而且是二分类，因此定义损失函数时也要有两类
 惩罚函数变形：
@@ -1381,10 +1390,10 @@ CART分类时，使用基尼指数（Gini）来选择最好的数据分割的特
     
     <item>
       <title>梯度下降原理介绍</title>
-      <link>https://reid00.github.io/post/ml/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Tue, 07 Jun 2022 19:53:26 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D/</guid>
       <description>Summary 本文将从一个下山的场景开始，先提出梯度下降算法的基本思想，进而从数学上解释梯度下降算法的原理，最后实现一个简单的梯度下降算法的实例！
 梯度下降的场景假设 梯度下降法的基本思想可以类比为一个下山的过程。假设这样一个场景：一个人被困在山上，需要从山上下来(i.e. 找到山的最低点，也就是山谷)。但此时山上的浓雾很大，导致可视度很低。因此，下山的路径就无法确定，他必须利用自己周围的信息去找到下山的路径。这个时候，他就可以利用梯度下降算法来帮助自己下山。具体来说就是，以他当前的所处的位置为基准，寻找这个位置最陡峭的地方，然后朝着山的高度下降的地方走，同理，如果我们的目标是上山，也就是爬到山顶，那么此时应该是朝着最陡峭的方向往上走。然后每走一段距离，都反复采用同一个方法，最后就能成功的抵达山谷。
 我们同时可以假设这座山最陡峭的地方是无法通过肉眼立马观察出来的，而是需要一个复杂的工具来测量，同时，这个人此时正好拥有测量出最陡峭方向的能力。所以，此人每走一段距离，都需要一段时间来测量所在位置最陡峭的方向，这是比较耗时的。那么为了在太阳下山之前到达山底，就要尽可能的减少测量方向的次数。这是一个两难的选择，如果测量的频繁，可以保证下山的方向是绝对正确的，但又非常耗时，如果测量的过少，又有偏离轨道的风险。所以需要找到一个合适的测量方向的频率，来确保下山的方向不错误，同时又不至于耗时太多！
@@ -1430,10 +1439,10 @@ coding time 首先，我们需要定义数据集和学习率</description>
     
     <item>
       <title>线性回归</title>
-      <link>https://reid00.github.io/post/ml/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</link>
       <pubDate>Tue, 07 Jun 2022 19:48:37 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</guid>
       <description>称函数为效用函数 线性回归模型看起来非常简单，简单到让人怀疑其是否有研究价值以及使用价值。但实际上，线性回归模型可以说是最重要的数学模型之一，很多模型都是建立在它的基础之上，可以被称为是“模型之母”。
 1.1 什么是简单线性回归 所谓简单，是指只有一个样本特征，即只有一个自变量；所谓线性，是指方程是线性的；所谓回归，是指用方程来模拟变量之间是如何关联的。
 简单线性回归，其思想简单，实现容易（与其背后强大的数学性质相关。同时也是许多强大的非线性模型（多项式回归、逻辑回归、SVM）的基础。并且其结果具有很好的可解释性。
@@ -1469,10 +1478,10 @@ coding time 首先，我们需要定义数据集和学习率</description>
     
     <item>
       <title>机器学习面试题</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Tue, 07 Jun 2022 19:46:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
       <description>1. 无监督和有监督的区别？ 有监督学习：对具有概念标记（分类）的训练样本进行学习，以尽可能对训练样本集外的数据进行标记（分类）预测。这里，所有的标记（分类）是已知的。因此，训练样本的岐义性低。
 无监督学习：对没有概念标记（分类）的训练样本进行学习，以发现训练样本集中的结构性知识。这里，所有的标记（分类）是未知的。因此，训练样本的岐义性高。聚类就是典型的无监督学习。
 2. SVM 的推导，特性？多分类怎么处理？ SVM是最大间隔分类器，几何间隔和样本的误分次数之间存在关系， ，其中 从线性可分情况下，原问题，特征转换后的dual问题，引入kernel(线性kernel，多项式，高斯)，最后是soft margin。
@@ -1505,10 +1514,10 @@ Cart决策树使用基尼指数来选择划分属性，直观的来说，Gini(D)
     
     <item>
       <title>如何评价模型好坏</title>
-      <link>https://reid00.github.io/post/ml/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B%E5%A5%BD%E5%9D%8F/</link>
+      <link>https://reid00.github.io/posts/ml/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B%E5%A5%BD%E5%9D%8F/</link>
       <pubDate>Tue, 07 Jun 2022 19:45:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B%E5%A5%BD%E5%9D%8F/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%A8%A1%E5%9E%8B%E5%A5%BD%E5%9D%8F/</guid>
       <description>Summary “所有模型都是坏的，但有些模型是有用的”。我们建立模型之后，接下来就要去评估模型，确定这个模型是否‘有用’。当你费尽全力去建立完模型后，你会发现仅仅就是一些单个的数值或单个的曲线去告诉你你的模型到底是否能够派上用场。
 ​ 在实际情况中，我们会用不同的度量去评估我们的模型，而度量的选择，完全取决于模型的类型和模型以后要做的事。下面我们就会学习到一些用于评价模型的常用度量和图表以及它们各自的使用场景。
 模型评估这部分会介绍以下几方面的内容：
@@ -1528,10 +1537,10 @@ Cart决策树使用基尼指数来选择划分属性，直观的来说，Gini(D)
     
     <item>
       <title>KNN算法</title>
-      <link>https://reid00.github.io/post/ml/knn%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/ml/knn%E7%AE%97%E6%B3%95/</link>
       <pubDate>Tue, 07 Jun 2022 19:42:11 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/knn%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/ml/knn%E7%AE%97%E6%B3%95/</guid>
       <description>Summary 简单的说，k-近邻算法采用测量不同特征值之间的距离方法进行分类。 它的思路是：如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别，其中K通常是不大于20的整数。KNN算法中，所选择的邻居都是已经正确分类的对象。该方法在定类决策上只依据最邻近的一个或者几个样本的类别来决定待分样本所属的类别。
 优点：精度高、对异常值不敏感、无数据输入假定。
 缺点：计算复杂度高、空间复杂度高。
@@ -1557,10 +1566,10 @@ Cart决策树使用基尼指数来选择划分属性，直观的来说，Gini(D)
     
     <item>
       <title>朴素贝叶斯</title>
-      <link>https://reid00.github.io/post/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</link>
       <pubDate>Tue, 07 Jun 2022 19:40:44 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/</guid>
       <description>贝叶斯准备知识 贝叶斯决策论是概率框架下实施决策的基本方法。要了解贝叶斯决策论，首先得先了解以下几个概念：先验概率、条件概率、后验概率、误判损失、条件风险、贝叶斯判别准则
 先验概率： 所谓先验概率，就是根据以往的经验或者现有数据的分析所得到的概率。如，随机扔一枚硬币，则p(正面) = p(反面) = 1/2，这是我们根据已知的知识所知道的信息，即p(正面) = 1/2为先验概率。
 条件概率： 所谓条件概率是指事件A在另一事件B发生的条件下发送的概率。用数学符号表示为：P(B\|A)，即B在A发生的条件下发生的概率。举个栗子，你早上误喝了一瓶过期了的牛奶（A），那我们来算一下你今天拉肚子的概率（B），这个就叫做条件概率。即P（拉肚子\|喝了过期牛奶）， 易见，条件概率是有因求果（知道原因推测结果）。
@@ -1576,10 +1585,10 @@ Cart决策树使用基尼指数来选择划分属性，直观的来说，Gini(D)
     
     <item>
       <title>生成模型vs判别模型</title>
-      <link>https://reid00.github.io/post/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</link>
       <pubDate>Tue, 07 Jun 2022 19:39:13 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/</guid>
       <description>什么是生成模型和判别模型？ 从本质上讲，生成模型和判别模型是解决分类问题的两类基本思路。首先，您得先了解，分类问题，就是给定一个数据x，要判断它对应的标签y（这么naive的东西都要解释下，求面试官此时内心的阴影面积，嘎嘎）。生成模型就是要学习x和y的联合概率分布P(x,y)，然后根据贝叶斯公式来求得条件概率P(y|x)，预测条件概率最大的y。贝叶斯公式这么简单的知识相信您也了解，我就不啰嗦了。判别模型就是直接学习条件概率分布P(y|x)。
 举个栗子 例子1 假设你从来没有见过大象和猫，连听都没有听过，这时，给你看了一张大象的照片和一张猫的照片。如下所示：
 然后牵来我家的大象（面试官：你家开动物园的吗？），让你判断这是大象还是猫。你咋办？
@@ -1611,10 +1620,10 @@ CRF
     
     <item>
       <title>特征工程之特征选择</title>
-      <link>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</link>
       <pubDate>Tue, 07 Jun 2022 19:33:26 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说特征工程是机器学习成功的关键。
 那特征工程是什么？
 ​	特征工程是利用数据领域的相关知识来创建能够使机器学习算法达到最佳性能的特征的过程。
@@ -1653,10 +1662,10 @@ Filter: 卡方检验 经典的卡方检验是检验定性自变量对定性因�
     
     <item>
       <title>数据降维之主成分分析 PCA</title>
-      <link>https://reid00.github.io/post/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</link>
+      <link>https://reid00.github.io/posts/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</link>
       <pubDate>Tue, 07 Jun 2022 19:28:59 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E6%95%B0%E6%8D%AE%E9%99%8D%E7%BB%B4%E4%B9%8B%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90-pca/</guid>
       <description>Summary PCA 是无监督学习中最常见的数据降维方法，但是实际上问题特征很多的情况，PCA通常会预处理来减少特征个数。
 将维的意义： 通过降维提高算法的效率 通过降维更方便数据的可视化，通过可视化我们可以更好的理解数据
 相关统计概念 均值： 述的是样本集合的中间点。 方差： 概率论和统计方差衡量随机变量或一组数据时离散程度的度量。 标准差：而标准差给我们描述的是样本集合的各个样本点到均值的距离之平均。方差开根号。 标准差和方差一般是用来描述一维数据的 协方差: （多维）度量两个随机变量关系的统计量,来度量各个维度偏离其均值的程度。 协方差矩阵: （多维）度量各个维度偏离其均值的程度 当 cov(X, Y)&amp;gt;0时，表明X与Y正相关(X越大，Y也越大；X越小Y，也越小。) 当 cov(X, Y)&amp;lt;0时，表明X与Y负相关； 当 cov(X, Y)=0时，表明X与Y不相关。 cov协方差=[(x1-x均值)(y1-y均值)+(x2-x均值)(y2-y均值)+&amp;hellip;+(xn-x均值)*(yn-y均值)]/(n-1) PCA 思想 对数据进行归一化处理（代码中并非这么做的，而是直接减去均值） 计算归一化后的数据集的协方差矩阵 计算协方差矩阵的特征值和特征向量 将特征值排序 保留前N个最大的特征值对应的特征向量 将数据转换到上面得到的N个特征向量构建的新空间中（实现了特征压缩） 简述主成分分析PCA工作原理，以及PCA的优缺点？ PCA旨在找到数据中的主成分，并利用这些主成分表征原始数据，从而达到降维的目的。
@@ -1687,10 +1696,10 @@ LDA可能过度拟合数据
     
     <item>
       <title>特征工程之数据预处理</title>
-      <link>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</link>
       <pubDate>Tue, 07 Jun 2022 19:09:30 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说特征工程是机器学习成功的关键。
 什么是特征工程 特征工程又包含了Data PreProcessing（数据预处理）、Feature Extraction（特征提取）、Feature Selection（特征选择）和Feature construction（特征构造）等子问题，本章内容主要讨论数据预处理的方法及实现。 特征工程是机器学习中最重要的起始步骤，数据预处理是特征工程的最重要的起始步骤，而数据清洗是数据预处理的重要组成部分，会直接影响机器学习的效果。
 数据清洗整体介绍 1. 箱线图分析异常值 箱线图提供了识别异常值的标准，如果一个数下雨 QL-1.5IQR or 大于OU + 1.5 IQR, 则这个值被称为异常值。

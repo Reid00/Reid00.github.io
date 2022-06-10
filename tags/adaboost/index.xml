@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 10:29:01 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/adaboost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>集成学习之AdaBoost</title>
-      <link>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
+      <link>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</link>
       <pubDate>Wed, 08 Jun 2022 10:29:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/</guid>
       <description>Boosting算法的工作机制 用初始权重D(1)从数据集中训练出一个弱学习器1 根据弱学习1的学习误差率表现来更新训练样本的权重D(2)，使得之前弱学习器1学习误差率高的样本点的权重变高，使得这些误差率高的点在后面的弱学习器2中得到更多的重视。 然后基于调整权重后的训练集来训练弱学习器2 如此重复进行，直到弱学习器数达到事先指定的数目T，最终将这T个弱学习器通过集合策略进行整合，得到最终的强学习器。 现如今已经有很多的提升方法了，但最著名的就是Adaboost（适应性提升，是Adaptive Boosting的简称）和Gradient Boosting（梯度提升）。让我们先从 Adaboost 说起。
 什么是AdaBoost AdaBoost是一个具有里程碑意义的算法，其中，适应性（adaptive）是指：后续的分类器为更好地支持被先前分类器分类错误的样本实例而进行调整。通过对之前分类结果不对的训练实例多加关注，使新的预测因子越来越多地聚焦于之前错误的情况。
 具体说来，整个AdaBoost迭代算法就3步：

@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 07 Jun 2022 19:33:26 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/feature-engineer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>特征工程之特征选择</title>
-      <link>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</link>
+      <link>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</link>
       <pubDate>Tue, 07 Jun 2022 19:33:26 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</guid>
+      <guid>https://reid00.github.io/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/</guid>
       <description>Summary 数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已。由此可见，特征工程在机器学习中占有相当重要的地位。在实际应用当中，可以说特征工程是机器学习成功的关键。
 那特征工程是什么？
 ​	特征工程是利用数据领域的相关知识来创建能够使机器学习算法达到最佳性能的特征的过程。

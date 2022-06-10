@@ -10,13 +10,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jun 2022 14:28:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/storage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jun 2022 12:28:53 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试blog</title>
+      <link>https://reid00.github.io/posts/%E6%B5%8B%E8%AF%95blog/</link>
+      <pubDate>Fri, 10 Jun 2022 12:28:53 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/%E6%B5%8B%E8%AF%95blog/</guid>
+      <description>this is good test</description>
+    </item>
+    
     <item>
       <title>SStable</title>
-      <link>https://reid00.github.io/post/sstable/</link>
+      <link>https://reid00.github.io/posts/sstable/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/sstable/</guid>
+      <guid>https://reid00.github.io/posts/sstable/</guid>
       <description>概述 如我们之前提到的，leveldb是典型的LSM树(Log Structured-Merge Tree)实现，即一次leveldb的写入过程并不是直接将数据持久化到磁盘文件中，而是将写操作首先写入日志文件中，其次将写操作应用在memtable上。
 当leveldb达到checkpoint点（memtable中的数据量超过了预设的阈值），会将当前memtable冻结成一个不可更改的内存数据库（immutable memory db），并且创建一个新的memtable供系统继续使用。
 immutable memory db会在后台进行一次minor compaction，即将内存数据库中的数据持久化到磁盘文件中。
@@ -36,10 +45,10 @@ data block结构 data block中存储的数据是leveldb中的keyvalue键值对�
     
     <item>
       <title>RocksDB</title>
-      <link>https://reid00.github.io/post/rocksdb/</link>
+      <link>https://reid00.github.io/posts/rocksdb/</link>
       <pubDate>Wed, 08 Jun 2022 14:21:12 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/rocksdb/</guid>
+      <guid>https://reid00.github.io/posts/rocksdb/</guid>
       <description>简介 RocksDB 是由 Facebook 基于 LevelDB 开发的一款提供键值存储与读写功能的 LSM-tree 架构引擎。用户写入的键值对会先写入磁盘上的 WAL (Write Ahead Log)，然后再写入内存中的跳表（SkipList，这部分结构又被称作 MemTable）。LSM-tree 引擎由于将用户的随机修改（插入）转化为了对 WAL 文件的顺序写，因此具有比 B 树类存储引擎更高的写吞吐。
 内存中的数据达到一定阈值后，会刷到磁盘上生成 SST 文件 (Sorted String Table)，SST 又分为多层（默认至多 6 层），每一层的数据达到一定阈值后会挑选一部分 SST 合并到下一层，每一层的数据是上一层的 10 倍（因此 90% 的数据存储在最后一层）。
 RocksDB 允许用户创建多个 ColumnFamily ，这些 ColumnFamily 各自拥有独立的内存跳表以及 SST 文件，但是共享同一个 WAL 文件，这样的好处是可以根据应用特点为不同的 ColumnFamily 选择不同的配置，但是又没有增加对 WAL 的写次数。
@@ -48,10 +57,10 @@ rocksdb 和 leveldb对比优势 Leveldb是单线程合并文件，Rocksdb可以�
     
     <item>
       <title>LSM Tree</title>
-      <link>https://reid00.github.io/post/lsm-tree/</link>
+      <link>https://reid00.github.io/posts/lsm-tree/</link>
       <pubDate>Wed, 08 Jun 2022 14:20:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/lsm-tree/</guid>
+      <guid>https://reid00.github.io/posts/lsm-tree/</guid>
       <description>简介LSM Tree MySQL、etcd 等存储系统都是面向读多写少场景的，其底层大都采用 B-Tree 及其变种数据结构。而 LSM-Tree 则解决了另一个应用场景——写多读少时面临的问题。在面对亿级的海量数据的存储和检索的场景下，我们通常选择强力的 NoSQL 数据库，如 Hbase、RocksDB 等，它们的文件组织方式，都是仿照 LSM-Tree 实现的。 reference
 LSM-Tree 全称是 Log Structured Merge Tree，是一种分层、有序、面向磁盘的数据结构，其核心思想是充分利用磁盘的顺序写性能要远高于随机写性能这一特性，将批量的随机写转化为一次性的顺序写。
 从上图可以直观地看出，磁盘的顺序访问速度至少比随机 I/O 快三个数量级，甚至顺序访问磁盘比随机访问主内存还要快。这意味着要尽可能避免随机 I/O 操作，顺序访问非常值得我们去探讨与设计。
@@ -63,10 +72,10 @@ C1 组件是为顺序性的磁盘访问优化过的，可以是 B-Tree 一类的
     
     <item>
       <title>RAFT</title>
-      <link>https://reid00.github.io/post/raft/</link>
+      <link>https://reid00.github.io/posts/raft/</link>
       <pubDate>Wed, 08 Jun 2022 14:19:19 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/raft/</guid>
+      <guid>https://reid00.github.io/posts/raft/</guid>
       <description>Raft 协议介绍 为了让一致性协议变得简单可理解，Raft协议主要使用了两种策略。一是将复杂问题进行分解，在Raft协议中，一致性问题被分解为：leader election、log replication、safety三个简单问题；二是减少状态空间中的状态数目。下面我们详细看一下Raft协议是怎样设计的。
 分布式系统要解决的问题 时序性 Timing 运行在不同网络下的机器中的进程如何判断一些事件发生的顺序 并发性 Con currency 运行在不同网络环境下的机器中的进程如何共享资源，而不互相干扰，比如访问共同的数据库 健壮性 Robustness 应对网络不稳定性以及硬件的不稳定性 一致性 Consistency 如何保障无论哪个服务节点都能获得相同的结果 需要达成的共识 逻辑时间的共识，来决定事件发生的顺序 互斥性的共识，用来决定谁真正拥有访问的资源 协调者的共识，谁是当下的Leader Raft一致性算法 在Raft体系中，有一个强leader，由它全权负责接收客户端的请求命令，并将命令作为日志条目复制给其他服务器，在确认安全的时候，将日志命令提交执行。当leader故障时，会选举产生一个新的leader。在强leader的帮助下，Raft将一致性问题分解为了三个子问题：
 leader选举：当已有的leader故障时必须选出一个新的leader。 日志复制：leader接受来自客户端的命令，记录为日志，并复制给集群中的其他服务器，并强制其他节点的日志与leader保持一致。 安全safety措施：通过一些措施确保系统的安全性，如确保所有状态机按照相同顺序执行相同命令的措施。 1. 基本概念 一个Raft集群拥有多个服务器，典型值是5，这样可以容忍两台服务器出现故障。服务器可能会处于如下三种角色：leader、candidate、follower，正常运行的情况下，会有一个leader，其他全为follower，follower只会响应leader和candidate的请求，而客户端的请求则全部由leader处理，即使有客户端请求了一个follower也会将请求重定向到leader。candidate代表候选人，出现在选举leader阶段，选举成功后candidate将会成为新的leader。可能出现的状态转换关系如下图： 从状态转换关系图中可以看出，集群刚启动时，所有节点都是follower，之后在time out信号的驱使下，follower会转变成candidate去拉取选票，获得大多数选票后就会成为leader，这时候如果其他候选人发现了新的leader已经诞生，就会自动转变为follower；而如果另一个time out信号发出时，还没有选举出leader，将会重新开始一次新的选举。可见，time out信号是促使角色转换得关键因素，类似于操作系统中得中断信号。
@@ -80,10 +89,10 @@ server之间的交流是通过RPC进行的。只需要实现两种RPC就能构�
     
     <item>
       <title>ES面试题</title>
-      <link>https://reid00.github.io/post/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Wed, 08 Jun 2022 14:15:28 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
       <description>ElasticSearch面试题 1.为什么要使用Elasticsearch? 因为在我们商城中的数据，将来会非常多，所以采用以往的模糊查询，模糊查询前置配置，会放弃索引，导致商品查询是全表扫面，在百万级别的数据库中，效率非常低下，而我们使用ES做一个全文索引，我们将经常查询的商品的某些字段，比如说商品名，描述、价格还有id这些字段我们放入我们索引库里，可以提高查询速度。
 2.Elasticsearch是如何实现Master选举的？ Elasticsearch的选主是ZenDiscovery模块负责的，主要包含Ping（节点之间通过这个RPC来发现彼此）和Unicast（单播模块包含一个主机列表以控制哪些节点需要ping通）这两部分；
 对所有可以成为master的节点（node.master: true）根据nodeId字典排序，每次选举每个节点都把自己所知道节点排一次序，然后选出第一个（第0位）节点，暂且认为它是master节点。 如果对某个节点的投票数达到一定的值（可以成为master节点数n/2+1）并且该节点自己也选举自己，那这个节点就是master。否则重新选举一直到满足上述条件。 补充：master节点的职责主要包括集群、节点和索引的管理，不负责文档级别的管理；data节点可以关闭http功能。 3.Elasticsearch中的节点（比如共20个），其中的10个选了一个master，另外10个选了另一个master，怎么办？ 当集群master候选数量不小于3个时，可以通过设置最少投票通过数量（discovery.zen.minimum_master_nodes）超过所有候选节点一半以上来解决脑裂问题； 当候选数量为两个时，只能修改为唯一的一个master候选，其他作为data节点，避免脑裂问题。
@@ -95,10 +104,10 @@ server之间的交流是通过RPC进行的。只需要实现两种RPC就能构�
     
     <item>
       <title>MySql事务</title>
-      <link>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Wed, 08 Jun 2022 11:52:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</guid>
       <description>『浅入深出』MySQL 中事务的实现 https://draveness.me/mysql-transaction/
 MySQL 中如何实现事务隔离 https://www.cnblogs.com/fengzheng/p/12557762.html
 详解一条 SQL 的执行过程
@@ -122,10 +131,10 @@ https://juejin.cn/post/6931606328129355790
     
     <item>
       <title>MySql索引优化</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 11:04:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
       <description>数据库表结构：
 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name=&amp;#39;shenjian&amp;#39; select id,name,sex where name=&amp;#39;shenjian&amp;#39; 多查询了一个属性，为何检索过程完全不同？
 什么是回表查询？
@@ -152,10 +161,10 @@ t(id PK, name KEY, sex, flag);
     
     <item>
       <title>MySql索引介绍</title>
-      <link>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Wed, 08 Jun 2022 11:02:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
       <description>什么是索引，索引的作用 当我们要在新华字典里查某个字（如「先」）具体含义的时候，通常都会拿起一本新华字典来查，你可以先从头到尾查询每一页是否有「先」这个字，这样做（对应数据库中的全表扫描）确实能找到，但效率无疑是非常低下的，更高效的方相信大家也都知道，就是在首页的索引里先查找「先」对应的页数，然后直接跳到相应的页面查找，这样查询时候大大减少了，可以为是 O(1)。
 数据库中的索引也是类似的，通过索引定位到要读取的页，大大减少了需要扫描的行数，能极大的提升效率，简而言之，索引主要有以下几个作用:
 即上述所说，索引能极大地减少扫描行数 索引可以帮助服务器避免排序和临时表 索引可以将随机 IO 变成顺序 IO MySQL中索引的存储类型有两种：BTREE和HASH，具体和表的存储引擎相关；
@@ -172,10 +181,10 @@ MyISAM和InnoDB存储引擎只支持BTREE索引，MEMORY/HEAP存储引擎可以�
     
     <item>
       <title>MySql高频面试问题</title>
-      <link>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 08 Jun 2022 11:00:46 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
       <description>本文主要受众为开发人员,所以不涉及到MySQL的服务部署等操作,且内容较多,大家准备好耐心和瓜子矿泉水。
 前一阵系统的学习了一下MySQL,也有一些实际操作经验,偶然看到一篇和MySQL相关的面试文章,发现其中的一些问题自己也回答不好,虽然知识点大部分都知道,但是无法将知识串联起来。
 因此决定搞一个MySQL灵魂100问,试着用回答问题的方式,让自己对知识点的理解更加深入一点。
@@ -228,10 +237,10 @@ MySQL提供了explain命令来查看语句的执行计划,MySQL在执行某个�
     
     <item>
       <title>Mysql优化</title>
-      <link>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 08 Jun 2022 10:07:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/mysql%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/mysql%E4%BC%98%E5%8C%96/</guid>
       <description>一，SQL语句性能优化 对查询进行优化，应尽量避免全表扫描，首先应考虑在 where 及 order by 涉及的列上建立索引。
 应尽量避免在 where 子句中对字段进行 null 值判断，创建表时NULL是默认值，但大多数时候应该使用NOT NULL，或者使用一个特殊的值，如0，-1作为默 认值。
 应尽量避免在 where 子句中使用!=或&amp;lt;&amp;gt;操作符， MySQL只有对以下操作符才使用索引：&amp;lt;，&amp;lt;=，=，&amp;gt;，&amp;gt;=，BETWEEN，IN，以及某些时候的LIKE

@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:28:50 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/sst/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SStable</title>
-      <link>https://reid00.github.io/post/sstable/</link>
+      <link>https://reid00.github.io/posts/sstable/</link>
       <pubDate>Wed, 08 Jun 2022 14:28:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/sstable/</guid>
+      <guid>https://reid00.github.io/posts/sstable/</guid>
       <description>概述 如我们之前提到的，leveldb是典型的LSM树(Log Structured-Merge Tree)实现，即一次leveldb的写入过程并不是直接将数据持久化到磁盘文件中，而是将写操作首先写入日志文件中，其次将写操作应用在memtable上。
 当leveldb达到checkpoint点（memtable中的数据量超过了预设的阈值），会将当前memtable冻结成一个不可更改的内存数据库（immutable memory db），并且创建一个新的memtable供系统继续使用。
 immutable memory db会在后台进行一次minor compaction，即将内存数据库中的数据持久化到磁盘文件中。
@@ -36,10 +36,10 @@ data block结构 data block中存储的数据是leveldb中的keyvalue键值对�
     
     <item>
       <title>RocksDB</title>
-      <link>https://reid00.github.io/post/rocksdb/</link>
+      <link>https://reid00.github.io/posts/rocksdb/</link>
       <pubDate>Wed, 08 Jun 2022 14:21:12 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/rocksdb/</guid>
+      <guid>https://reid00.github.io/posts/rocksdb/</guid>
       <description>简介 RocksDB 是由 Facebook 基于 LevelDB 开发的一款提供键值存储与读写功能的 LSM-tree 架构引擎。用户写入的键值对会先写入磁盘上的 WAL (Write Ahead Log)，然后再写入内存中的跳表（SkipList，这部分结构又被称作 MemTable）。LSM-tree 引擎由于将用户的随机修改（插入）转化为了对 WAL 文件的顺序写，因此具有比 B 树类存储引擎更高的写吞吐。
 内存中的数据达到一定阈值后，会刷到磁盘上生成 SST 文件 (Sorted String Table)，SST 又分为多层（默认至多 6 层），每一层的数据达到一定阈值后会挑选一部分 SST 合并到下一层，每一层的数据是上一层的 10 倍（因此 90% 的数据存储在最后一层）。
 RocksDB 允许用户创建多个 ColumnFamily ，这些 ColumnFamily 各自拥有独立的内存跳表以及 SST 文件，但是共享同一个 WAL 文件，这样的好处是可以根据应用特点为不同的 ColumnFamily 选择不同的配置，但是又没有增加对 WAL 的写次数。

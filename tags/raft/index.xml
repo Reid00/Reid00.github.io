@@ -13,10 +13,10 @@
     <lastBuildDate>Wed, 08 Jun 2022 14:19:19 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/raft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAFT</title>
-      <link>https://reid00.github.io/post/raft/</link>
+      <link>https://reid00.github.io/posts/raft/</link>
       <pubDate>Wed, 08 Jun 2022 14:19:19 +0800</pubDate>
       
-      <guid>https://reid00.github.io/post/raft/</guid>
+      <guid>https://reid00.github.io/posts/raft/</guid>
       <description>Raft 协议介绍 为了让一致性协议变得简单可理解，Raft协议主要使用了两种策略。一是将复杂问题进行分解，在Raft协议中，一致性问题被分解为：leader election、log replication、safety三个简单问题；二是减少状态空间中的状态数目。下面我们详细看一下Raft协议是怎样设计的。
 分布式系统要解决的问题 时序性 Timing 运行在不同网络下的机器中的进程如何判断一些事件发生的顺序 并发性 Con currency 运行在不同网络环境下的机器中的进程如何共享资源，而不互相干扰，比如访问共同的数据库 健壮性 Robustness 应对网络不稳定性以及硬件的不稳定性 一致性 Consistency 如何保障无论哪个服务节点都能获得相同的结果 需要达成的共识 逻辑时间的共识，来决定事件发生的顺序 互斥性的共识，用来决定谁真正拥有访问的资源 协调者的共识，谁是当下的Leader Raft一致性算法 在Raft体系中，有一个强leader，由它全权负责接收客户端的请求命令，并将命令作为日志条目复制给其他服务器，在确认安全的时候，将日志命令提交执行。当leader故障时，会选举产生一个新的leader。在强leader的帮助下，Raft将一致性问题分解为了三个子问题：
 leader选举：当已有的leader故障时必须选出一个新的leader。 日志复制：leader接受来自客户端的命令，记录为日志，并复制给集群中的其他服务器，并强制其他节点的日志与leader保持一致。 安全safety措施：通过一些措施确保系统的安全性，如确保所有状态机按照相同顺序执行相同命令的措施。 1. 基本概念 一个Raft集群拥有多个服务器，典型值是5，这样可以容忍两台服务器出现故障。服务器可能会处于如下三种角色：leader、candidate、follower，正常运行的情况下，会有一个leader，其他全为follower，follower只会响应leader和candidate的请求，而客户端的请求则全部由leader处理，即使有客户端请求了一个follower也会将请求重定向到leader。candidate代表候选人，出现在选举leader阶段，选举成功后candidate将会成为新的leader。可能出现的状态转换关系如下图： 从状态转换关系图中可以看出，集群刚启动时，所有节点都是follower，之后在time out信号的驱使下，follower会转变成candidate去拉取选票，获得大多数选票后就会成为leader，这时候如果其他候选人发现了新的leader已经诞生，就会自动转变为follower；而如果另一个time out信号发出时，还没有选举出leader，将会重新开始一次新的选举。可见，time out信号是促使角色转换得关键因素，类似于操作系统中得中断信号。
