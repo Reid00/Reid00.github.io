@@ -10,7 +10,61 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jun 2022 17:45:08 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2022 15:30:41 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>driver</title>
+      <link>https://reid00.github.io/tags/driver/</link>
+      <pubDate>Fri, 17 Jun 2022 15:30:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/driver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>executor</title>
+      <link>https://reid00.github.io/tags/executor/</link>
+      <pubDate>Fri, 17 Jun 2022 15:30:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/executor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spark</title>
+      <link>https://reid00.github.io/tags/spark/</link>
+      <pubDate>Fri, 17 Jun 2022 15:30:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>广播变量</title>
+      <link>https://reid00.github.io/tags/%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Fri, 17 Jun 2022 15:30:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>累加器</title>
+      <link>https://reid00.github.io/tags/%E7%B4%AF%E5%8A%A0%E5%99%A8/</link>
+      <pubDate>Fri, 17 Jun 2022 15:30:41 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/%E7%B4%AF%E5%8A%A0%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yarn</title>
+      <link>https://reid00.github.io/tags/yarn/</link>
+      <pubDate>Fri, 17 Jun 2022 11:24:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/yarn/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Comment</title>
       <link>https://reid00.github.io/tags/comment/</link>
