@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 25 Aug 2022 11:00:02 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Sep 2022 15:47:31 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
       <link>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
@@ -18,6 +18,21 @@
       
       <guid>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Build Blog with Hugo and deploy on Github Pages with Github Action</description>
+    </item>
+    
+    <item>
+      <title>Spark 面试注意点</title>
+      <link>https://reid00.github.io/posts/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <pubDate>Fri, 23 Sep 2022 15:47:31 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <description>基础篇 sparksql 如何加载metadata 任何的SQL引擎都是需要加载元数据的，不然，连执行计划都生成不了。 加载元数据总的来说分为两步:
+加载元数据 创建会话连接Hive MetaStore 首先，Spark检测到我们没有设置spark.sql.warehouse.dir，然后就开始找我们在hite-site.xml中配置的hive.metastore.warehouse.dir。
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 &amp;lt;property&amp;gt; &amp;lt;name&amp;gt;hive.metastore.uris&amp;lt;/name&amp;gt; &amp;lt;value&amp;gt;thrift://test-3:9083,thrift://test-4:9083&amp;lt;/value&amp;gt; &amp;lt;/property&amp;gt; &amp;lt;property&amp;gt; &amp;lt;name&amp;gt;hive.metastore.client.socket.timeout&amp;lt;/name&amp;gt; &amp;lt;value&amp;gt;300&amp;lt;/value&amp;gt; &amp;lt;/property&amp;gt; &amp;lt;property&amp;gt; &amp;lt;name&amp;gt;hive.metastore.warehouse.dir&amp;lt;/name&amp;gt; &amp;lt;value&amp;gt;/data/hive/warehouse&amp;lt;/value&amp;gt; &amp;lt;/property&amp;gt; &amp;lt;property&amp;gt; &amp;lt;name&amp;gt;hive.warehouse.subdir.inherit.perms&amp;lt;/name&amp;gt; &amp;lt;value&amp;gt;true&amp;lt;/value&amp;gt; 然后，SparkSession在HDFS临时位置创建了下面目录。
+1 2 Moved: &amp;#39;hdfs://nn1/data/hive/warehouse/pyspark_test.db/tb_name/part-00000-c46bc573-0d1d-4ac4-8a69-2359dff82485-c000&amp;#39; to trash at: hdfs://nn1/user/hive/.Trash/Current Moved: &amp;#39;hdfs://nn1/data/hive/warehouse/pyspark_test.db/tb_name/part-00001-c46bc573-0d1d-4ac4-8a69-2359dff82485-c000&amp;#39; to trash at: hdfs://nn1/user/hive/.Trash/Current 最后，Spark开始通过thrift RPC去连接Hive的MetaStore Server。
+进阶篇 Spark为什么这么快 Spark是一个基于内存的，用于大规模数据处理的统一分析引擎，其运算速度可以达到Mapreduce的10-100倍。具有如下特点：
+内存计算。Spark优先将数据加载到内存中，数据可以被快速处理，并可启用缓存。 shuffle过程优化。和Mapreduce的shuffle过程中间文件频繁落盘不同，Spark对Shuffle机制进行了优化，降低中间文件的数量并保证内存优先。 RDD计算模型。Spark具有高效的DAG调度算法，同时将RDD计算结果存储在内存中，避免重复计算。 如何理解DAGScheduler的Stage划分算法 官网的RDD执行流程图: 1 rdd1.join(rdd2).groupBy().filter() 针对一段应用代码(如上)，Driver会以Action算子为边界生成DAG调度图。DAGScheduler从DAG末端开始遍历划分Stage，封装成一系列的tasksets移交TaskScheduler，后者根据调度算法, 将taskset分发到相应worker上的Executor中执行。
+DAGSchduler的工作原理 DAGScheduler是一个面向stage调度机制的高级调度器，为每个job计算stage的DAG(有向无环图)，划分stage并提交taskset给TaskScheduler。 追踪每个RDD和stage的物化情况，处理因shuffle过程丢失的RDD，重新计算和提交。 查找rdd partition 是否cache/checkpoint。提供优先位置给TaskScheduler，等待后续TaskScheduler的最佳位置划分 Stage划分算法 从触发action操作的算子开始，从后往前遍历DAG。 为最后一个rdd创建finalStage。 遍历过程中如果发现该rdd是宽依赖，则为其生成一个新的stage，与旧stage分隔而开，此时该rdd是新stage的最后一个rdd。 如果该rdd是窄依赖，将该rdd划分为旧stage内，继续遍历，以此类推，继续遍历直至DAG完成。 如何理解TaskScheduler的Task分配算法 TaskScheduler负责Spark中的task任务调度工作。TaskScheduler内部使用TasksetPool调度池机制存放task任务。TasksetPool分为FIFO(先进先出调度)和FAIR(公平调度)。 FIFO调度: 基于队列思想，使用先进先出原则顺序调度taskset FAIR调度: 根据权重值调度，一般选取资源占用率作为标准，可人为设定 TaskScheduler的工作原理 负责Application在Cluster Manager上的注册 根据不同策略创建TasksetPool资源调度池，初始化pool大小 根据task分配算法发送Task到Executor上执行 Task分配算法 首先获取所有的executors，包含executors的ip和port等信息 将所有的executors根据shuffle算法进行打散 遍历executors。在程序中依次尝试本地化级别，最终选择每个task的最优位置(结合DAGScheduler优化位置策略) 序列化task分配结果，并发送RPC消息等待Executor响应 Spark的本地化级别有哪几种？怎么调优 移动计算 or 移动数据？这是一个问题。在分布式计算的核心思想中，移动计算永远比移动数据要合算得多，如何合理利用本地化数据计算是值得思考的一个问题。</description>
     </item>
     
     <item>
