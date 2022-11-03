@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KV Store on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/tags/kv-store/</link>
+    <description>Recent content in KV Store on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 02 Nov 2022 16:47:08 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/kv-store/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raft 介绍</title>
+      <link>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Wed, 02 Nov 2022 16:47:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</guid>
+      <description>1. Raft 算法简介 1.1 Raft 背景 在分布式系统中，一致性算法至关重要。在所有一致性算法中，Paxos 最负盛名，它由莱斯利·兰伯特（Leslie Lamport）于 1990 年提出，是一种基于消息传递的一致性算法，被认为是类似算法中最有效的。
+Paxos 算法虽然很有效，但复杂的原理使它实现起来非常困难，截止目前，实现 Paxos 算法的开源软件很少，比较出名的有 Chubby、LibPaxos。此外，Zookeeper 采用的 ZAB（Zookeeper Atomic Broadcast）协议也是基于 Paxos 算法实现的，不过 ZAB 对 Paxos 进行了很多改进与优化，两者的设计目标也存在差异——ZAB 协议主要用于构建一个高可用的分布式数据主备系统，而 Paxos 算法则是用于构建一个分布式的一致性状态机系统。
+由于 Paxos 算法过于复杂、实现困难，极大地制约了其应用，而分布式系统领域又亟需一种高效而易于实现的分布式一致性算法，在此背景下，Raft 算法应运而生。
+Raft 算法在斯坦福 Diego Ongaro 和 John Ousterhout 于 2013 年发表的《In Search of an Understandable Consensus Algorithm》中提出。相较于 Paxos，Raft 通过逻辑分离使其更容易理解和实现，目前，已经有十多种语言的 Raft 算法实现框架，较为出名的有 etcd、Consul 。
+本文基于论文In Search of an Understandable Consensus Algorithm对raft协议进行分析，当然，还是建议读者直接看论文。 快速简单了解可以看看动画展示: raft 动画 raft official site
+分布式共识算法核心理论基础 在正式谈raft之前，还需要简单介绍下分布式共识算法所基于的理论工具。分布式共识协议在复制状态机的背景下产生的。在该方法中，一组服务器上的状态机计算相同的副本，即便某台机器宕机依然会继续运行。复制状态机是基于日志实现的。在这里有必要唠叨两句日志的特性。日志可以看做一个简单的存储抽象，append only，按照时间完全有序，注意这里面的日志并不是log4j或是syslog打出来的业务日志，那个我们称之为应用日志，这里的日志是用于程序访问的存储结构。有了上面的限制，使用日志就能够保证这样一件事。如图所示 我有一个日志，里面存储的是一系列的对数据的操作，此时系统外部有一系列输入数据，输入到这个日志中，经过日志中一系列command操作，由于日志的确定性和有序性，保证最后得到的输出序列也应该是确定的。扩展到分布式的场景，此时每台机器上所有了这么一个日志，此时我需要做的事情就是保证这几份日志是完全一致的。详细步骤就引出了论文中的那张经典的复制状态机的示意图 如图所示，server中的共识模块负责接收由client发送过来的请求，将请求中对应的操作记录到自己的日志中，同时通知给其他机器，让他们也进行同样的操作最终保证所有的机器都在日志中写入了这条操作。然后返回给客户端写入成功。复制状态机用于解决分布式中系统中的各种容错问题，例如master的高可用，例如Chubby以及ZK都是复制状态机，</description>
+    </item>
+    
+  </channel>
+</rss>
