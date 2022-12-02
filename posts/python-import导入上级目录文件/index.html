@@ -51,13 +51,13 @@
 </span><span class=lnt>7
 </span><span class=lnt>8
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=o>--</span> <span class=n>dir0</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>file1</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>file2</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>dir3</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=fm>__init__</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=n>file3</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>dir4</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=n>file4</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>file1</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>file2</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>dir3</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=fm>__init__</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=n>file3</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>dir4</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=n>file4</span><span class=o>.</span><span class=n>py</span>
 </span></span></code></pre></td></tr></table></div></div><p>再使用如下语句：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1>#plan A</span>
@@ -91,13 +91,13 @@
 </span><span class=lnt>7
 </span><span class=lnt>8
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=o>--</span> <span class=nb>dir</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>file1</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>file2</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>dir3</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=fm>__init__</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=n>file3</span><span class=o>.</span><span class=n>py</span>
-</span></span><span class=line><span class=cl>　　<span class=o>|</span> <span class=n>dir4</span>
-</span></span><span class=line><span class=cl>　　　<span class=o>|</span> <span class=n>file4</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>file1</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>file2</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>dir3</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=fm>__init__</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=n>file3</span><span class=o>.</span><span class=n>py</span>
+</span></span><span class=line><span class=cl><span class=err>　　</span><span class=o>|</span> <span class=n>dir4</span>
+</span></span><span class=line><span class=cl><span class=err>　　　</span><span class=o>|</span> <span class=n>file4</span><span class=o>.</span><span class=n>py</span>
 </span></span></code></pre></td></tr></table></div></div><p>同时也要将上级目录加到sys.path里：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3

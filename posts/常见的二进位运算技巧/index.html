@@ -50,9 +50,9 @@
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=nx>a</span><span class=p>=</span><span class=mi>0</span><span class=p>^</span><span class=nx>a</span><span class=p>=</span><span class=nx>a</span><span class=p>^</span><span class=mi>0</span>
 </span></span><span class=line><span class=cl><span class=mi>0</span><span class=p>=</span><span class=nx>a</span><span class=p>^</span><span class=nx>a</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nx>由上面两个推导出</span><span class=err>：</span><span class=nx>a</span><span class=p>=</span><span class=nx>a</span><span class=p>^</span><span class=nx>b</span><span class=p>^</span><span class=nx>b</span>
+</span></span><span class=line><span class=cl><span class=err>由上面两个推导出：</span><span class=nx>a</span><span class=p>=</span><span class=nx>a</span><span class=p>^</span><span class=nx>b</span><span class=p>^</span><span class=nx>b</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nx>获取最后一个</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=err>获取最后一个</span> <span class=mi>1</span>
 </span></span><span class=line><span class=cl><span class=nx>diff</span><span class=p>=(</span><span class=nx>n</span><span class=o>&amp;</span><span class=p>(</span><span class=nx>n</span><span class=o>-</span><span class=mi>1</span><span class=p>))^</span><span class=nx>n</span>
 </span></span></code></pre></td></tr></table></div></div><p>4） 交换两个数</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
@@ -73,15 +73,15 @@
 </span><span class=lnt>7
 </span><span class=lnt>8
 </span><span class=lnt>9
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=nx>移除最后一个</span> <span class=mi>1</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=err>移除最后一个</span> <span class=mi>1</span>
 </span></span><span class=line><span class=cl><span class=nx>a</span><span class=p>=</span><span class=nx>n</span><span class=o>&amp;</span><span class=p>(</span><span class=nx>n</span><span class=o>-</span><span class=mi>1</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=err>#</span> <span class=nx>用</span> <span class=nf>O</span><span class=p>(</span><span class=mi>1</span><span class=p>)</span> <span class=nx>时间检测整数</span> <span class=nx>n</span> <span class=nx>是否是</span> <span class=mi>2</span> <span class=nx>的幂次</span>
+</span></span><span class=line><span class=cl><span class=err>#</span> <span class=err>用</span> <span class=nf>O</span><span class=p>(</span><span class=mi>1</span><span class=p>)</span> <span class=err>时间检测整数</span> <span class=nx>n</span> <span class=err>是否是</span> <span class=mi>2</span> <span class=err>的幂次</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nx>N如果是2的幂次</span><span class=err>，</span><span class=nx>则N满足两个条件</span><span class=err>。</span>
+</span></span><span class=line><span class=cl><span class=nx>N</span><span class=err>如果是</span><span class=mi>2</span><span class=err>的幂次，则</span><span class=nx>N</span><span class=err>满足两个条件。</span>
 </span></span><span class=line><span class=cl><span class=mf>1.</span><span class=nx>N</span> <span class=p>&gt;</span><span class=mi>0</span>
-</span></span><span class=line><span class=cl><span class=mf>2.</span><span class=nx>N的二进制表示中只有一个1</span>
-</span></span><span class=line><span class=cl><span class=nx>因为N的二进制表示中只有一个1</span><span class=err>，</span><span class=nx>所以使用N</span> <span class=o>&amp;</span> <span class=p>(</span><span class=nx>N</span> <span class=o>-</span> <span class=mi>1</span><span class=p>)</span><span class=nx>将N唯一的一个1消去</span><span class=err>，</span><span class=nx>应该返回0</span><span class=err>。</span>
+</span></span><span class=line><span class=cl><span class=mf>2.</span><span class=nx>N</span><span class=err>的二进制表示中只有一个</span><span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=err>因为</span><span class=nx>N</span><span class=err>的二进制表示中只有一个</span><span class=mi>1</span><span class=err>，所以使用</span><span class=nx>N</span> <span class=o>&amp;</span> <span class=p>(</span><span class=nx>N</span> <span class=o>-</span> <span class=mi>1</span><span class=p>)</span><span class=err>将</span><span class=nx>N</span><span class=err>唯一的一个</span><span class=mi>1</span><span class=err>消去，应该返回</span><span class=mi>0</span><span class=err>。</span>
 </span></span></code></pre></td></tr></table></div></div><h2 id=5-左移运算符>5. 左移运算符（&#171;）<a hidden class=anchor aria-hidden=true href=#5-左移运算符>#</a></h2><p>定义：将一个运算对象的各二进制位全部左移若干位（左边的二进制位丢弃，右边补0）。</p><p>设 a=1010 1110，a = a&#171; 2 将a的二进制位左移2位、右补0，即得a=1011 1000。</p><p>若左移时舍弃的高位不包含1，则每左移一位，相当于该数乘以2。</p><h2 id=6-右移运算符>6. 右移运算符（&#187;）<a hidden class=anchor aria-hidden=true href=#6-右移运算符>#</a></h2><p>定义：将一个数的各二进制位全部右移若干位，正数左补0，负数左补1，右边丢弃。</p><p>例如：a=a&#187;2 将a的二进制位右移2位，左补0 或者 左补1得看被移数是正还是负。</p><p>操作数每右移一位，相当于该数除以2。</p><h2 id=应用>应用<a hidden class=anchor aria-hidden=true href=#应用>#</a></h2><p>位操作统计二进制中 1 的个数</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
