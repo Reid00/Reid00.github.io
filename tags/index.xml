@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Dec 2022 16:11:33 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2022 15:43:35 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP</title>
+      <link>https://reid00.github.io/tags/http/</link>
+      <pubDate>Fri, 09 Dec 2022 15:43:35 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TCP</title>
+      <link>https://reid00.github.io/tags/tcp/</link>
+      <pubDate>Fri, 09 Dec 2022 15:43:35 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/tcp/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>502</title>
       <link>https://reid00.github.io/tags/502/</link>
@@ -71,15 +89,6 @@
       <pubDate>Wed, 02 Nov 2022 16:47:08 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TCP</title>
-      <link>https://reid00.github.io/tags/tcp/</link>
-      <pubDate>Wed, 26 Oct 2022 11:11:30 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/tags/tcp/</guid>
       <description></description>
     </item>
     
