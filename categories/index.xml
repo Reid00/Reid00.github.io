@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 Dec 2022 11:04:27 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 19:54:59 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang</title>
+      <link>https://reid00.github.io/categories/golang/</link>
+      <pubDate>Thu, 05 Jan 2023 19:54:59 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/golang/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Join</title>
       <link>https://reid00.github.io/categories/join/</link>
@@ -71,6 +80,15 @@
       <pubDate>Wed, 02 Nov 2022 16:47:08 +0800</pubDate>
       
       <guid>https://reid00.github.io/categories/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gin</title>
+      <link>https://reid00.github.io/categories/gin/</link>
+      <pubDate>Thu, 25 Aug 2022 11:00:02 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/gin/</guid>
       <description></description>
     </item>
     
