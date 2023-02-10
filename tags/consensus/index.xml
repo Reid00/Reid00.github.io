@@ -44,7 +44,7 @@ Mulit Raft Group 正是通过把整个数据从横向做切分，分为多个 Re
       <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</guid>
       <description>介绍 对Raft Figure2 中需要持久化的字段进行保存。
 完成persist()和readPersist()函数，编码方式参照注释 优化nextIndex[]回退方式，否则无法通过所有测试 提示:
-需要持久化的部分包括currentTerm、votedFor、log。 有关nextIndex[]回退优化可以查看 论文简单介绍 持久化 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 func (rf *Raft) persist() { // Your code here (2C).</description>
+需要持久化的部分包括currentTerm、votedFor、log。 有关nextIndex[]回退优化 持久化 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 func (rf *Raft) persist() { // Your code here (2C).</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ XTerm: 这个是Follower中与Leader冲突的Log对应的任期号。在之前�
       <pubDate>Thu, 09 Feb 2023 17:46:35 +0800</pubDate>
       
       <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</guid>
-      <description>介绍 论文简单介绍 流程梳理 整体逻辑, 从 ticker goroutine 开始,启动两个Timer, ElectionTimer 和 HeartbeatTimer. 如果某个raft 节点election timeout,则会触发leader election, 调用StartElection 方法. StartElection 中发送 RequestVote RPC, 根据ReqestVote Response 判断是否收到选票,决定是否成为Leader。
+      <description>介绍 查看Raft0 流程梳理 整体逻辑, 从 ticker goroutine 开始,启动两个Timer, ElectionTimer 和 HeartbeatTimer. 如果某个raft 节点election timeout,则会触发leader election, 调用StartElection 方法. StartElection 中发送 RequestVote RPC, 根据ReqestVote Response 判断是否收到选票,决定是否成为Leader。
 如果某个节点,收到大多数节点的选票,成为Leader 要通过发送Heartbeat 即空LogEntry 的AppendEntries RPC 来告诉其他节点自己的 Leader 地位。
 所以Lab2A 中,主要实现 RequestVote, AppendEntries 的逻辑。
 相关函数解析 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 type Raft struct { mu sync.</description>
