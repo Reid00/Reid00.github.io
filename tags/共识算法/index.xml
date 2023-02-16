@@ -10,7 +10,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Feb 2023 14:40:20 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2023 11:16:53 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT6.824 2022 Lab3 RaftKV</title>
+      <link>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</link>
+      <pubDate>Tue, 14 Feb 2023 11:16:53 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</guid>
+      <description>介绍 在lab2的Raft函数库之上，搭建一个能够容错的key/value存储服务，需要提供强一致性保证。
+强一致性介绍 对于单个请求，整个服务需要表现得像个单机服务，并且对状态机的修改基于之前所有的请求。对于并发的请求，返回的值和最终的状态必须相同，就好像所有请求都是串行的一样。即使有些请求发生在了同一时间，那么也应当一个一个响应。此外，在一个请求被执行之前，这之前的请求都必须已经被完成（在技术上我们也叫着线性化（linearizability））。 kv服务支持三种操作：Put, Append, Get。通过在内存维护一个简单的键/值对数据库，键和值都是字符串；
+整体架构 简化来看 在正式开始前，要了解论文-extend-version中section 7和8的内容。
+相关的RPC 在Raft 作者的博士论文中的6.3- Implementing linearizable semantics 小结有很详细的介绍，建议先阅读。
+RPC Lab3A - 不需要日志压缩的Key/Value服务 考虑这样一个场景，客户端向服务端提交了一条日志，服务端将其在 raft 组中进行了同步并成功 commit，接着在 apply 后返回给客户端执行结果。然而不幸的是，该 rpc 在传输中发生了丢失，客户端并没有收到写入成功的回复。因此，客户端只能进行重试直到明确地写入成功或失败为止，这就可能会导致相同地命令被执行多次，从而违背线性一致性。
+有人可能认为，只要写请求是幂等的，那重复执行多次也是可以满足线性一致性的，实际上则不然。考虑这样一个例子：对于一个仅支持 put 和 get 接口的 raftKV 系统，其每个请求都具有幂等性。设 x 的初始值为 0，此时有两个并发客户端，客户端 1 执行 put(x,1)，客户端 2 执行 get(x) 再执行 put(x,2)，问（客户端 2 读到的值，x 的最终值）是多少。对于线性一致的系统，答案可以是 (0,1)，(0,2) 或 (1,2)。然而，如果客户端 1 执行 put 请求时发生了上段描述的情况，然后客户端 2 读到 x 的值为 1 并将 x 置为了 2，最后客户端 1 超时重试且再次将 x 置为 1。对于这种场景，答案是 (1,1)，这就违背了线性一致性。归根究底还是由于幂等的 put(x,1) 请求在状态机上执行了两次，有两个 LZ 点。因此，即使写请求的业务语义能够保证幂等，不进行额外的处理让其重复执行多次也会破坏线性一致性。当然，读请求由于不改变系统的状态，重复执行多次是没问题的。</description>
+    </item>
+    
     <item>
       <title>Raft Etcd 之 Linearizable Read</title>
       <link>https://reid00.github.io/posts/raft-etcd-%E4%B9%8Blinearizable-read/</link>
@@ -116,7 +130,7 @@ If two entries in different logs have the same index and term, then they store t
       <pubDate>Thu, 09 Feb 2023 16:00:01 +0800</pubDate>
       
       <guid>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%BB%8B%E7%BB%8D/</guid>
-      <description>前言 论文 官网 动画展示 Students&amp;rsquo; Guide to Raft （重要） MIT6.824 本篇是实验的前言, 先对论文里面提到的RPC做个大概的梳理和介绍。 Raft 原理可以参考这篇Raft
+      <description>前言 论文 博士论文 官网 动画展示 Students&amp;rsquo; Guide to Raft （重要） MIT6.824 本篇是实验的前言, 先对论文里面提到的RPC做个大概的梳理和介绍。 Raft 原理可以参考这篇Raft
 Figure2 Raft 实现的核心在这个图，想要正确实现Raft 必须对这个图有深刻理解，在这里我们对图上的各个RPC 进行介绍和阐述。
 State Persistent state for all servers 所有Raft 节点都需要维护的持久化状态: currentTerm: 此节点当前的任期。保证重启后任期不丢失。启动时初始值为0(无意义状态)，单调递增 (Lab 2A) votedFor: 当前任期内,此节点将选票给了谁。 一个任期内,节点只能将选票投给某个节点。需要持久化，从而避免节点重启后重复投票。(Lab 2A) logs: 日志条目, 每条 Entry 包含一条待施加至状态机的命令。Entry 也要记录其被发送至 Leader 时，Leader 当时的任期。Lab2B 中，在内存存储日志即可，不用担心 server 会 down 掉，测试中仅会模拟网络挂掉的情景。初始Index从1开始，0为dummy index。 为什么 currentTerm 和 votedFor 需要持久化?
 votedFor 保证每个任期最多只有一个Leader！

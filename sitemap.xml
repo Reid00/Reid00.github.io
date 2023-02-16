@@ -6,36 +6,39 @@
     <lastmod>2022-06-07T17:46:02+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/consensus/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/mit6.824/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</loc>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/posts/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/raft/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/raft/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/posts/raft-etcd-%E4%B9%8Blinearizable-read/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/storage/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/</loc>
-    <lastmod>2023-02-10T14:40:20+08:00</lastmod>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-02-14T11:16:53+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/posts/raft-etcd-%E4%B9%8Blinearizable-read/</loc>
     <lastmod>2023-02-10T14:40:20+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/posts/multi-raft/</loc>
