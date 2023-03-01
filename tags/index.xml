@@ -10,11 +10,47 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Feb 2023 11:16:53 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 15:36:44 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang</title>
+      <link>https://reid00.github.io/tags/golang/</link>
+      <pubDate>Wed, 01 Mar 2023 15:36:44 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MurMur</title>
+      <link>https://reid00.github.io/tags/murmur/</link>
+      <pubDate>Wed, 01 Mar 2023 15:36:44 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/murmur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://reid00.github.io/tags/linux/</link>
+      <pubDate>Mon, 27 Feb 2023 15:32:24 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://reid00.github.io/tags/server/</link>
+      <pubDate>Mon, 27 Feb 2023 15:32:24 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/server/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Consensus</title>
       <link>https://reid00.github.io/tags/consensus/</link>
-      <pubDate>Tue, 14 Feb 2023 11:16:53 +0800</pubDate>
+      <pubDate>Mon, 20 Feb 2023 17:45:45 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/consensus/</guid>
       <description></description>
@@ -23,7 +59,7 @@
     <item>
       <title>MIT6.824</title>
       <link>https://reid00.github.io/tags/mit6.824/</link>
-      <pubDate>Tue, 14 Feb 2023 11:16:53 +0800</pubDate>
+      <pubDate>Mon, 20 Feb 2023 17:45:45 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/mit6.824/</guid>
       <description></description>
@@ -32,16 +68,25 @@
     <item>
       <title>Raft</title>
       <link>https://reid00.github.io/tags/raft/</link>
-      <pubDate>Tue, 14 Feb 2023 11:16:53 +0800</pubDate>
+      <pubDate>Mon, 20 Feb 2023 17:45:45 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/raft/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>ShardedKV</title>
+      <link>https://reid00.github.io/tags/shardedkv/</link>
+      <pubDate>Mon, 20 Feb 2023 17:45:45 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/shardedkv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>共识算法</title>
       <link>https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/</link>
-      <pubDate>Tue, 14 Feb 2023 11:16:53 +0800</pubDate>
+      <pubDate>Mon, 20 Feb 2023 17:45:45 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/</guid>
       <description></description>
@@ -183,15 +228,6 @@
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://reid00.github.io/tags/golang/</link>
-      <pubDate>Thu, 25 Aug 2022 11:00:02 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Optimize</title>
       <link>https://reid00.github.io/tags/optimize/</link>
       <pubDate>Wed, 17 Aug 2022 16:13:08 +0800</pubDate>
@@ -318,15 +354,6 @@
     </item>
     
     <item>
-      <title>Linux</title>
-      <link>https://reid00.github.io/tags/linux/</link>
-      <pubDate>Wed, 08 Jun 2022 14:24:48 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>性能检测方法</title>
       <link>https://reid00.github.io/tags/%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 08 Jun 2022 14:24:48 +0800</pubDate>
@@ -368,15 +395,6 @@
       <pubDate>Wed, 08 Jun 2022 14:22:29 +0800</pubDate>
       
       <guid>https://reid00.github.io/tags/remote/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>server</title>
-      <link>https://reid00.github.io/tags/server/</link>
-      <pubDate>Wed, 08 Jun 2022 14:22:29 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/tags/server/</guid>
       <description></description>
     </item>
     
