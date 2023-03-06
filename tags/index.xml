@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Mar 2023 15:36:44 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 14:00:08 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>https://reid00.github.io/tags/markdown/</link>
+      <pubDate>Mon, 06 Mar 2023 14:00:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PPT</title>
+      <link>https://reid00.github.io/tags/ppt/</link>
+      <pubDate>Mon, 06 Mar 2023 14:00:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/ppt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slidev</title>
+      <link>https://reid00.github.io/tags/slidev/</link>
+      <pubDate>Mon, 06 Mar 2023 14:00:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/tags/slidev/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Golang</title>
       <link>https://reid00.github.io/tags/golang/</link>
