@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Mar 2023 16:26:30 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 19:06:41 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
       <link>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
@@ -18,15 +18,6 @@
       
       <guid>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Build Blog with Hugo and deploy on Github Pages with Github Action</description>
-    </item>
-    
-    <item>
-      <title>Test Mark Down</title>
-      <link>https://reid00.github.io/posts/test-mark-down/</link>
-      <pubDate>Thu, 16 Mar 2023 16:26:30 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/posts/test-mark-down/</guid>
-      <description>Test Mark Down</description>
     </item>
     
     <item>
@@ -885,7 +876,7 @@ RandomWalk是一种可重复访问已访问节点的深度优先遍历算法。�
       <pubDate>Wed, 08 Jun 2022 11:39:22 +0800</pubDate>
       
       <guid>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
-      <description>## TCP/IP 协议族 通常我说 TCP/IP 是指 TCP/IP 协议族。它是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大集合。 例如：http、https、ftp、icmp、arp、rarp、smtp（简单邮件传输协议）
+      <description>TCP/IP 协议族 通常我说 TCP/IP 是指 TCP/IP 协议族。它是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大集合。 例如：http、https、ftp、icmp、arp、rarp、smtp（简单邮件传输协议）
 当输入 xxxxHub 后，到网页显示，其间发生了什么？这问题被面试官问了五六十次，熬夜赶出这篇文章
 https://mp.weixin.qq.com/s/ESJ8Zt0GBVXHKj3KICoqjg
 一个网络请求是怎么传输的？ 我们拿访问浏览器举个栗子，如图所示：
