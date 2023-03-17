@@ -13,10 +13,10 @@
     <lastBuildDate>Thu, 16 Mar 2023 19:34:58 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/shardedkv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20230214 MIT6.824 2022 Lab4 ShardedKV</title>
-      <link>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</link>
+      <link>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</guid>
+      <guid>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</guid>
       <description>20230214 MIT6.824 2022 Lab4 ShardedKV</description>
     </item>
     

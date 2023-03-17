@@ -13,100 +13,100 @@
     <lastBuildDate>Thu, 16 Mar 2023 19:34:58 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/raft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20230214 MIT6.824 2022 Lab4 ShardedKV</title>
-      <link>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</link>
+      <link>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</guid>
+      <guid>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</guid>
       <description>20230214 MIT6.824 2022 Lab4 ShardedKV</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Lab3 RaftKV</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</guid>
       <description>MIT6.824 2022 Lab3 RaftKV</description>
     </item>
     
     <item>
       <title>Raft Etcd 之 Linearizable Read</title>
-      <link>https://reid00.github.io/posts/raft-etcd-%E4%B9%8B-linearizable-read/</link>
+      <link>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/raft-etcd-%E4%B9%8B-linearizable-read/</guid>
+      <guid>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</guid>
       <description>Raft Etcd 之 Linearizable Read</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
       <description>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</description>
     </item>
     
     <item>
       <title>Multi Raft</title>
-      <link>https://reid00.github.io/posts/multi-raft/</link>
+      <link>https://reid00.github.io/posts/storage/multi-raft/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/multi-raft/</guid>
+      <guid>https://reid00.github.io/posts/storage/multi-raft/</guid>
       <description>Multi Raft</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2C Log Compaction</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</guid>
       <description>MIT6.824 2022 Raft Lab2C Log Compaction</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2D Log Persistence</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2d-log-persistence/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2d-log-persistence/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</guid>
       <description>MIT6.824 2022 Raft Lab2D Log Persistence</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft 0 介绍</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</guid>
       <description>MIT6.824 2022 Raft 0 介绍</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2A Leader Election</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</guid>
       <description>MIT6.824 2022 Raft Lab2A Leader Election</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2B Log Replication</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2b-log-replication/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2b-log-replication/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</guid>
       <description>MIT6.824 2022 Raft Lab2B Log Replication</description>
     </item>
     
     <item>
       <title>Raft 介绍</title>
-      <link>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</guid>
       <description>Raft 介绍</description>
     </item>
     

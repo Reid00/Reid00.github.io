@@ -13,19 +13,19 @@
     <lastBuildDate>Thu, 16 Mar 2023 19:35:09 +0800</lastBuildDate><atom:link href="https://reid00.github.io/tags/rocksdb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RocksDB Sstable</title>
-      <link>https://reid00.github.io/posts/rocksdb-sstable/</link>
+      <link>https://reid00.github.io/posts/storage/rocksdb-sstable/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/rocksdb-sstable/</guid>
+      <guid>https://reid00.github.io/posts/storage/rocksdb-sstable/</guid>
       <description>RocksDB Sstable</description>
     </item>
     
     <item>
       <title>RocksDB</title>
-      <link>https://reid00.github.io/posts/rocksdb/</link>
+      <link>https://reid00.github.io/posts/storage/rocksdb/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/rocksdb/</guid>
+      <guid>https://reid00.github.io/posts/storage/rocksdb/</guid>
       <description>RocksDB</description>
     </item>
     

@@ -13,11 +13,20 @@
     <lastBuildDate>Thu, 16 Mar 2023 19:35:28 +0800</lastBuildDate><atom:link href="https://reid00.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
-      <link>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
+      <link>https://reid00.github.io/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:03 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://reid00.github.io/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Hugo搭建博客并用GitHubAction部署</description>
+    </item>
+    
+    <item>
+      <title>Utterances 给 Hugo PaperMod 主题添加评论系统</title>
+      <link>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
+      <description>Utterances 给 Hugo PaperMod 主题添加评论系统</description>
     </item>
     
     <item>
@@ -346,478 +355,469 @@
     
     <item>
       <title>进程与线程基础知识</title>
-      <link>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+      <link>https://reid00.github.io/posts/os_network/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:15 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+      <guid>https://reid00.github.io/posts/os_network/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
       <description>进程与线程基础知识</description>
     </item>
     
     <item>
       <title>高并发架构</title>
-      <link>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
+      <link>https://reid00.github.io/posts/os_network/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:15 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
+      <guid>https://reid00.github.io/posts/os_network/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</guid>
       <description>高并发架构</description>
     </item>
     
     <item>
       <title>板瓦工搭建VPS搭建vpn</title>
-      <link>https://reid00.github.io/posts/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
+      <link>https://reid00.github.io/posts/other/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:14 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
+      <guid>https://reid00.github.io/posts/other/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
       <description>板瓦工搭建VPS搭建vpn</description>
     </item>
     
     <item>
       <title>编码那些事</title>
-      <link>https://reid00.github.io/posts/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <link>https://reid00.github.io/posts/langs_linux/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:14 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
       <description>编码那些事</description>
     </item>
     
     <item>
       <title>搜索引擎背后的经典数据结构和算法</title>
-      <link>https://reid00.github.io/posts/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
+      <link>https://reid00.github.io/posts/algo/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:13 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://reid00.github.io/posts/algo/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
       <description>搜索引擎背后的经典数据结构和算法</description>
     </item>
     
     <item>
       <title>数学中的十大悖论</title>
-      <link>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
+      <link>https://reid00.github.io/posts/other/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:13 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
+      <guid>https://reid00.github.io/posts/other/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
       <description>数学中的十大悖论</description>
     </item>
     
     <item>
       <title>常见的二进位运算技巧</title>
-      <link>https://reid00.github.io/posts/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</link>
+      <link>https://reid00.github.io/posts/algo/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:12 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://reid00.github.io/posts/algo/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</guid>
       <description>常见的二进位运算技巧</description>
     </item>
     
     <item>
       <title>拔掉网线后,原本的TCP连接还存在吗？</title>
-      <link>https://reid00.github.io/posts/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</link>
+      <link>https://reid00.github.io/posts/os_network/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:12 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</guid>
+      <guid>https://reid00.github.io/posts/os_network/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</guid>
       <description>拔掉网线后,原本的TCP连接还存在吗？</description>
     </item>
     
     <item>
-      <title>Utterances 给 Hugo PaperMod 主题添加评论系统</title>
-      <link>https://reid00.github.io/posts/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/posts/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
-      <description>Utterances 给 Hugo PaperMod 主题添加评论系统</description>
-    </item>
-    
-    <item>
       <title>Vscode远程开发配置</title>
-      <link>https://reid00.github.io/posts/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</link>
+      <link>https://reid00.github.io/posts/other/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://reid00.github.io/posts/other/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</guid>
       <description>Vscode远程开发配置</description>
     </item>
     
     <item>
       <title>Token Cookie Session区别</title>
-      <link>https://reid00.github.io/posts/token-cookie-session%E5%8C%BA%E5%88%AB/</link>
+      <link>https://reid00.github.io/posts/os_network/token-cookie-session%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:10 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/token-cookie-session%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://reid00.github.io/posts/os_network/token-cookie-session%E5%8C%BA%E5%88%AB/</guid>
       <description>Token Cookie Session区别</description>
     </item>
     
     <item>
       <title>Unicode编码与Python</title>
-      <link>https://reid00.github.io/posts/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</link>
+      <link>https://reid00.github.io/posts/langs_linux/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:10 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</guid>
       <description>Unicode编码与Python</description>
     </item>
     
     <item>
       <title>RocksDB Sstable</title>
-      <link>https://reid00.github.io/posts/rocksdb-sstable/</link>
+      <link>https://reid00.github.io/posts/storage/rocksdb-sstable/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/rocksdb-sstable/</guid>
+      <guid>https://reid00.github.io/posts/storage/rocksdb-sstable/</guid>
       <description>RocksDB Sstable</description>
     </item>
     
     <item>
       <title>TCP IP协议</title>
-      <link>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</link>
+      <link>https://reid00.github.io/posts/os_network/tcp-ip%E5%8D%8F%E8%AE%AE/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
+      <guid>https://reid00.github.io/posts/os_network/tcp-ip%E5%8D%8F%E8%AE%AE/</guid>
       <description>TCP IP协议</description>
     </item>
     
     <item>
       <title>Python多线程多进程</title>
-      <link>https://reid00.github.io/posts/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</link>
+      <link>https://reid00.github.io/posts/langs_linux/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</guid>
       <description>Python多线程多进程</description>
     </item>
     
     <item>
       <title>RocksDB</title>
-      <link>https://reid00.github.io/posts/rocksdb/</link>
+      <link>https://reid00.github.io/posts/storage/rocksdb/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/rocksdb/</guid>
+      <guid>https://reid00.github.io/posts/storage/rocksdb/</guid>
       <description>RocksDB</description>
     </item>
     
     <item>
       <title>MySql高频面试问题</title>
-      <link>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/storage/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:07 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/storage/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
       <description>MySql高频面试问题</description>
     </item>
     
     <item>
       <title>Python Import导入上级目录文件</title>
-      <link>https://reid00.github.io/posts/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</link>
+      <link>https://reid00.github.io/posts/langs_linux/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:07 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</guid>
       <description>Python Import导入上级目录文件</description>
     </item>
     
     <item>
       <title>MySql索引介绍</title>
-      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:06 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
       <description>MySql索引介绍</description>
     </item>
     
     <item>
       <title>MySql索引优化</title>
-      <link>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:06 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
       <description>MySql索引优化</description>
     </item>
     
     <item>
       <title>MySql事务</title>
-      <link>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <link>https://reid00.github.io/posts/storage/mysql%E4%BA%8B%E5%8A%A1/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <guid>https://reid00.github.io/posts/storage/mysql%E4%BA%8B%E5%8A%A1/</guid>
       <description>MySql事务</description>
     </item>
     
     <item>
       <title>MySql语句优化</title>
-      <link>https://reid00.github.io/posts/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</link>
+      <link>https://reid00.github.io/posts/storage/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:05 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://reid00.github.io/posts/storage/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</guid>
       <description>MySql语句优化</description>
     </item>
     
     <item>
       <title>Linux性能检测</title>
-      <link>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
+      <link>https://reid00.github.io/posts/langs_linux/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:04 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</guid>
       <description>Linux性能检测</description>
     </item>
     
     <item>
       <title>LSM Tree</title>
-      <link>https://reid00.github.io/posts/lsm-tree/</link>
+      <link>https://reid00.github.io/posts/storage/lsm-tree/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:04 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/lsm-tree/</guid>
+      <guid>https://reid00.github.io/posts/storage/lsm-tree/</guid>
       <description>LSM Tree</description>
     </item>
     
     <item>
       <title>Docker笔记</title>
-      <link>https://reid00.github.io/posts/docker%E7%AC%94%E8%AE%B0/</link>
+      <link>https://reid00.github.io/posts/langs_linux/docker%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/docker%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/docker%E7%AC%94%E8%AE%B0/</guid>
       <description>Docker笔记</description>
     </item>
     
     <item>
       <title>ES面试题</title>
-      <link>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <link>https://reid00.github.io/posts/storage/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:02 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <guid>https://reid00.github.io/posts/storage/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
       <description>ES面试题</description>
     </item>
     
     <item>
       <title>Dockerfile案例</title>
-      <link>https://reid00.github.io/posts/dockerfile%E6%A1%88%E4%BE%8B/</link>
+      <link>https://reid00.github.io/posts/langs_linux/dockerfile%E6%A1%88%E4%BE%8B/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/dockerfile%E6%A1%88%E4%BE%8B/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/dockerfile%E6%A1%88%E4%BE%8B/</guid>
       <description>Dockerfile案例</description>
     </item>
     
     <item>
       <title>Git 安装和多用户配置</title>
-      <link>https://reid00.github.io/posts/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</link>
+      <link>https://reid00.github.io/posts/langs_linux/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:01 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</guid>
       <description>Git 安装和多用户配置</description>
     </item>
     
     <item>
       <title>Golang MurMur3</title>
-      <link>https://reid00.github.io/posts/golang-murmur3/</link>
+      <link>https://reid00.github.io/posts/langs_linux/golang-murmur3/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:59 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/golang-murmur3/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/golang-murmur3/</guid>
       <description>Golang MurMur3</description>
     </item>
     
     <item>
       <title>Linux 服务器登录后的常见操作</title>
-      <link>https://reid00.github.io/posts/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</link>
+      <link>https://reid00.github.io/posts/langs_linux/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:59 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</guid>
       <description>Linux 服务器登录后的常见操作</description>
     </item>
     
     <item>
       <title>20230214 MIT6.824 2022 Lab4 ShardedKV</title>
-      <link>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</link>
+      <link>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</guid>
+      <guid>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</guid>
       <description>20230214 MIT6.824 2022 Lab4 ShardedKV</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Lab3 RaftKV</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</guid>
       <description>MIT6.824 2022 Lab3 RaftKV</description>
     </item>
     
     <item>
       <title>Raft Etcd 之 Linearizable Read</title>
-      <link>https://reid00.github.io/posts/raft-etcd-%E4%B9%8B-linearizable-read/</link>
+      <link>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/raft-etcd-%E4%B9%8B-linearizable-read/</guid>
+      <guid>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</guid>
       <description>Raft Etcd 之 Linearizable Read</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
       <description>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</description>
     </item>
     
     <item>
       <title>Multi Raft</title>
-      <link>https://reid00.github.io/posts/multi-raft/</link>
+      <link>https://reid00.github.io/posts/storage/multi-raft/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/multi-raft/</guid>
+      <guid>https://reid00.github.io/posts/storage/multi-raft/</guid>
       <description>Multi Raft</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2C Log Compaction</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</guid>
       <description>MIT6.824 2022 Raft Lab2C Log Compaction</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2D Log Persistence</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2d-log-persistence/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2d-log-persistence/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</guid>
       <description>MIT6.824 2022 Raft Lab2D Log Persistence</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft 0 介绍</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</guid>
       <description>MIT6.824 2022 Raft 0 介绍</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2A Leader Election</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</guid>
       <description>MIT6.824 2022 Raft Lab2A Leader Election</description>
     </item>
     
     <item>
       <title>MIT6.824 2022 Raft Lab2B Log Replication</title>
-      <link>https://reid00.github.io/posts/mit6.824-2022-raft-lab2b-log-replication/</link>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/mit6.824-2022-raft-lab2b-log-replication/</guid>
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</guid>
       <description>MIT6.824 2022 Raft Lab2B Log Replication</description>
     </item>
     
     <item>
       <title>Go Function Option 函数选项模式</title>
-      <link>https://reid00.github.io/posts/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://reid00.github.io/posts/langs_linux/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:54 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</guid>
       <description>Go Function Option 函数选项模式</description>
     </item>
     
     <item>
       <title>Spark Join 原理详解</title>
-      <link>https://reid00.github.io/posts/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://reid00.github.io/posts/computation/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:54 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</guid>
       <description>Spark Join 原理详解</description>
     </item>
     
     <item>
       <title>Http 502 问题 排查</title>
-      <link>https://reid00.github.io/posts/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</link>
+      <link>https://reid00.github.io/posts/os_network/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</guid>
+      <guid>https://reid00.github.io/posts/os_network/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</guid>
       <description>Http 502 问题 排查</description>
     </item>
     
     <item>
       <title>Http长连接和TCP长连接的区别</title>
-      <link>https://reid00.github.io/posts/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://reid00.github.io/posts/os_network/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:53 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://reid00.github.io/posts/os_network/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       <description>Http长连接和TCP长连接的区别</description>
     </item>
     
     <item>
       <title>Raft 介绍</title>
-      <link>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</guid>
       <description>Raft 介绍</description>
     </item>
     
     <item>
       <title>Spark内存空间管理</title>
-      <link>https://reid00.github.io/posts/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</link>
+      <link>https://reid00.github.io/posts/computation/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</guid>
       <description>Spark内存空间管理</description>
     </item>
     
     <item>
       <title>UDP就一定比TCP快吗</title>
-      <link>https://reid00.github.io/posts/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</link>
+      <link>https://reid00.github.io/posts/os_network/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</guid>
+      <guid>https://reid00.github.io/posts/os_network/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</guid>
       <description>UDP就一定比TCP快吗</description>
     </item>
     
     <item>
       <title>Gin Error Connection Write Broken Pipe</title>
-      <link>https://reid00.github.io/posts/gin-error-connection-write-broken-pipe/</link>
+      <link>https://reid00.github.io/posts/langs_linux/gin-error-connection-write-broken-pipe/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:51 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/gin-error-connection-write-broken-pipe/</guid>
+      <guid>https://reid00.github.io/posts/langs_linux/gin-error-connection-write-broken-pipe/</guid>
       <description>Gin Error Connection Write Broken Pipe</description>
     </item>
     
     <item>
       <title>Spark 最佳实践指南</title>
-      <link>https://reid00.github.io/posts/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</link>
+      <link>https://reid00.github.io/posts/computation/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:51 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</guid>
       <description>Spark 最佳实践指南</description>
     </item>
     
     <item>
       <title>Spark 面试注意点</title>
-      <link>https://reid00.github.io/posts/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
+      <link>https://reid00.github.io/posts/computation/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:51 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>Spark 面试注意点</description>
     </item>
     
     <item>
       <title>Spark on Yarn 执行流程解析</title>
-      <link>https://reid00.github.io/posts/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</link>
+      <link>https://reid00.github.io/posts/computation/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</guid>
       <description>Spark on Yarn 执行流程解析</description>
     </item>
     
     <item>
       <title>Spark 广播变量</title>
-      <link>https://reid00.github.io/posts/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</link>
+      <link>https://reid00.github.io/posts/computation/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:50 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</guid>
+      <guid>https://reid00.github.io/posts/computation/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</guid>
       <description>Spark 广播变量</description>
     </item>
     
     <item>
       <title>Slidev Markdown 转PPT</title>
-      <link>https://reid00.github.io/posts/slidev-markdown-%E8%BD%ACppt/</link>
+      <link>https://reid00.github.io/posts/other/slidev-markdown-%E8%BD%ACppt/</link>
       <pubDate>Mon, 06 Mar 2023 14:00:08 +0800</pubDate>
       
-      <guid>https://reid00.github.io/posts/slidev-markdown-%E8%BD%ACppt/</guid>
+      <guid>https://reid00.github.io/posts/other/slidev-markdown-%E8%BD%ACppt/</guid>
       <description>Slidev Markdown 转PPT</description>
     </item>
     

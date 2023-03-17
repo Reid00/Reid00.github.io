@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://reid00.github.io/posts/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</loc>
+    <loc>https://reid00.github.io/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2023-03-16T19:35:03+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2023-03-16T19:35:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/</loc>
     <lastmod>2023-03-16T19:35:28+08:00</lastmod>
@@ -314,13 +317,13 @@
     <loc>https://reid00.github.io/tags/%E8%BF%9B%E7%A8%8B/</loc>
     <lastmod>2023-03-16T19:35:15+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <loc>https://reid00.github.io/posts/os_network/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2023-03-16T19:35:15+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2023-03-16T19:35:15+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</loc>
+    <loc>https://reid00.github.io/posts/os_network/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/</loc>
     <lastmod>2023-03-16T19:35:15+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/vpn/</loc>
@@ -332,13 +335,13 @@
     <loc>https://reid00.github.io/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/</loc>
     <lastmod>2023-03-16T19:35:14+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</loc>
+    <loc>https://reid00.github.io/posts/other/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</loc>
     <lastmod>2023-03-16T19:35:14+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E7%BC%96%E7%A0%81/</loc>
     <lastmod>2023-03-16T19:35:14+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/</loc>
     <lastmod>2023-03-16T19:35:14+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/trie/</loc>
@@ -356,13 +359,13 @@
     <loc>https://reid00.github.io/categories/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</loc>
     <lastmod>2023-03-16T19:35:13+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://reid00.github.io/posts/algo/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-03-16T19:35:13+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2023-03-16T19:35:13+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</loc>
+    <loc>https://reid00.github.io/posts/other/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</loc>
     <lastmod>2023-03-16T19:35:13+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/tcp/</loc>
@@ -374,10 +377,10 @@
     <loc>https://reid00.github.io/categories/%E4%BD%8D%E8%BF%90%E7%AE%97/</loc>
     <lastmod>2023-03-16T19:35:12+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://reid00.github.io/posts/algo/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2023-03-16T19:35:12+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</loc>
+    <loc>https://reid00.github.io/posts/os_network/%E6%8B%94%E6%8E%89%E7%BD%91%E7%BA%BF%E5%90%8E%E5%8E%9F%E6%9C%AC%E7%9A%84tcp%E8%BF%9E%E6%8E%A5%E8%BF%98%E5%AD%98%E5%9C%A8%E5%90%97/</loc>
     <lastmod>2023-03-16T19:35:12+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/comment/</loc>
@@ -398,16 +401,13 @@
     <loc>https://reid00.github.io/tags/server/</loc>
     <lastmod>2023-03-16T19:35:11+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2023-03-16T19:35:11+08:00</lastmod>
-  </url><url>
     <loc>https://reid00.github.io/tags/vscode/</loc>
     <lastmod>2023-03-16T19:35:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/vscode/</loc>
     <lastmod>2023-03-16T19:35:11+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://reid00.github.io/posts/other/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2023-03-16T19:35:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E8%AF%84%E8%AE%BA/</loc>
@@ -425,13 +425,13 @@
     <loc>https://reid00.github.io/tags/token/</loc>
     <lastmod>2023-03-16T19:35:10+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/token-cookie-session%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://reid00.github.io/posts/os_network/token-cookie-session%E5%8C%BA%E5%88%AB/</loc>
     <lastmod>2023-03-16T19:35:10+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/unicode/</loc>
     <lastmod>2023-03-16T19:35:10+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/</loc>
     <lastmod>2023-03-16T19:35:10+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/%E7%BC%96%E7%A0%81/</loc>
@@ -452,7 +452,7 @@
     <loc>https://reid00.github.io/tags/rocksdb/</loc>
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/rocksdb-sstable/</loc>
+    <loc>https://reid00.github.io/posts/storage/rocksdb-sstable/</loc>
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/sst/</loc>
@@ -464,7 +464,7 @@
     <loc>https://reid00.github.io/categories/tcp/</loc>
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/tcp-ip%E5%8D%8F%E8%AE%AE/</loc>
+    <loc>https://reid00.github.io/posts/os_network/tcp-ip%E5%8D%8F%E8%AE%AE/</loc>
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/categories/%E7%BD%91%E7%BB%9C/</loc>
@@ -476,10 +476,10 @@
     <loc>https://reid00.github.io/tags/python/</loc>
     <lastmod>2023-03-16T19:35:08+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/python%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B/</loc>
     <lastmod>2023-03-16T19:35:08+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/rocksdb/</loc>
+    <loc>https://reid00.github.io/posts/storage/rocksdb/</loc>
     <lastmod>2023-03-16T19:35:08+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/import/</loc>
@@ -488,25 +488,25 @@
     <loc>https://reid00.github.io/tags/mysql/</loc>
     <lastmod>2023-03-16T19:35:07+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://reid00.github.io/posts/storage/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2023-03-16T19:35:07+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/python-import%E5%AF%BC%E5%85%A5%E4%B8%8A%E7%BA%A7%E7%9B%AE%E5%BD%95%E6%96%87%E4%BB%B6/</loc>
     <lastmod>2023-03-16T19:35:07+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2023-03-16T19:35:06+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2023-03-16T19:35:06+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E7%B4%A2%E5%BC%95/</loc>
     <lastmod>2023-03-16T19:35:06+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mysql%E4%BA%8B%E5%8A%A1/</loc>
+    <loc>https://reid00.github.io/posts/storage/mysql%E4%BA%8B%E5%8A%A1/</loc>
     <lastmod>2023-03-16T19:35:05+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://reid00.github.io/posts/storage/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2023-03-16T19:35:05+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E4%BA%8B%E5%8A%A1/</loc>
@@ -518,13 +518,13 @@
     <loc>https://reid00.github.io/categories/linux/</loc>
     <lastmod>2023-03-16T19:35:04+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/linux%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B/</loc>
     <lastmod>2023-03-16T19:35:04+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/lsm/</loc>
     <lastmod>2023-03-16T19:35:04+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/lsm-tree/</loc>
+    <loc>https://reid00.github.io/posts/storage/lsm-tree/</loc>
     <lastmod>2023-03-16T19:35:04+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E6%80%A7%E8%83%BD%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95/</loc>
@@ -548,19 +548,19 @@
     <loc>https://reid00.github.io/categories/docker/</loc>
     <lastmod>2023-03-16T19:35:02+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/docker%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/docker%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-03-16T19:35:02+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/es/</loc>
     <lastmod>2023-03-16T19:35:02+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/es%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    <loc>https://reid00.github.io/posts/storage/es%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
     <lastmod>2023-03-16T19:35:02+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/dockerfile/</loc>
     <lastmod>2023-03-16T19:35:01+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/dockerfile%E6%A1%88%E4%BE%8B/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/dockerfile%E6%A1%88%E4%BE%8B/</loc>
     <lastmod>2023-03-16T19:35:01+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/git/</loc>
@@ -569,7 +569,7 @@
     <loc>https://reid00.github.io/categories/git/</loc>
     <lastmod>2023-03-16T19:35:01+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/git-%E5%AE%89%E8%A3%85%E5%92%8C%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2023-03-16T19:35:01+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/github/</loc>
@@ -584,10 +584,10 @@
     <loc>https://reid00.github.io/categories/golang/</loc>
     <lastmod>2023-03-16T19:34:59+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/golang-murmur3/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/golang-murmur3/</loc>
     <lastmod>2023-03-16T19:34:59+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/linux-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%99%BB%E5%BD%95%E5%90%8E%E7%9A%84%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2023-03-16T19:34:59+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/murmur/</loc>
@@ -596,7 +596,7 @@
     <loc>https://reid00.github.io/categories/server/</loc>
     <lastmod>2023-03-16T19:34:59+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/20230214-mit6.824-2022-lab4-shardedkv/</loc>
+    <loc>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/consensus/</loc>
@@ -605,7 +605,7 @@
     <loc>https://reid00.github.io/tags/mit6.824/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-lab3-raftkv/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/raft/</loc>
@@ -614,7 +614,7 @@
     <loc>https://reid00.github.io/categories/raft/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/raft-etcd-%E4%B9%8B-linearizable-read/</loc>
+    <loc>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/shardedkv/</loc>
@@ -623,31 +623,31 @@
     <loc>https://reid00.github.io/tags/%E5%85%B1%E8%AF%86%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2023-03-16T19:34:58+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2023-03-16T19:34:57+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/multi-raft/</loc>
+    <loc>https://reid00.github.io/posts/storage/multi-raft/</loc>
     <lastmod>2023-03-16T19:34:57+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-lab2c-log-compaction/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</loc>
     <lastmod>2023-03-16T19:34:56+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-lab2d-log-persistence/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</loc>
     <lastmod>2023-03-16T19:34:56+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2023-03-16T19:34:55+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-lab2a-leader-election/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</loc>
     <lastmod>2023-03-16T19:34:55+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/mit6.824-2022-raft-lab2b-log-replication/</loc>
+    <loc>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</loc>
     <lastmod>2023-03-16T19:34:55+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/functional-options/</loc>
     <lastmod>2023-03-16T19:34:54+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/go-function-option-%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-03-16T19:34:54+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/join/</loc>
@@ -659,7 +659,7 @@
     <loc>https://reid00.github.io/categories/spark/</loc>
     <lastmod>2023-03-16T19:34:54+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2023-03-16T19:34:54+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E5%87%BD%E6%95%B0%E9%80%89%E9%A1%B9%E6%A8%A1%E5%BC%8F/</loc>
@@ -677,25 +677,25 @@
     <loc>https://reid00.github.io/categories/http/</loc>
     <lastmod>2023-03-16T19:34:53+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</loc>
+    <loc>https://reid00.github.io/posts/os_network/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</loc>
     <lastmod>2023-03-16T19:34:53+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://reid00.github.io/posts/os_network/http%E9%95%BF%E8%BF%9E%E6%8E%A5%E5%92%8Ctcp%E9%95%BF%E8%BF%9E%E6%8E%A5%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     <lastmod>2023-03-16T19:34:53+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/nginx/</loc>
     <lastmod>2023-03-16T19:34:53+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/raft-%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2023-03-16T19:34:52+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2023-03-16T19:34:52+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/udp/</loc>
     <lastmod>2023-03-16T19:34:52+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</loc>
+    <loc>https://reid00.github.io/posts/os_network/udp%E5%B0%B1%E4%B8%80%E5%AE%9A%E6%AF%94tcp%E5%BF%AB%E5%90%97/</loc>
     <lastmod>2023-03-16T19:34:52+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
@@ -707,16 +707,16 @@
     <loc>https://reid00.github.io/categories/gin/</loc>
     <lastmod>2023-03-16T19:34:51+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/gin-error-connection-write-broken-pipe/</loc>
+    <loc>https://reid00.github.io/posts/langs_linux/gin-error-connection-write-broken-pipe/</loc>
     <lastmod>2023-03-16T19:34:51+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/optimize/</loc>
     <lastmod>2023-03-16T19:34:51+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2023-03-16T19:34:51+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</loc>
     <lastmod>2023-03-16T19:34:51+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/driver/</loc>
@@ -725,10 +725,10 @@
     <loc>https://reid00.github.io/tags/executor/</loc>
     <lastmod>2023-03-16T19:34:50+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</loc>
     <lastmod>2023-03-16T19:34:50+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</loc>
+    <loc>https://reid00.github.io/posts/computation/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</loc>
     <lastmod>2023-03-16T19:34:50+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/tags/yarn/</loc>
@@ -752,7 +752,7 @@
     <loc>https://reid00.github.io/categories/slidev/</loc>
     <lastmod>2023-03-06T14:00:08+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/posts/slidev-markdown-%E8%BD%ACppt/</loc>
+    <loc>https://reid00.github.io/posts/other/slidev-markdown-%E8%BD%ACppt/</loc>
     <lastmod>2023-03-06T14:00:08+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/archives/</loc>
