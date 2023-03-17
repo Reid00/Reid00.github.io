@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>存储, 分布式相关的文章 on Reid&#39;s Blog</title>
+    <link>https://reid00.github.io/posts/storage/</link>
+    <description>Recent content in 存储, 分布式相关的文章 on Reid&#39;s Blog</description>
+    <image>
+      <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
+      <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:09 +0800</lastBuildDate><atom:link href="https://reid00.github.io/posts/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RocksDB Sstable</title>
+      <link>https://reid00.github.io/posts/storage/rocksdb-sstable/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/rocksdb-sstable/</guid>
+      <description>RocksDB Sstable</description>
+    </item>
+    
+    <item>
+      <title>RocksDB</title>
+      <link>https://reid00.github.io/posts/storage/rocksdb/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:08 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/rocksdb/</guid>
+      <description>RocksDB</description>
+    </item>
+    
+    <item>
+      <title>MySql高频面试问题</title>
+      <link>https://reid00.github.io/posts/storage/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:07 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mysql%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</guid>
+      <description>MySql高频面试问题</description>
+    </item>
+    
+    <item>
+      <title>MySql索引介绍</title>
+      <link>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:06 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/</guid>
+      <description>MySql索引介绍</description>
+    </item>
+    
+    <item>
+      <title>MySql索引优化</title>
+      <link>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:06 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</guid>
+      <description>MySql索引优化</description>
+    </item>
+    
+    <item>
+      <title>MySql事务</title>
+      <link>https://reid00.github.io/posts/storage/mysql%E4%BA%8B%E5%8A%A1/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:05 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mysql%E4%BA%8B%E5%8A%A1/</guid>
+      <description>MySql事务</description>
+    </item>
+    
+    <item>
+      <title>MySql语句优化</title>
+      <link>https://reid00.github.io/posts/storage/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:05 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mysql%E8%AF%AD%E5%8F%A5%E4%BC%98%E5%8C%96/</guid>
+      <description>MySql语句优化</description>
+    </item>
+    
+    <item>
+      <title>LSM Tree</title>
+      <link>https://reid00.github.io/posts/storage/lsm-tree/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:04 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/lsm-tree/</guid>
+      <description>LSM Tree</description>
+    </item>
+    
+    <item>
+      <title>ES面试题</title>
+      <link>https://reid00.github.io/posts/storage/es%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:02 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/es%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+      <description>ES面试题</description>
+    </item>
+    
+    <item>
+      <title>20230214 MIT6.824 2022 Lab4 ShardedKV</title>
+      <link>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/20230214-mit6.824-2022-lab4-shardedkv/</guid>
+      <description>20230214 MIT6.824 2022 Lab4 ShardedKV</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Lab3 RaftKV</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-lab3-raftkv/</guid>
+      <description>MIT6.824 2022 Lab3 RaftKV</description>
+    </item>
+    
+    <item>
+      <title>Raft Etcd 之 Linearizable Read</title>
+      <link>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:58 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/raft-etcd-%E4%B9%8B-linearizable-read/</guid>
+      <description>Raft Etcd 之 Linearizable Read</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-%E4%B8%BA%E4%BB%80%E4%B9%88raft%E5%8D%8F%E8%AE%AE%E4%B8%8D%E8%83%BD%E6%8F%90%E4%BA%A4%E4%B9%8B%E5%89%8D%E4%BB%BB%E6%9C%9F%E7%9A%84%E6%97%A5%E5%BF%97/</guid>
+      <description>MIT6.824 2022 Raft 为什么Raft协议不能提交之前任期的日志</description>
+    </item>
+    
+    <item>
+      <title>Multi Raft</title>
+      <link>https://reid00.github.io/posts/storage/multi-raft/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:57 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/multi-raft/</guid>
+      <description>Multi Raft</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft Lab2C Log Compaction</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2c-log-compaction/</guid>
+      <description>MIT6.824 2022 Raft Lab2C Log Compaction</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft Lab2D Log Persistence</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:56 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2d-log-persistence/</guid>
+      <description>MIT6.824 2022 Raft Lab2D Log Persistence</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft 0 介绍</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-0-%E4%BB%8B%E7%BB%8D/</guid>
+      <description>MIT6.824 2022 Raft 0 介绍</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft Lab2A Leader Election</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2a-leader-election/</guid>
+      <description>MIT6.824 2022 Raft Lab2A Leader Election</description>
+    </item>
+    
+    <item>
+      <title>MIT6.824 2022 Raft Lab2B Log Replication</title>
+      <link>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:55 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/mit6.824-2022-raft-lab2b-log-replication/</guid>
+      <description>MIT6.824 2022 Raft Lab2B Log Replication</description>
+    </item>
+    
+    <item>
+      <title>Raft 介绍</title>
+      <link>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/storage/raft-%E4%BB%8B%E7%BB%8D/</guid>
+      <description>Raft 介绍</description>
+    </item>
+    
+  </channel>
+</rss>
