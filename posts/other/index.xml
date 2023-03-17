@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>日常工具相关的记录 on Reid&#39;s Blog</title>
+    <title>其他日常工具相关的记录 on Reid&#39;s Blog</title>
     <link>https://reid00.github.io/posts/other/</link>
-    <description>Recent content in 日常工具相关的记录 on Reid&#39;s Blog</description>
+    <description>Recent content in 其他日常工具相关的记录 on Reid&#39;s Blog</description>
     <image>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 17 Mar 2023 15:08:19 +0800</lastBuildDate><atom:link href="https://reid00.github.io/posts/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:14 +0800</lastBuildDate><atom:link href="https://reid00.github.io/posts/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
       <link>https://reid00.github.io/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
@@ -18,24 +18,6 @@
       
       <guid>https://reid00.github.io/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Hugo搭建博客并用GitHubAction部署</description>
-    </item>
-    
-    <item>
-      <title>Utterances 给 Hugo PaperMod 主题添加评论系统</title>
-      <link>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
-      <description>Utterances 给 Hugo PaperMod 主题添加评论系统</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://reid00.github.io/posts/other/test/</link>
-      <pubDate>Fri, 17 Mar 2023 15:08:19 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/posts/other/test/</guid>
-      <description>Test</description>
     </item>
     
     <item>
@@ -54,6 +36,15 @@
       
       <guid>https://reid00.github.io/posts/other/%E6%95%B0%E5%AD%A6%E4%B8%AD%E7%9A%84%E5%8D%81%E5%A4%A7%E6%82%96%E8%AE%BA/</guid>
       <description>数学中的十大悖论</description>
+    </item>
+    
+    <item>
+      <title>Utterances 给 Hugo PaperMod 主题添加评论系统</title>
+      <link>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/posts/other/utterances-%E7%BB%99-hugo-papermod-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/</guid>
+      <description>Utterances 给 Hugo PaperMod 主题添加评论系统</description>
     </item>
     
     <item>
