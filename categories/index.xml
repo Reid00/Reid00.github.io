@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:28 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 15:08:19 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storage</title>
+      <link>https://reid00.github.io/categories/storage/</link>
+      <pubDate>Fri, 17 Mar 2023 15:08:19 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/storage/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Machine Learning</title>
       <link>https://reid00.github.io/categories/machine-learning/</link>
@@ -143,15 +152,6 @@
       <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
       
       <guid>https://reid00.github.io/categories/ip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Storage</title>
-      <link>https://reid00.github.io/categories/storage/</link>
-      <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
-      
-      <guid>https://reid00.github.io/categories/storage/</guid>
       <description></description>
     </item>
     
