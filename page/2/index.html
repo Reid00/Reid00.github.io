@@ -1,5 +1,31 @@
 <!doctype html><html lang=en dir=auto><head><meta name=generator content="Hugo 0.111.3"><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Reid's Blog</title><meta name=description content="Reid's Personal Notes -- https://github.com/Reid00"><meta name=author content="Reid"><link rel=canonical href=https://reid00.github.io/><link crossorigin=anonymous href=/assets/css/stylesheet.d7fb4cbf980fe688a21621b06a795933c4e6bb2d4070ec940667af1715d84af2.css integrity="sha256-1/tMv5gP5oiiFiGwanlZM8Tmuy1AcOyUBmevFxXYSvI=" rel="preload stylesheet" as=style><link rel=icon href=https://reid00.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://reid00.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://reid00.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://reid00.github.io/apple-touch-icon.png><link rel=mask-icon href=https://reid00.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://reid00.github.io/index.xml><link rel=alternate type=application/json href=https://reid00.github.io/index.json><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><head><meta name=referrer content="no-referrer"></head><script async src="https://www.googletagmanager.com/gtag/js?id=G-QRR6GRNQGK"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-QRR6GRNQGK",{anonymize_ip:!1})}</script><meta property="og:title" content="Reid's Blog"><meta property="og:description" content="Reid's Personal Notes -- https://github.com/Reid00"><meta property="og:type" content="website"><meta property="og:url" content="https://reid00.github.io/"><meta property="og:image" content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:title content="Reid's Blog"><meta name=twitter:description content="Reid's Personal Notes -- https://github.com/Reid00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Reid's Blog","url":"https://reid00.github.io/","description":"Reid\u0026#39;s Personal Notes -- https://github.com/Reid00","thumbnailUrl":"https://reid00.github.io/favicon.ico","sameAs":["https://github.com/Reid00","https://twitter.com","index.xml"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://reid00.github.io/ accesskey=h title="Reid's Blog (Alt + H)">Reid's Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://reid00.github.io/archives title=Archive><span>Archive</span></a></li><li><a href=https://reid00.github.io/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://reid00.github.io/categories/ title=Categorys><span>Categorys</span></a></li><li><a href=https://reid00.github.io/tags/ title=Tags><span>Tags</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2>线性回归</h2></header><div class=entry-content><p>介绍 称函数为效用函数 线性回归模型看起来非常简单，简单到让人怀疑其是否有研究价值以及使用价值。但实际上，线性回归模型可以说是最重要的数学模型之一，很多模型都是建立在它的基础之上，可以被称为是“模型之母”。
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-QRR6GRNQGK",{anonymize_ip:!1})}</script><meta property="og:title" content="Reid's Blog"><meta property="og:description" content="Reid's Personal Notes -- https://github.com/Reid00"><meta property="og:type" content="website"><meta property="og:url" content="https://reid00.github.io/"><meta property="og:image" content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png"><meta name=twitter:title content="Reid's Blog"><meta name=twitter:description content="Reid's Personal Notes -- https://github.com/Reid00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Reid's Blog","url":"https://reid00.github.io/","description":"Reid\u0026#39;s Personal Notes -- https://github.com/Reid00","thumbnailUrl":"https://reid00.github.io/favicon.ico","sameAs":["https://github.com/Reid00","https://twitter.com","index.xml"]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://reid00.github.io/ accesskey=h title="Reid's Blog (Alt + H)">Reid's Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://reid00.github.io/archives title=Archive><span>Archive</span></a></li><li><a href=https://reid00.github.io/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://reid00.github.io/categories/ title=Categorys><span>Categorys</span></a></li><li><a href=https://reid00.github.io/tags/ title=Tags><span>Tags</span></a></li></ul></nav></header><main class=main><article class=post-entry><header class=entry-header><h2>生成模型vs判别模型</h2></header><div class=entry-content><p>什么是生成模型和判别模型？ 从本质上讲，生成模型和判别模型是解决分类问题的两类基本思路。首先，您得先了解，分类问题，就是给定一个数据x，要判断它对应的标签y（这么naive的东西都要解释下，求面试官此时内心的阴影面积，嘎嘎）。生成模型就是要学习x和y的联合概率分布P(x,y)，然后根据贝叶斯公式来求得条件概率P(y|x)，预测条件概率最大的y。贝叶斯公式这么简单的知识相信您也了解，我就不啰嗦了。判别模型就是直接学习条件概率分布P(y|x)。
+举个栗子 例子1 假设你从来没有见过大象和猫，连听都没有听过，这时，给你看了一张大象的照片和一张猫的照片。如下所示：
+然后牵来我家的大象（面试官：你家开动物园的吗？），让你判断这是大象还是猫。你咋办？
+你开始回想刚刚看过的照片，大概记起来，大象和猫比起来，有个长鼻子，而眼前这个家伙也有个长鼻子，所以，你兴奋地说：“这是大象！”恭喜你答对了！
+你也有可能这样做，你努力回想刚才的两张照片，然后用笔把它们画在了纸上，拿着纸和我家的大象做比较，你发现，眼前的动物更像是大象。于是，你惊喜地宣布：“这玩意是大象！”恭喜你又答对了！
+在这个问题中，第一个解决问题的思路就是判别模型，因为你只记住了大象和猫之间的不同之处。第二个解决问题的思路就是生成模型，因为你实际上学习了什么是大象，什么是猫。
+例子2 来来来，看一下这四个形式为(x,y)的样本。(1,0), (1,0), (2,0), (2, 1）。假设，我们想从这四个样本中，学习到如何通过x判断y的模型。用生成模型，我们要学习P(x,y)。如下所示：
+我们学习到了四个概率值，它们的和是1，这就是P(x,y)。
+我们也可以用判别模型，我们要学习P(y|x)，如下所示：
+我们同样学习到了四个概率值，但是，这次，是每一行的两个概率值的和为1了。让我们具体来看一下，如何使用这两个模型做判断。
+假设 x=1。
+对于生成模型， 我们会比较：
+P(x=1,y=0) = 1/2 P(x=1,y=1) = 0 我们发现P(x=1,y=0)的概率要比P(x=1,y=1)的概率大，所以，我们判断：x=1时，y=0。
+对于判别模型，我们会比较：
+P(y=0|x=1) = 1 P(y=1|x=1) = 0 同样，P(y=0|x=1)要比P(y=1|x=1)大，所以，我们判断：x=1时，y=0。
+我们看到，虽然最后预测的结果一样，但是得出结果的逻辑却是完全不同的。两个栗子说完，你心里感到很痛快，面试官脸上也露出了赞赏的微笑，但是，他突然问了一个问题。
+生成模型为啥叫生成模型 这个问题着实让你没想到，不过，聪明的你略加思考，应该就可以想到。生成模型之所以叫生成模型，是因为，它背后的思想是，x是特征，y是标签，什么样的标签就会生成什么样的特征。好比说，标签是大象，那么可能生成的特征就有大耳朵，长鼻子等等。
+当我们来根据x来判断y时，我们实际上是在比较，什么样的y标签更可能生成特征x，我们预测的结果就是更可能生成x特征的y标签。
+常见的生成模型和判别模型有哪些呢 生成模型
+HMM
+朴素贝叶斯
+判别模型
+逻辑回归
+SVM
+CRF
+最近邻
+一般的神经网络</p></div><footer class=entry-footer><span title='2023-03-16 19:35:25 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 生成模型vs判别模型" href=https://reid00.github.io/posts/ml/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8Bvs%E5%88%A4%E5%88%AB%E6%A8%A1%E5%9E%8B/></a></article><article class=post-entry><header class=entry-header><h2>线性回归</h2></header><div class=entry-content><p>介绍 称函数为效用函数 线性回归模型看起来非常简单，简单到让人怀疑其是否有研究价值以及使用价值。但实际上，线性回归模型可以说是最重要的数学模型之一，很多模型都是建立在它的基础之上，可以被称为是“模型之母”。
 1.1 什么是简单线性回归 所谓简单，是指只有一个样本特征，即只有一个自变量；所谓线性，是指方程是线性的；所谓回归，是指用方程来模拟变量之间是如何关联的。
 简单线性回归，其思想简单，实现容易（与其背后强大的数学性质相关。同时也是许多强大的非线性模型（多项式回归、逻辑回归、SVM）的基础。并且其结果具有很好的可解释性。
 1.2 一种基本推导思 我们所谓的建模过程，其实就是找到一个模型，最大程度的拟合我们的数据。 在简单线回归问题中，模型就是我们的直线方程：y = ax + b 。
@@ -181,46 +207,7 @@ Link: https://mp.weixin.qq.com/s/t4vRBZXhc0LBST8WGzftgg</p></div><footer class=e
 贝叶斯判别准则：
 贝叶斯判别准则是找到一个使条件风险达到最小的判别方法。即，将样本判为哪一类，所得到的条件风险R(i|x)（或者说平均判别损失）最小，那就将样本归为那个造成平均判别损失最小的类。
 此时：h*(x) = argminR(i|x) 就称为 贝叶斯最优分类器。
-总结：贝叶斯决策论是基于先验概率求解后验概率的方法，其核心是寻找一个判别准则使得条件风险达到最小。而在最小化分类错误率的目标下，贝叶斯最优分类器又可以转化为求后验概率达到最大的类别标记，即 h*（x) = argmaxP(i|x)。（此时，L(i|j) = 0, if i = j;L(i|j) = 1, otherwise)...</p></div><footer class=entry-footer><span title='2023-03-16 19:35:22 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 朴素贝叶斯" href=https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/></a></article><article class=post-entry><header class=entry-header><h2>机器学习之优化算法</h2></header><div class=entry-content><p>在调整模型更新权重和偏差参数的方式时，你是否考虑过哪种优化算法能使模型产生更好且更快的效果？应该用梯度下降，随机梯度下降，还是Adam方法？
-这篇文章介绍了不同优化算法之间的主要区别，以及如何选择最佳的优化方法。
-梯度: 是多元函数对当前给定点，上升最快的方向。梯度是一组向量，所以带有方向;
-梯度下降流程: https://zhuanlan.zhihu.com/p/68468520 w, b 每轮是每个样本的权重梯度向量和偏差梯度向量的平均值；
-梯度下降本质是沿着负梯度值方向寻找损失函数Loss的最小值解 时的参数w,b , 从而得出对样本数据拟合最好的参数w,b。 https://www.jianshu.com/p/c7e642877b0e
-什么是优化算法？ 优化算法的功能，是通过改善训练方式，来最小化(或最大化)损失函数E(x)。
-模型内部有些参数，是用来计算测试集中目标值Y的真实值和预测值的偏差程度的，基于这些参数，就形成了损失函数E(x)。
-比如说，权重(W)和偏差(b)就是这样的内部参数，一般用于计算输出值，在训练神经网络模型时起到主要作用。
-**在有效地训练模型并产生准确结果时，模型的内部参数起到了非常重要的作用。**这也是为什么我们应该用各种优化策略和算法，来更新和计算影响模型训练和模型输出的网络参数，使其逼近或达到最优值。
-优化算法分为两大类：
-1. 一阶优化算法
-这种算法使用各参数的梯度值来最小化或最大化损失函数E(x)。最常用的一阶优化算法是梯度下降。
-函数梯度：导数dy/dx的多变量表达式，用来表示y相对于x的瞬时变化率。往往为了计算多变量函数的导数时，会用梯度取代导数，并使用偏导数来计算梯度。梯度和导数之间的一个主要区别是函数的梯度形成了一个向量场。
-因此，对单变量函数，使用导数来分析；而梯度是基于多变量函数而产生的。更多理论细节在这里不再进行详细解释。
-2. 二阶优化算法
-二阶优化算法使用了二阶导数(也叫做Hessian方法)来最小化或最大化损失函数。由于二阶导数的计算成本很高，所以这种方法并没有广泛使用。
-详解各种神经网络优化算法 梯度下降 在训练和优化智能系统时，梯度下降是一种最重要的技术和基础。梯度下降的功能是：
-通过寻找最小值，控制方差，更新模型参数，最终使模型收敛。
-网络更新参数的公式为：θ=θ−η×∇(θ).J(θ) ，其中η是学习率，∇(θ).J(θ)是损失函数J(θ)的梯度。
-这是在神经网络中最常用的优化算法。
-如今，梯度下降主要用于在神经网络模型中进行权重更新，即在一个方向上更新和调整模型的参数，来最小化损失函数。
-2006年引入的反向传播技术，使得训练深层神经网络成为可能。反向传播技术是先在前向传播中计算输入信号的乘积及其对应的权重，然后将激活函数作用于这些乘积的总和。这种将输入信号转换为输出信号的方式，是一种对复杂非线性函数进行建模的重要手段，并引入了非线性激活函数，使得模型能够学习到几乎任意形式的函数映射。然后，在网络的反向传播过程中回传相关误差，使用梯度下降更新权重值，通过计算误差函数E相对于权重参数W的梯度，在损失函数梯度的相反方向上更新权重参数。
-**图1：**权重更新方向与梯度方向相反 图1显示了权重更新过程与梯度矢量误差的方向相反，其中U形曲线为梯度。要注意到，当权重值W太小或太大时，会存在较大的误差，需要更新和优化权重，使其转化为合适值，所以我们试图在与梯度相反的方向找到一个局部最优值。
-梯度下降的变体 传统的批量梯度下降将计算整个数据集梯度，但只会进行一次更新，因此在处理大型数据集时速度很慢且难以控制，甚至导致内存溢出。
-权重更新的快慢是由学习率η决定的，并且可以在凸面误差曲面中收敛到全局最优值，在非凸曲面中可能趋于局部最优值。
-使用标准形式的批量梯度下降还有一个问题，就是在训练大型数据集时存在冗余的权重更新。
-标准梯度下降的上述问题在随机梯度下降方法中得到了解决。
-1. 随机梯度下降(SDG)
-随机梯度下降（Stochastic gradient descent，SGD）对每个训练样本进行参数更新，每次执行都进行一次更新，且执行速度更快。
-θ=θ−η⋅∇(θ) × J(θ;x(i);y(i))，其中x(i)和y(i)为训练样本。
-频繁的更新使得参数间具有高方差，损失函数会以不同的强度波动。这实际上是一件好事，因为它有助于我们发现新的和可能更优的局部最小值，而标准梯度下降将只会收敛到某个局部最优值。
-但SGD的问题是，由于频繁的更新和波动，最终将收敛到最小限度，并会因波动频繁存在超调量。
-虽然已经表明，当缓慢降低学习率η时，标准梯度下降的收敛模式与SGD的模式相同。
-**图2：**每个训练样本中高方差的参数更新会导致损失函数大幅波动，因此我们可能无法获得给出损失函数的最小值。 另一种称为“小批量梯度下降”的变体，则可以解决高方差的参数更新和不稳定收敛的问题。
-2. 小批量梯度下降
-为了避免SGD和标准梯度下降中存在的问题，一个改进方法为小批量梯度下降（Mini Batch Gradient Descent），因为对每个批次中的n个训练样本，这种方法只执行一次更新。
-使用小批量梯度下降的优点是：
-1) 可以减少参数更新的波动，最终得到效果更好和更稳定的收敛。
-2) 还可以使用最新的深层学习库中通用的矩阵优化方法，使计算小批量数据的梯度更加高效。
-3) 通常来说，小批量样本的大小范围是从50到256，可以根据实际问题而有所不同。...</p></div><footer class=entry-footer><span title='2023-03-16 19:35:22 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 机器学习之优化算法" href=https://reid00.github.io/posts/ml/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://reid00.github.io/>« Prev</a>
+总结：贝叶斯决策论是基于先验概率求解后验概率的方法，其核心是寻找一个判别准则使得条件风险达到最小。而在最小化分类错误率的目标下，贝叶斯最优分类器又可以转化为求后验概率达到最大的类别标记，即 h*（x) = argmaxP(i|x)。（此时，L(i|j) = 0, if i = j;L(i|j) = 1, otherwise)...</p></div><footer class=entry-footer><span title='2023-03-16 19:35:22 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 朴素贝叶斯" href=https://reid00.github.io/posts/ml/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://reid00.github.io/>« Prev</a>
 <a class=next href=https://reid00.github.io/page/3/>Next »</a></nav></footer></main><footer class=footer><span>&copy; 2023 <a href=https://reid00.github.io/>Reid's Blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &

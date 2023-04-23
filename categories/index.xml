@@ -10,22 +10,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Apr 2023 15:32:55 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 14:04:18 +0800</lastBuildDate><atom:link href="https://reid00.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Memory</title>
-      <link>https://reid00.github.io/categories/memory/</link>
-      <pubDate>Thu, 13 Apr 2023 15:32:55 +0800</pubDate>
+      <title>FS</title>
+      <link>https://reid00.github.io/categories/fs/</link>
+      <pubDate>Sun, 23 Apr 2023 14:04:18 +0800</pubDate>
       
-      <guid>https://reid00.github.io/categories/memory/</guid>
+      <guid>https://reid00.github.io/categories/fs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OS</title>
       <link>https://reid00.github.io/categories/os/</link>
-      <pubDate>Thu, 13 Apr 2023 15:32:55 +0800</pubDate>
+      <pubDate>Sun, 23 Apr 2023 14:04:18 +0800</pubDate>
       
       <guid>https://reid00.github.io/categories/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>操作系统</title>
+      <link>https://reid00.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sun, 23 Apr 2023 14:04:18 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文件系统</title>
+      <link>https://reid00.github.io/categories/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sun, 23 Apr 2023 14:04:18 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory</title>
+      <link>https://reid00.github.io/categories/memory/</link>
+      <pubDate>Thu, 13 Apr 2023 15:32:55 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/categories/memory/</guid>
       <description></description>
     </item>
     
