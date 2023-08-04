@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Apr 2023 14:04:18 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 11:53:15 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/os/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IO 多路复用</title>
+      <link>https://reid00.github.io/en/posts/os_network/io-%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</link>
+      <pubDate>Fri, 04 Aug 2023 11:53:15 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/os_network/io-%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</guid>
+      <description>IO 多路复用</description>
+    </item>
+    
     <item>
       <title>操作系统之文件系统</title>
       <link>https://reid00.github.io/en/posts/os_network/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link>
