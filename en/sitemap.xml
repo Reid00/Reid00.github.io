@@ -6,36 +6,45 @@
     <lastmod>2023-03-16T19:35:03+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/categories/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/io/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/categories/io/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/tags/os/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/categories/os/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/posts/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/tags/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/posts/os_network/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/posts/os_network/%E9%AB%98%E6%80%A7%E8%83%BD%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%BC%8F-reactor-proactor/</loc>
+    <lastmod>2023-08-07T15:54:35+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/posts/os_network/io-%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</loc>
     <lastmod>2023-08-04T11:53:15+08:00</lastmod>
   </url><url>
-    <loc>https://reid00.github.io/en/tags/os/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/categories/os/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/posts/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/tags/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
     <loc>https://reid00.github.io/en/tags/%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</loc>
-    <lastmod>2023-08-04T11:53:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/posts/os_network/</loc>
     <lastmod>2023-08-04T11:53:15+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/fs/</loc>
@@ -534,9 +543,6 @@
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/posts/storage/</loc>
-    <lastmod>2023-03-16T19:35:09+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/categories/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2023-03-16T19:35:09+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/gil/</loc>
