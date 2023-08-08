@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Aug 2023 15:54:35 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 14:44:25 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>零拷贝技术</title>
+      <link>https://reid00.github.io/en/posts/os_network/%E9%9B%B6%E6%8B%B7%E8%B4%9D%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Tue, 08 Aug 2023 14:44:25 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/os_network/%E9%9B%B6%E6%8B%B7%E8%B4%9D%E6%8A%80%E6%9C%AF/</guid>
+      <description>零拷贝技术</description>
+    </item>
+    
     <item>
       <title>高性能网络模式: Reactor Proactor</title>
       <link>https://reid00.github.io/en/posts/os_network/%E9%AB%98%E6%80%A7%E8%83%BD%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%BC%8F-reactor-proactor/</link>
