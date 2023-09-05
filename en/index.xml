@@ -10,7 +10,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Aug 2023 11:38:32 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 17:35:54 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo搭建博客并用GitHubAction部署</title>
       <link>https://reid00.github.io/en/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</link>
@@ -18,6 +18,15 @@
       
       <guid>https://reid00.github.io/en/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</guid>
       <description>Hugo搭建博客并用GitHubAction部署</description>
+    </item>
+    
+    <item>
+      <title>Rust生命周期常见误区</title>
+      <link>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</link>
+      <pubDate>Tue, 05 Sep 2023 17:35:54 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</guid>
+      <description>Rust生命周期常见误区</description>
     </item>
     
     <item>
