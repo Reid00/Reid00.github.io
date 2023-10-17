@@ -10,13 +10,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Oct 2023 18:00:57 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 11:11:11 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cache</title>
+      <link>https://reid00.github.io/en/tags/cache/</link>
+      <pubDate>Tue, 17 Oct 2023 11:11:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/tags/cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CPU</title>
+      <link>https://reid00.github.io/en/tags/cpu/</link>
+      <pubDate>Tue, 17 Oct 2023 11:11:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/tags/cpu/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Storage</title>
       <link>https://reid00.github.io/en/tags/storage/</link>
-      <pubDate>Wed, 11 Oct 2023 18:00:57 +0800</pubDate>
+      <pubDate>Tue, 17 Oct 2023 11:11:11 +0800</pubDate>
       
       <guid>https://reid00.github.io/en/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>缓存</title>
+      <link>https://reid00.github.io/en/tags/%E7%BC%93%E5%AD%98/</link>
+      <pubDate>Tue, 17 Oct 2023 11:11:11 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/tags/%E7%BC%93%E5%AD%98/</guid>
       <description></description>
     </item>
     

@@ -5,23 +5,44 @@
     <loc>https://reid00.github.io/en/posts/other/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B9%B6%E7%94%A8githubaction%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2023-03-16T19:35:03+08:00</lastmod>
   </url><url>
+    <loc>https://reid00.github.io/en/tags/cache/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/categories/cache/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
     <loc>https://reid00.github.io/en/categories/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/tags/cpu/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/categories/cpu/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/posts/storage/cpu%E7%BC%93%E5%AD%98%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/posts/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/storage/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/categories/storage/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/posts/storage/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
+  </url><url>
+    <loc>https://reid00.github.io/en/tags/%E7%BC%93%E5%AD%98/</loc>
+    <lastmod>2023-10-17T11:11:11+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/zookeeper/</loc>
     <lastmod>2023-10-11T18:00:57+08:00</lastmod>
@@ -30,9 +51,6 @@
     <lastmod>2023-10-11T18:00:57+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/posts/storage/zookeeper%E4%B8%80%E8%87%B4%E4%BF%9D%E8%AF%81/</loc>
-    <lastmod>2023-10-11T18:00:57+08:00</lastmod>
-  </url><url>
-    <loc>https://reid00.github.io/en/posts/storage/</loc>
     <lastmod>2023-10-11T18:00:57+08:00</lastmod>
   </url><url>
     <loc>https://reid00.github.io/en/tags/rust/</loc>
