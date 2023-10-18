@@ -101,7 +101,7 @@ The main goal of WebAssembly is to enable high-performance applications on web p
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>html</span><span class=p>&gt;</span>
 </span></span></code></pre></td></tr></table></div></div><ol start=7><li>运行 <code>python -m http.server</code> 启动一个简单的web 服务, 让后访问 <code>http://localhost:8000</code>
-<img loading=lazy src=https://cdn.staticaly.com/gh/Reid00/picx-images-hosting@master/20230816/image.35alc2e7oya0.png alt=hello></li></ol><h1 id=go-如何使用wasm-未完待续>Go 如何使用WASM (未完待续)<a hidden class=anchor aria-hidden=true href=#go-如何使用wasm-未完待续>#</a></h1><h2 id=hello-world>Hello world<a hidden class=anchor aria-hidden=true href=#hello-world>#</a></h2><ol><li>新建main.go, 使用 js.Global().get(‘alert’) 获取全局的 alert 对象，通过 Invoke 方法调用。等价于在 js 中调用 window.alert(&ldquo;Hello World&rdquo;)。</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+<img loading=lazy src=https://github.com/Reid00/picx-images-hosting/raw/main/20230816/image.35alc2e7oya0.png alt=hello></li></ol><h1 id=go-如何使用wasm-未完待续>Go 如何使用WASM (未完待续)<a hidden class=anchor aria-hidden=true href=#go-如何使用wasm-未完待续>#</a></h1><h2 id=hello-world>Hello world<a hidden class=anchor aria-hidden=true href=#hello-world>#</a></h2><ol><li>新建main.go, 使用 js.Global().get(‘alert’) 获取全局的 alert 对象，通过 Invoke 方法调用。等价于在 js 中调用 window.alert(&ldquo;Hello World&rdquo;)。</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
 </span><span class=lnt>4
