@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 17:35:54 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 14:00:40 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Leetcode链表实现</title>
+      <link>https://reid00.github.io/en/posts/langs_linux/rust-leetcode%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0/</link>
+      <pubDate>Thu, 01 Feb 2024 14:00:40 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/langs_linux/rust-leetcode%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0/</guid>
+      <description>Rust Leetcode链表实现</description>
+    </item>
+    
     <item>
       <title>Rust生命周期常见误区</title>
       <link>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</link>
