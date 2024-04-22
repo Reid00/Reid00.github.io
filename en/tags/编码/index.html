@@ -10,7 +10,7 @@
 根据 ASCII 码表，由 01000001 这 8 个比特位组成的八位字节，代表字母 A 。
 顺便提一下，比特本身没有意义，比特 在 上下文 ( context )中才构成信息。举个例子，对于内存中一个字节 01000001 ，你将它看做一个整数，它就是 65 ；将它作为一个英文字符，它就是字母 A ；你看待比特的方式，就是所谓的上下文。
 所以，猜猜下面这个程序输出啥？
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 #include &lt;stdio....</p></div><footer class=entry-footer></footer><a class=entry-link aria-label="post link to 编码那些事" href=https://reid00.github.io/en/posts/langs_linux/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Unicode编码与Python</h2></header><div class=entry-content><p>简介 这有篇很好的文章，可以明白这个问题:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 #include &lt;stdio....</p></div><footer class=entry-footer>&lt;span title='2023-03-16 19:35:14 +0800 +0800'>2023-03-16&lt;/span>&amp;nbsp;·&amp;nbsp;4 min&amp;nbsp;·&amp;nbsp;727 words&amp;nbsp;·&amp;nbsp;Reid</footer><a class=entry-link aria-label="post link to 编码那些事" href=https://reid00.github.io/en/posts/langs_linux/%E7%BC%96%E7%A0%81%E9%82%A3%E4%BA%9B%E4%BA%8B/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Unicode编码与Python</h2></header><div class=entry-content><p>简介 这有篇很好的文章，可以明白这个问题:
 为什么会报错“UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)”？本文就来研究一下这个问题。
 字符串在Python内部的表示是unicode编码，因此，在做编码转换时，通常需要以unicode作为中间编码，即先将其他编码的字符串解码（decode）成unicode，再从unicode编码（encode）成另一种编码。
 decode的作用是将其他编码的字符串转换成unicode编码，如str1.decode('gb2312')，表示将gb2312编码的字符串str1转换成unicode编码。
@@ -29,7 +29,7 @@ isinstance(s, unicode) #用来判断是否为unicode
 在某些IDE中，字符串的输出总是出现乱码，甚至错误，其实是由于IDE的结果输出控制台自身不能显示字符串的编码，而不是程序本身的问题。
 如在UliPad中运行如下代码：
 1 2 3 s=u"中文" print s 会提示：UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)。这是因为UliPad在英文WindowsXP上的控制台信息输出窗口是按照ascii编码输出的（英文系统的默认编码是 ascii），而上面代码中的字符串是Unicode编码的，所以输出时产生了错误。
-将最后一句改为：print s....</p></div><footer class=entry-footer></footer><a class=entry-link aria-label="post link to Unicode编码与Python" href=https://reid00.github.io/en/posts/langs_linux/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
+将最后一句改为：print s....</p></div><footer class=entry-footer>&lt;span title='2023-03-16 19:35:10 +0800 +0800'>2023-03-16&lt;/span>&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;170 words&amp;nbsp;·&amp;nbsp;Reid</footer><a class=entry-link aria-label="post link to Unicode编码与Python" href=https://reid00.github.io/en/posts/langs_linux/unicode%E7%BC%96%E7%A0%81%E4%B8%8Epython/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
