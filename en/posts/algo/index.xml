@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:13 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/posts/algo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 16:55:23 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/posts/algo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>动态规划之01背包问题</title>
+      <link>https://reid00.github.io/en/posts/algo/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%8B01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Fri, 19 Apr 2024 16:55:23 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/algo/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%8B01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <description>动态规划之01背包问题</description>
+    </item>
+    
+    <item>
+      <title>动态规划之完全背包问题</title>
+      <link>https://reid00.github.io/en/posts/algo/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%8B%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Fri, 19 Apr 2024 16:55:23 +0800</pubDate>
+      
+      <guid>https://reid00.github.io/en/posts/algo/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%B9%8B%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+      <description>动态规划之完全背包问题</description>
+    </item>
+    
     <item>
       <title>搜索引擎背后的经典数据结构和算法</title>
       <link>https://reid00.github.io/en/posts/algo/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%83%8C%E5%90%8E%E7%9A%84%E7%BB%8F%E5%85%B8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
