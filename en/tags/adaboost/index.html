@@ -19,7 +19,7 @@ Adaboost可以认为其模型是加法模型、损失函数为指数函数、学
 权重公式: 首先要把模型的误差表示出来，只有用数学公式表示出来，才能够讲模型的优化。
 先看第i个样本在t+1个弱学习器的权重是怎样的? 模型误差上限 模型误差上限最小化与Z 求出Z 既然最小化Zt就等同于最小化模型误差上界，那我们得先知道Zt长什么样，然后才能去最小化它。
 我们在前面已经说过，为了保证所有样本的权重加起来等于1。因此需要对每个权重除以归一化系数。即Zt实际上就是t+1时刻所有样本原始权重和，也就是时刻的各点权重乘以调整幅度再累加：
-求出使得Z最小的参数a AdaBoost计算步骤梳理及优缺点 理论上任何学习器都可以用于Adaboost。但一般来说，使用最广泛的Adaboost弱学习器是决策树和神经网络。对于决策树，Adaboost分类用了CART分类树，而Adaboost回归用了CART回归树。</p></div><footer class=entry-footer>&lt;span title='2023-03-16 19:35:27 +0800 +0800'>2023-03-16&lt;/span>&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Reid</footer><a class=entry-link aria-label="post link to 集成学习之AdaBoost" href=https://reid00.github.io/en/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
+求出使得Z最小的参数a AdaBoost计算步骤梳理及优缺点 理论上任何学习器都可以用于Adaboost。但一般来说，使用最广泛的Adaboost弱学习器是决策树和神经网络。对于决策树，Adaboost分类用了CART分类树，而Adaboost回归用了CART回归树。</p></div><footer class=entry-footer></footer><a class=entry-link aria-label="post link to 集成学习之AdaBoost" href=https://reid00.github.io/en/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Badaboost/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

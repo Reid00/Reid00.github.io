@@ -11,7 +11,7 @@ MyISAM和InnoDB存储引擎只支持BTREE索引，MEMORY/HEAP存储引擎可以�
 相信不少人应该吃过旋转火锅，服务员把一盘盘的菜放在旋转传输带上，然后等到这些菜转到我们面前，我们就可以拿到菜了，假设装一圈需要 4 分钟，则最短等待时间是 0（即菜就在你跟前），最长等待时间是 4 分钟（菜刚好在你跟前错过），那么平均等待时间即为 2 分钟，假设我们现在要拿四盘菜，这四盘菜随机分配在传输带上，则可知拿到这四盘菜的平均等待时间是 8 分钟（随机 IO），如果这四盘菜刚好紧邻着排在一起，则等待时间只需 2 分钟（顺序 IO）。
 上述中传输带就类比磁道，磁道上的菜就类比扇区（sector）中的信息，磁盘块（block）是由多个相邻的扇区组成的，是操作系统读取的最小单元，这样如果信息能以 block 的形式聚集在一起，就能极大减少磁盘 IO 时间,这就是顺序 IO 带来的性能提升，下文中我们将会看到 B+ 树索引就起到这样的作用。
 如图示：多个扇区组成了一个 block，如果要读的信息都在这个 block 中，则只需一次 IO 读
-而如果信息在一个磁道中, 分散地分布在各个扇区中，或者分布在不同磁道的扇区上（寻道时间是随机IO主要瓶颈所在），将会造成随机 IO，影响性能。...</p></div><footer class=entry-footer>&lt;span title='2023-03-16 19:35:06 +0800 +0800'>2023-03-16&lt;/span>&amp;nbsp;·&amp;nbsp;5 min&amp;nbsp;·&amp;nbsp;Reid</footer><a class=entry-link aria-label="post link to MySql索引介绍" href=https://reid00.github.io/en/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>MySql索引优化</h2></header><div class=entry-content><p>数据库表结构：
+而如果信息在一个磁道中, 分散地分布在各个扇区中，或者分布在不同磁道的扇区上（寻道时间是随机IO主要瓶颈所在），将会造成随机 IO，影响性能。...</p></div><footer class=entry-footer></footer><a class=entry-link aria-label="post link to MySql索引介绍" href=https://reid00.github.io/en/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BB%8B%E7%BB%8D/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>MySql索引优化</h2></header><div class=entry-content><p>数据库表结构：
 1 2 3 4 5 6 7 8 9 create table user ( id int primary key, name varchar(20), sex varchar(5), index(name) )engine=innodb; select id,name where name='shenjian' select id,name,sex where name='shenjian' 多查询了一个属性，为何检索过程完全不同？
 什么是回表查询？
 什么是索引覆盖？
@@ -32,7 +32,7 @@ t(id PK, name KEY, sex, flag);
 画外音：id是聚集索引，name是普通索引。
 表中有四条记录：
 1, shenjian, m, A
-3, zhangsan, m, A...</p></div><footer class=entry-footer>&lt;span title='2023-03-16 19:35:06 +0800 +0800'>2023-03-16&lt;/span>&amp;nbsp;·&amp;nbsp;2 min&amp;nbsp;·&amp;nbsp;Reid</footer><a class=entry-link aria-label="post link to MySql索引优化" href=https://reid00.github.io/en/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
+3, zhangsan, m, A...</p></div><footer class=entry-footer></footer><a class=entry-link aria-label="post link to MySql索引优化" href=https://reid00.github.io/en/posts/storage/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
