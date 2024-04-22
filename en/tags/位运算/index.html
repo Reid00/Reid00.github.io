@@ -4,7 +4,7 @@
 1 2 3 int a = 35; int b = 47; int c = a + b; 实际上运算如下: 计算两个数的和，因为在计算机中都是以二进制来进行运算，所以上面我们所给的 int 变量会在机器内部先转换为二进制在进行相加：
 1 2 3 4 35: 0 0 1 0 0 0 1 1 47: 0 0 1 0 1 1 1 1 ———————————————————— 82: 0 1 0 1 0 0 1 0 所以，相比在代码中直接使用(+、-、*、/)运算符，合理的运用位运算更能显著提高代码在机器上的执行效率。
 2. 位运算概览 3. 按位与运算符 定义：参加运算的两个数据，按二进制位进行"与"运算。 运算规则：
-1 0&amp;0=0 0&amp;1=0 1&amp;0=0 1&amp;1=1 ==总结：两位同时为1，结果才为1，否则结果为0。==...</p></div><footer class=entry-footer><span title='2023-03-16 19:35:12 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;267 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 常见的二进位运算技巧" href=https://reid00.github.io/en/posts/algo/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
+1 0&amp;0=0 0&amp;1=0 1&amp;0=0 1&amp;1=1 ==总结：两位同时为1，结果才为1，否则结果为0。==...</p></div><footer class=entry-footer>2 min&nbsp;·&nbsp;267 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 常见的二进位运算技巧" href=https://reid00.github.io/en/posts/algo/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%BA%8C%E8%BF%9B%E4%BD%8D%E8%BF%90%E7%AE%97%E6%8A%80%E5%B7%A7/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

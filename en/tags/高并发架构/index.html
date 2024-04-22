@@ -46,7 +46,7 @@ RT(平均)的增加，完全可能是由于应用系统当前没有足够的使�
 第一招：限流 限流，是在一个时间窗口内，对请求进行速率控制。若请求达到提前设定的阈值时，则对请求进行排队或拒绝。常用的限流算法有两种：漏桶算法和令牌桶算法。
 漏桶算法 所有请求先进入漏桶，然后按照一个恒定的速率对漏桶里的请求进行处理，是一种控制处理速率的限流方式，用于平滑突发请求速率。
 它的优点是，能够确保资源不会瞬间耗尽，避免请求处理发生阻塞现象，另外，还能够保护被应用系统所调用的外部服务，也免受突发请求的冲击。
-它的缺点是，对于突发请求仍然会以一个恒定的速率来进行处理，其灵活性会较弱一点，容易发生突发请求超过漏桶的容量，导致后续请求直接被丢弃。...</p></div><footer class=entry-footer><span title='2023-03-16 19:35:15 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;153 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 高并发架构" href=https://reid00.github.io/en/posts/os_network/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
+它的缺点是，对于突发请求仍然会以一个恒定的速率来进行处理，其灵活性会较弱一点，容易发生突发请求超过漏桶的容量，导致后续请求直接被丢弃。...</p></div><footer class=entry-footer>1 min&nbsp;·&nbsp;153 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 高并发架构" href=https://reid00.github.io/en/posts/os_network/%E9%AB%98%E5%B9%B6%E5%8F%91%E6%9E%B6%E6%9E%84/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

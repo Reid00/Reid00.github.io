@@ -33,7 +33,7 @@ Embedded 方法(嵌入式) 将特征选择嵌入到模型训练当中，其训�
 **特征与目标的相关性：**这点比较显见，与目标相关性高的特征，应当优选选择。除方差法外，本文介绍的其他方法均从相关性考虑。
 Filter: 卡方检验 经典的卡方检验是检验定性自变量对定性因变量的相关性。假设自变量有N种取值，因变量有M种取值，考虑自变量等于i且因变量等于j的样本频数的观察值与期望的差距，构建统计量：
 不难发现，这个统计量的含义简而言之就是自变量对因变量的相关性。用feature_selection库的SelectKBest类结合卡方检验来选择特征的代码如下：
-1 2 3 4 5 from sklearn....</p></div><footer class=entry-footer><span title='2023-03-16 19:35:24 +0800 +0800'>2023-03-16</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;473 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 特征工程之特征选择" href=https://reid00.github.io/en/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
+1 2 3 4 5 from sklearn....</p></div><footer class=entry-footer>3 min&nbsp;·&nbsp;473 words&nbsp;·&nbsp;Reid</footer><a class=entry-link aria-label="post link to 特征工程之特征选择" href=https://reid00.github.io/en/posts/ml/%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E4%B9%8B%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9/></a></article></main><footer class=footer><span>&copy; 2024 <a href=https://reid00.github.io/en/>Reid's Blog</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
