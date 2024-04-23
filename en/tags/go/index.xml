@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/go/</link>
     <description>Recent content in Go on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Aug 2023 19:34:12 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 19:34:12 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WebAssembly(Wasm) 教程</title>
       <link>https://reid00.github.io/en/posts/langs_linux/webassemblywasm-%E6%95%99%E7%A8%8B/</link>
       <pubDate>Tue, 15 Aug 2023 19:34:12 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/langs_linux/webassemblywasm-%E6%95%99%E7%A8%8B/</guid>
       <description>WebAssembly(Wasm) 教程</description>
     </item>
-    
   </channel>
 </rss>

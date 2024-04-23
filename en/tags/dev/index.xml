@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/dev/</link>
     <description>Recent content in Dev on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:11 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:11 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vscode远程开发配置</title>
       <link>https://reid00.github.io/en/posts/other/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:11 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/other/vscode%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91%E9%85%8D%E7%BD%AE/</guid>
       <description>Vscode远程开发配置</description>
     </item>
-    
   </channel>
 </rss>

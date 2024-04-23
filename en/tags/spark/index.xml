@@ -5,65 +5,55 @@
     <link>https://reid00.github.io/en/tags/spark/</link>
     <description>Recent content in Spark on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:34:54 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/spark/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:34:54 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/spark/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spark Join 原理详解</title>
       <link>https://reid00.github.io/en/posts/computation/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:54 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark-join-%E5%8E%9F%E7%90%86%E8%AF%A6%E8%A7%A3/</guid>
       <description>Spark Join 原理详解</description>
     </item>
-    
     <item>
       <title>Spark内存空间管理</title>
       <link>https://reid00.github.io/en/posts/computation/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:52 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86/</guid>
       <description>Spark内存空间管理</description>
     </item>
-    
     <item>
       <title>Spark 最佳实践指南</title>
       <link>https://reid00.github.io/en/posts/computation/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:51 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark-%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97/</guid>
       <description>Spark 最佳实践指南</description>
     </item>
-    
     <item>
       <title>Spark 面试注意点</title>
       <link>https://reid00.github.io/en/posts/computation/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:51 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark-%E9%9D%A2%E8%AF%95%E6%B3%A8%E6%84%8F%E7%82%B9/</guid>
       <description>Spark 面试注意点</description>
     </item>
-    
     <item>
       <title>Spark on Yarn 执行流程解析</title>
       <link>https://reid00.github.io/en/posts/computation/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:50 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark-on-yarn-%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E8%A7%A3%E6%9E%90/</guid>
       <description>Spark on Yarn 执行流程解析</description>
     </item>
-    
     <item>
       <title>Spark 广播变量</title>
       <link>https://reid00.github.io/en/posts/computation/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:50 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/computation/spark-%E5%B9%BF%E6%92%AD%E5%8F%98%E9%87%8F/</guid>
       <description>Spark 广播变量</description>
     </item>
-    
   </channel>
 </rss>

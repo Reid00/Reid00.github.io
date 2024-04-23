@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</link>
     <description>Recent content in 多路复用 on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Aug 2023 11:53:15 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 11:53:15 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IO 多路复用</title>
       <link>https://reid00.github.io/en/posts/os_network/io-%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</link>
       <pubDate>Fri, 04 Aug 2023 11:53:15 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/os_network/io-%E5%A4%9A%E8%B7%AF%E5%A4%8D%E7%94%A8/</guid>
       <description>IO 多路复用</description>
     </item>
-    
   </channel>
 </rss>

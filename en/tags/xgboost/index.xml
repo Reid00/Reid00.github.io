@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/xgboost/</link>
     <description>Recent content in Xgboost on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:28 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:28 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/xgboost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>集成学习之xgboost</title>
       <link>https://reid00.github.io/en/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:28 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/ml/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0%E4%B9%8Bxgboost/</guid>
       <description>集成学习之xgboost</description>
     </item>
-    
   </channel>
 </rss>

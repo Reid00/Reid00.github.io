@@ -5,38 +5,34 @@
     <link>https://reid00.github.io/en/categories/rust/</link>
     <description>Recent content in Rust on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:00:40 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Feb 2024 14:00:40 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/categories/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust Leetcode链表实现</title>
       <link>https://reid00.github.io/en/posts/langs_linux/rust-leetcode%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Thu, 01 Feb 2024 14:00:40 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/langs_linux/rust-leetcode%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0/</guid>
       <description>Rust Leetcode链表实现</description>
     </item>
-    
     <item>
       <title>Rust生命周期常见误区</title>
       <link>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</link>
       <pubDate>Tue, 05 Sep 2023 17:35:54 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</guid>
       <description>Rust生命周期常见误区</description>
     </item>
-    
     <item>
       <title>WebAssembly(Wasm) 教程</title>
       <link>https://reid00.github.io/en/posts/langs_linux/webassemblywasm-%E6%95%99%E7%A8%8B/</link>
       <pubDate>Tue, 15 Aug 2023 19:34:12 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/langs_linux/webassemblywasm-%E6%95%99%E7%A8%8B/</guid>
       <description>WebAssembly(Wasm) 教程</description>
     </item>
-    
   </channel>
 </rss>

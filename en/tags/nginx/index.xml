@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/nginx/</link>
     <description>Recent content in Nginx on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:34:53 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:34:53 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Http 502 问题 排查</title>
       <link>https://reid00.github.io/en/posts/os_network/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</link>
       <pubDate>Thu, 16 Mar 2023 19:34:53 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/os_network/http-502-%E9%97%AE%E9%A2%98-%E6%8E%92%E6%9F%A5/</guid>
       <description>Http 502 问题 排查</description>
     </item>
-    
   </channel>
 </rss>

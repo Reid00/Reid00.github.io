@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/categories/vpn/</link>
     <description>Recent content in VPN on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:14 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/categories/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:14 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/categories/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>板瓦工搭建VPS搭建vpn</title>
       <link>https://reid00.github.io/en/posts/other/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:14 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/other/%E6%9D%BF%E7%93%A6%E5%B7%A5%E6%90%AD%E5%BB%BAvps%E6%90%AD%E5%BB%BAvpn/</guid>
       <description>板瓦工搭建VPS搭建vpn</description>
     </item>
-    
   </channel>
 </rss>

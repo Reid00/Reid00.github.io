@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/fs/</link>
     <description>Recent content in FS on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Apr 2023 14:04:18 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/fs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Apr 2023 14:04:18 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/fs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>操作系统之文件系统</title>
       <link>https://reid00.github.io/en/posts/os_network/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Sun, 23 Apr 2023 14:04:18 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/os_network/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/</guid>
       <description>操作系统之文件系统</description>
     </item>
-    
   </channel>
 </rss>

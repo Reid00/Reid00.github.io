@@ -5,20 +5,20 @@
     <link>https://reid00.github.io/en/tags/leveldb/</link>
     <description>Recent content in LevelDB on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Mar 2023 19:35:09 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/tags/leveldb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Mar 2023 19:35:09 +0800</lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/tags/leveldb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RocksDB Sstable</title>
       <link>https://reid00.github.io/en/posts/storage/rocksdb-sstable/</link>
       <pubDate>Thu, 16 Mar 2023 19:35:09 +0800</pubDate>
-      
       <guid>https://reid00.github.io/en/posts/storage/rocksdb-sstable/</guid>
       <description>RocksDB Sstable</description>
     </item>
-    
   </channel>
 </rss>

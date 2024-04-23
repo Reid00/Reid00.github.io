@@ -5,11 +5,13 @@
     <link>https://reid00.github.io/en/posts/</link>
     <description>Recent content in Posts on Reid&#39;s Blog</description>
     <image>
+      <title>Reid&#39;s Blog</title>
       <url>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</url>
       <link>https://i.loli.net/2021/09/26/3OMGXylm8HUYJ6p.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.125.3</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Apr 2024 16:55:23 +0800</lastBuildDate><atom:link href="https://reid00.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://reid00.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
