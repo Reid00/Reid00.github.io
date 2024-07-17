@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 17:35:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 17:19:11 +0800</lastBuildDate>
     <atom:link href="https://reid00.github.io/en/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Tracing日志</title>
+      <link>https://reid00.github.io/en/posts/langs_linux/rust-tracing%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/posts/langs_linux/rust-tracing%E6%97%A5%E5%BF%97/</guid>
+      <description>Rust Tracing日志</description>
+    </item>
     <item>
       <title>Rust生命周期常见误区</title>
       <link>https://reid00.github.io/en/posts/langs_linux/rust%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA/</link>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Apr 2024 16:55:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 17:19:11 +0800</lastBuildDate>
     <atom:link href="https://reid00.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust</title>
+      <link>https://reid00.github.io/en/categories/rust/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/categories/rust/</guid>
+      <description></description>
+    </item>
     <item>
       <title>DP</title>
       <link>https://reid00.github.io/en/categories/dp/</link>
@@ -32,13 +39,6 @@
       <link>https://reid00.github.io/en/categories/linkedlist/</link>
       <pubDate>Thu, 01 Feb 2024 14:00:40 +0800</pubDate>
       <guid>https://reid00.github.io/en/categories/linkedlist/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://reid00.github.io/en/categories/rust/</link>
-      <pubDate>Thu, 01 Feb 2024 14:00:40 +0800</pubDate>
-      <guid>https://reid00.github.io/en/categories/rust/</guid>
       <description></description>
     </item>
     <item>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2024 14:00:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 17:19:11 +0800</lastBuildDate>
     <atom:link href="https://reid00.github.io/en/categories/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Tracing日志</title>
+      <link>https://reid00.github.io/en/posts/langs_linux/rust-tracing%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/posts/langs_linux/rust-tracing%E6%97%A5%E5%BF%97/</guid>
+      <description>Rust Tracing日志</description>
+    </item>
     <item>
       <title>Rust Leetcode链表实现</title>
       <link>https://reid00.github.io/en/posts/langs_linux/rust-leetcode%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0/</link>

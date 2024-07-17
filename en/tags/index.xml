@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Apr 2024 16:55:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 17:19:11 +0800</lastBuildDate>
     <atom:link href="https://reid00.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log</title>
+      <link>https://reid00.github.io/en/tags/log/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/tags/log/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://reid00.github.io/en/tags/rust/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tracing</title>
+      <link>https://reid00.github.io/en/tags/tracing/</link>
+      <pubDate>Wed, 17 Jul 2024 17:19:11 +0800</pubDate>
+      <guid>https://reid00.github.io/en/tags/tracing/</guid>
+      <description></description>
+    </item>
     <item>
       <title>01背包问题</title>
       <link>https://reid00.github.io/en/tags/01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
@@ -109,13 +130,6 @@
       <link>https://reid00.github.io/en/tags/zookeeper/</link>
       <pubDate>Wed, 11 Oct 2023 18:00:57 +0800</pubDate>
       <guid>https://reid00.github.io/en/tags/zookeeper/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://reid00.github.io/en/tags/rust/</link>
-      <pubDate>Tue, 05 Sep 2023 17:35:54 +0800</pubDate>
-      <guid>https://reid00.github.io/en/tags/rust/</guid>
       <description></description>
     </item>
     <item>
